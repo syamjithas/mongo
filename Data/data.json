@@ -1,0 +1,98 @@
+{
+    "name": "SAM ALEX",
+    "whatsappNumber": "Not Specified",
+    "bodyType": "Not Specified",
+    "age": "28",
+    "complexion": "Fair",
+    "height": "Not Specified",
+    "physicalStatus": "Normal",
+    "weight": "Not Specified",
+    "hobbies": "Not Specified",
+    "interests": "Not Specified",
+    "bloodGroup": "Not Specified",
+    "maritalStatus": "Single",
+    "noOfChildren": "0",
+    "eatingHabits": "Not Specified",
+    "drinkingHabits": "Not Specified",
+    "aadharNumber": "Not Specified",
+    "describeInYourWords ": "",
+    "address": {
+        "presentAddress": "Not Specified",
+        "permanentAddress": "Not Specified",
+        "communicationAddress": "Not Specified",
+        "routeToResidence": "Not Specified"
+    },
+    "religionInformation": {
+        "religion": "Christian",
+        "caste": "Jacobite",
+        "casteNoBar": "No",
+        "star": "Not Specified",
+        "raasi": "Not Specified",
+        "typeOfJathakam": "Not Specified",
+        "religionUnionLocation": "Not Specified",
+        "religiousRequirements": "Not Specified"
+    },
+    "location": {
+        "country": "India",
+        "district": "Ernakulam",
+        "state": "Kerala",
+        "city": "Koothattukulam"
+    },
+    "professionalInformation": {
+        "education": "Not Specified",
+        "educationInDetail": "Not Specified",
+        "jobCategory": "Not Specified",
+        "jobCategoryInDetail": "Not Specified",
+        "jobLocation": "Not Specified",
+        "monthlyIncome": "Not Specified"
+    },
+    "familyDetails": {
+        "fathersName": "Not Specified",
+        "jobCategory": "Not Specified",
+        "jobInDetails": "Not Specified",
+        "jobDescription": "Not Specified",
+        "educationCategory": "Not Specified",
+        "educationDetails": "Not Specified",
+        "familyValue": "Not Specified",
+        "guardianIfAny": "Not Specified",
+        "brothers": "Married-0, Unmarried-0",
+        "jobProfileOfSibling": "Not Specified",
+        "motherName": "Not Specified",
+        "familyType": "Not Specified",
+        "motherTongue": "Malayalam",
+        "sisters": "Married-0, Unmarried-0",
+        "financialStatus": "Not Specified"
+    },
+    "horoscopeDetails": {
+        "birthHour": "Not Specified",
+        "birthMinute": "Not Specified",
+        "placeOfBirth": "Country Not Specified, Region Not Specified, Place Not Specified",
+        "dateOfBirth": "1 - Not Specified - 0",
+        "janmaSistaDasa": "Not Specified",
+        "janmaSistaDasaEnd": "0 (Day) - 0 (Month) - 0 (Year)",
+        "horoscopeFile": "Not Specified"
+    },
+    "otherInfo": {
+        "languagesKnown": "Not Specified",
+        "blog": "Not Specified",
+        "facebookLink": "Not Specified",
+        "otherSocialNetworkLinks": "Not Specified"
+    },
+    "Preferences": {
+        "age": "20 To 25",
+        "maritalStatus": "Single",
+        "educationCategory": "Any",
+        "educationDetail": "Any",
+        "jobCategory": "Any",
+        "jobDetail": "Any",
+        "religion": "Christian",
+        "casteNoBar": "No",
+        "caste": "Orthodox , Marthoma , Malankara , Jacobite , CSI , Caldiyan Syrian",
+        "matchingStar": "Any",
+        "typeOfJathakam": "Any",
+        "country": "India",
+        "state": "Kerala",
+        "district": "Ernakulam",
+        "whatYouAreLookingFor": ""
+    }
+}
