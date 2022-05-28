@@ -23,12 +23,15 @@ function getRandomInt(max) {
 function randomItem(type) {
   return data[type][getRandomInt(data[type].length)];
 }
+function randomList(type) {
+  return data[type][getRandomInt(data[type].length)];
+}
 
 function randomCaste(type) {
   return data["caste"][type][getRandomInt(data["caste"][type].length)];
 }
 function randomDistrict(type) {
-  let obj = data["district"][type]
+  let obj = data["district"][type];
   return obj[getRandomInt(obj.length)];
 }
 
@@ -36,9 +39,27 @@ function getSalary() {
   return 15000 * getRandomIntInclusive(0, 25);
 }
 
+function getRandomSubarray(type, subtype) {
+  var arr = data[type][subtype];
+  var size = getRandomIntInclusive(1, arr.length);
+  size = size > 3 ? size / 3 : size;
+  var shuffled = arr.slice(0),
+    i = arr.length,
+    min = i - size,
+    temp,
+    index;
+  while (i-- > min) {
+    index = Math.floor((i + 1) * Math.random());
+    temp = shuffled[index];
+    shuffled[index] = shuffled[i];
+    shuffled[i] = temp;
+  }
+  return shuffled.slice(min).map((a) => a.id);
+}
+
 const getNewCustomer = (index) => {
   let religion = randomItem("Religion"),
-    caste = randomCaste(religion),
+    caste = randomCaste(religion.value),
     education = randomItem("education"),
     educationInDetail = randomItem("educationInDetail"),
     jobCategory = randomItem("jobCategory"),
@@ -46,6 +67,7 @@ const getNewCustomer = (index) => {
     state = randomItem("state");
   return {
     uniqId: index,
+    gender: randomItem("gender"),
     name: `${getName(10)} ${getName(10)}`,
     whatsappNumber: "Not Specified",
     bodyType: randomItem("BodyType"),
@@ -81,7 +103,7 @@ const getNewCustomer = (index) => {
     },
     location: {
       country: randomItem("country"),
-      district: randomDistrict(state),
+      district: randomDistrict(state.value),
       state,
       city: "Koothattukulam",
     },
@@ -139,12 +161,12 @@ const getNewCustomer = (index) => {
       jobDetail: "Any",
       religion: "Christian",
       casteNoBar: "No",
-      caste: ["Orthodox", "Marthoma"],
+      caste: getRandomSubarray("caste", religion.value),
       matchingStar: "Any",
       typeOfJathakam: "Any",
       country: "India",
       state: "Kerala",
-      district: "Ernakulam",
+      district: getRandomSubarray("district", state.value),
       whatYouAreLookingFor: "I am looking for bla bla bla...",
     },
   };

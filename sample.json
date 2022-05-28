@@ -1,23 +1,22 @@
 {
-  "uniqId": 1,
-  "name": "ENHZRWSNIF YUYQWSNJTE",
+  "_id": { "$oid": "62922ec6fe0c2561fc07c0d2" },
+  "uniqId": 2,
+  "gender": { "id": 2, "value": "tanswomen" },
+  "name": "QJUVASWZMU EKPRHBIRIE",
   "whatsappNumber": "Not Specified",
-  "bodyType": "Fat",
-  "age": 21,
-  "complexion": "Wheatish",
-  "height": 121,
+  "bodyType": { "id": 1, "value": "Medium" },
+  "age": 33,
+  "complexion": { "id": 4, "value": "Wheatish" },
+  "height": 123,
   "physicalStatus": "Normal",
-  "weight": 58,
+  "weight": 99,
   "hobbies": "Not Specified",
-  "interests": {
-    "movie": ["horror"],
-    "songs": ["classic"]
-  },
-  "bloodGroup": "B+",
-  "maritalStatus": "Widowed",
+  "interests": { "movie": ["horror"], "songs": ["classic"] },
+  "bloodGroup": { "id": 7, "value": "O-" },
+  "maritalStatus": { "id": 2, "value": "Separated" },
   "noOfChildren": "0",
-  "eatingHabits": "Non Veg ",
-  "drinkingHabits": "Daily ",
+  "eatingHabits": { "id": 2, "value": "Veg" },
+  "drinkingHabits": { "id": 1, "value": "Never" },
   "aadharNumber": "Not Specified",
   "describeInYourWords": "",
   "address": {
@@ -27,37 +26,31 @@
     "routeToResidence": "Not Specified"
   },
   "religionInformation": {
-    "religion": "Christian",
-    "caste": "Jacobite",
+    "religion": { "id": 1, "value": "Hindu" },
+    "caste": { "id": 65, "value": "Kuruppu" },
     "casteNoBar": "No",
-    "star": "Punartham",
-    "raasi": "Karkadakam Rasi",
+    "star": { "id": 8, "value": "Chothi" },
+    "raasi": { "id": 5, "value": "Kumbham Rasi" },
     "typeOfJathakam": "Not Specified",
     "religionUnionLocation": "Not Specified",
     "religiousRequirements": "Not Specified"
   },
   "location": {
-    "country": "Slovenia",
-    "district": "L",
-    "state": "WestBengal",
+    "country": { "id": 124, "value": "Pakistan" },
+    "district": { "id": 5, "value": "F" },
+    "state": { "id": 14, "value": "JammuandKashmir" },
     "city": "Koothattukulam"
   },
   "professionalInformation": {
-    "education": {
-      "id": 2,
-      "value": "Bachelors - Engineering / Computers / Others "
-    },
+    "education": { "id": 3, "value": "Bachelors - Legal / Others" },
     "educationInDetail": {
-      "id": 31,
-      "value": "BVSc"
+      "id": 80,
+      "value": "Other Master / Bachelor Degree in Medicine"
     },
-    "jobCategory": {
-      "id": 17,
-      "value": "IT Non Engineering"
-    },
-    "jobCategoryInDetail": "San Marino",
+    "jobCategory": { "id": 8, "value": "BUSINESS" },
+    "jobCategoryInDetail": null,
     "jobLocation": "Not Specified",
-    "monthlyIncome": 180000
+    "monthlyIncome": 330000
   },
   "familyDetails": {
     "fathersName": "Not Specified",
@@ -66,7 +59,7 @@
     "jobDescription": "Not Specified",
     "educationCategory": "Not Specified",
     "educationDetails": "Not Specified",
-    "familyValue": "Moderate",
+    "familyValue": { "id": 3, "value": "Traditional" },
     "guardianIfAny": "Not Specified",
     "brothers": "Married-0, Unmarried-0",
     "jobProfileOfSibling": "Not Specified",
@@ -93,10 +86,7 @@
     "otherSocialNetworkLinks": "Not Specified"
   },
   "Preferences": {
-    "age": {
-      "min": 18,
-      "max": 28
-    },
+    "age": { "min": 18, "max": 28 },
     "maritalStatus": "Single",
     "educationCategory": "Any",
     "educationDetail": "Any",
@@ -104,12 +94,16 @@
     "jobDetail": "Any",
     "religion": "Christian",
     "casteNoBar": "No",
-    "caste": ["Orthodox", "Marthoma"],
+    "caste": [
+      80, 90, 30, 96, 19, 83, 69, 140, 12, 104, 82, 151, 10, 26, 16, 85, 49,
+      148, 115, 119, 70, 86, 58, 1, 84, 95, 78, 75, 21, 28, 68, 20, 137, 87, 77,
+      79, 156, 27, 57, 128, 139, 161, 136
+    ],
     "matchingStar": "Any",
     "typeOfJathakam": "Any",
     "country": "India",
     "state": "Kerala",
-    "district": "Ernakulam",
+    "district": [13, 6, 11],
     "whatYouAreLookingFor": "I am looking for bla bla bla..."
   }
 }

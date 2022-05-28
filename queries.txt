@@ -1,6 +1,47 @@
-{"religionInformation.religion" :"Muslim" , age: { $gt: 23 } ,age: { $lt: 28 } }
+{ $and :[
+{ "drinkingHabits.id": { $in: [1,2] } },
+{ "professionalInformation.education.id": { $in: [1,3,4,5,6,7,8,9,12,15,16] }},
+{"religionInformation.religion.id" :1},
+{ "maritalStatus.id": { $in: [2,3] } },
+{ "eatingHabits.id": { $in: [1] } },
+{"gender.id":1},
+{age: { $gt: 23 }} ,
+{age: { $lt: 28 }},
+{uniqId: {$gt:607574}}
+]}
+
+
+{ $and :[
+{ "drinkingHabits.id": { $in: [1,2] } },
+{ "professionalInformation.education.id": { $in: [1,3,4,5,6,7,8,9,12,15,16] }},
+{"religionInformation.religion.id" :1},
+{"religionInformation.religion.id" :1},
+{ "maritalStatus.id": { $in: [2,3] } },
+{ "eatingHabits.id": { $in: [1] } },
+{"gender.id":1},
+{uniqId: {$gt:607574}}
+]}
 
 
 id > 0 and createdDate :latest 
 top 10
 id> lastID and createdDate : latest 
+
+{ $and :[
+{"gender.id":1},
+{age: { $gt: 23 }} ,
+{age: { $lt: 28 }},
+{height: { $gt: 150 }} ,
+{height: { $lt: 170 }},
+{uniqId: {$gt:1700002}}
+]}
+
+
+{ $and :[
+{"gender.id":1},
+{age: { $gt: 23 }} ,
+{age: { $lt: 28 }},
+{height: { $gt: 150 }} ,
+{height: { $lt: 170 }},
+{uniqId: {$gt:1700002}}
+]}

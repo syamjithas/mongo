@@ -30,19 +30,37 @@ async function insert(record, starting) {
     let result, cust;
     for (let index = 1; index <= record; index++) {
       process.stdout.write(`${index}/${record}\r`);
-      result = await haiku.insertOne(getNewCustomer(index));
+      result = await haiku.insertOne(getNewCustomer(starting));
       starting++;
     }
   } finally {
     // await client.close();
   }
 }
-insert(50000, 1).catch(console.dir);
-insert(50000, 50001).catch(console.dir);
-insert(50000, 100001).catch(console.dir);
-insert(50000, 150001).catch(console.dir);
-insert(50000, 200001).catch(console.dir);
-insert(50000, 250001).catch(console.dir);
-// insert(50000, 300001).catch(console.dir);
 
-
+for (var i = 0; i < 20; i++) {
+  var recordCount = 100000 * i + 1;
+  insert(100000, recordCount).catch(console.dir);
+}
+// insert(1, 1, true).catch(console.dir);
+// insert(50000, 350001).catch(console.dir);
+// insert(100000, 400001).catch(console.dir);
+// insert(100000, 500001).catch(console.dir);
+// insert(100000, 600001).catch(console.dir);
+// insert(100000, 700001).catch(console.dir);
+// insert(100000, 800001).catch(console.dir);
+// insert(100000, 900001).catch(console.dir);
+// insert(100000, 1000001).catch(console.dir);
+// insert(100000, 110001).catch(console.dir);
+// insert(100000, 1200001).catch(console.dir);
+// insert(100000, 1300001).catch(console.dir);
+// insert(100000, 1400001).catch(console.dir);
+// insert(100000, 1500001).catch(console.dir);
+// insert(100000, 1600001).catch(console.dir);
+// insert(100000, 1700001).catch(console.dir);
+// insert(100000, 1800001).catch(console.dir);
+// insert(100000, 1900001).catch(console.dir);
+// insert(100000, 2000001).catch(console.dir);
+// insert(100000, 2100001).catch(console.dir);
+// insert(100000, 2200001).catch(console.dir);
+// insert(100000, 2300001).catch(console.dir);
