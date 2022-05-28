@@ -1,0 +1,108 @@
+{
+  "_id": { "$oid": "628d1d43dd7ace4182b5b8e6" },
+  "name": "ROKZBWVPTG ECZAZXZHPS",
+  "whatsappNumber": "Not Specified",
+  "bodyType": "Medium",
+  "age": 24,
+  "complexion": "Dark",
+  "height": 177,
+  "physicalStatus": "Normal",
+  "weight": 56,
+  "hobbies": "Not Specified",
+  "interests": "Not Specified",
+  "bloodGroup": "A-",
+  "maritalStatus": "Divorced",
+  "noOfChildren": "0",
+  "eatingHabits": "Non Veg ",
+  "drinkingHabits": "Never",
+  "aadharNumber": "Not Specified",
+  "describeInYourWords": "",
+  "address": {
+    "presentAddress": "Not Specified",
+    "permanentAddress": "Not Specified",
+    "communicationAddress": "Not Specified",
+    "routeToResidence": "Not Specified"
+  },
+  "religionInformation": {
+    "religion": "Muslim",
+    "caste": "Jacobite",
+    "casteNoBar": "No",
+    "star": "Aswathi",
+    "raasi": "Medam Rasi",
+    "typeOfJathakam": "Not Specified",
+    "religionUnionLocation": "Not Specified",
+    "religiousRequirements": "Not Specified"
+  },
+  "location": {
+    "country": "Cyprus",
+    "district": "Idukki",
+    "state": "Delhi",
+    "city": "Koothattukulam"
+  },
+  "professionalInformation": {
+    "education": "Higher Secondary / Secondary",
+    "educationInDetail": "Not Specified",
+    "jobCategory": "Not Specified",
+    "jobCategoryInDetail": "Not Specified",
+    "jobLocation": "Not Specified",
+    "monthlyIncome": "Not Specified"
+  },
+  "familyDetails": {
+    "fathersName": "Not Specified",
+    "jobCategory": "Not Specified",
+    "jobInDetails": "Not Specified",
+    "jobDescription": "Not Specified",
+    "educationCategory": "Not Specified",
+    "educationDetails": "Not Specified",
+    "familyValue": "Traditional",
+    "guardianIfAny": "Not Specified",
+    "brothers": "Married-0, Unmarried-0",
+    "jobProfileOfSibling": "Not Specified",
+    "motherName": "Not Specified",
+    "familyType": "Not Specified",
+    "motherTongue": "Malayalam",
+    "sisters": "Married-0, Unmarried-0",
+    "financialStatus": "Not Specified"
+  },
+  "horoscopeDetails": {
+    "birthHour": "Not Specified",
+    "birthMinute": "Not Specified",
+    "placeOfBirth": "Country Not Specified, Region Not Specified, Place Not Specified",
+    "dateOfBirth": "1 - Not Specified - 0",
+    "janmaSistaDasa": "Not Specified",
+    "janmaSistaDasaEnd": "0 (Day) - 0 (Month) - 0 (Year)",
+    "horoscopeFile": "Not Specified"
+  },
+  "otherInfo": {
+    "languagesKnown": "Not Specified",
+    "blog": "Not Specified",
+    "facebookLink": "Not Specified",
+    "otherSocialNetworkLinks": "Not Specified"
+  },
+  "Preferences": {
+    "age": "20 To 25",
+    "maritalStatus": "Single",
+    "educationCategory": "Any",
+    "educationDetail": "Any",
+    "jobCategory": "Any",
+    "jobDetail": "Any",
+    "religion": "Christian",
+    "casteNoBar": "No",
+    "caste": "Orthodox , Marthoma",
+    "matchingStar": "Any",
+    "typeOfJathakam": "Any",
+    "country": "India",
+    "state": "Kerala",
+    "district": "Ernakulam",
+    "whatYouAreLookingFor": ""
+  },
+  "visitedProfile": [
+    {
+      "profile": 1000,
+      "visited": true,
+      "blocked": true,
+      "requested": true,
+      "blockedMe": true
+    }
+  ]
+}

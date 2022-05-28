@@ -1,0 +1,115 @@
+{
+  "uniqId": 1,
+  "name": "ENHZRWSNIF YUYQWSNJTE",
+  "whatsappNumber": "Not Specified",
+  "bodyType": "Fat",
+  "age": 21,
+  "complexion": "Wheatish",
+  "height": 121,
+  "physicalStatus": "Normal",
+  "weight": 58,
+  "hobbies": "Not Specified",
+  "interests": {
+    "movie": ["horror"],
+    "songs": ["classic"]
+  },
+  "bloodGroup": "B+",
+  "maritalStatus": "Widowed",
+  "noOfChildren": "0",
+  "eatingHabits": "Non Veg ",
+  "drinkingHabits": "Daily ",
+  "aadharNumber": "Not Specified",
+  "describeInYourWords": "",
+  "address": {
+    "presentAddress": "Not Specified",
+    "permanentAddress": "Not Specified",
+    "communicationAddress": "Not Specified",
+    "routeToResidence": "Not Specified"
+  },
+  "religionInformation": {
+    "religion": "Christian",
+    "caste": "Jacobite",
+    "casteNoBar": "No",
+    "star": "Punartham",
+    "raasi": "Karkadakam Rasi",
+    "typeOfJathakam": "Not Specified",
+    "religionUnionLocation": "Not Specified",
+    "religiousRequirements": "Not Specified"
+  },
+  "location": {
+    "country": "Slovenia",
+    "district": "L",
+    "state": "WestBengal",
+    "city": "Koothattukulam"
+  },
+  "professionalInformation": {
+    "education": {
+      "id": 2,
+      "value": "Bachelors - Engineering / Computers / Others "
+    },
+    "educationInDetail": {
+      "id": 31,
+      "value": "BVSc"
+    },
+    "jobCategory": {
+      "id": 17,
+      "value": "IT Non Engineering"
+    },
+    "jobCategoryInDetail": "San Marino",
+    "jobLocation": "Not Specified",
+    "monthlyIncome": 180000
+  },
+  "familyDetails": {
+    "fathersName": "Not Specified",
+    "jobCategory": "Not Specified",
+    "jobInDetails": "Not Specified",
+    "jobDescription": "Not Specified",
+    "educationCategory": "Not Specified",
+    "educationDetails": "Not Specified",
+    "familyValue": "Moderate",
+    "guardianIfAny": "Not Specified",
+    "brothers": "Married-0, Unmarried-0",
+    "jobProfileOfSibling": "Not Specified",
+    "motherName": "Not Specified",
+    "familyType": "Not Specified",
+    "sisters": "Married-0, Unmarried-0",
+    "financialStatus": "Not Specified"
+  },
+  "motherTongue": "Hindi",
+  "horoscopeDetails": {
+    "birthHour": "Not Specified",
+    "birthMinute": "Not Specified",
+    "placeOfBirth": "Country Not Specified",
+    "dateOfBirth": "1 - Not Specified - 0",
+    "janmaSistaDasa": "Not Specified",
+    "janmaSistaDasaEnd": "",
+    "horoscopeFile": "Not Specified"
+  },
+  "Hobbies": ["Cycling", "Cricket", "Reading"],
+  "otherInfo": {
+    "languagesKnown": "Not Specified",
+    "blog": "Not Specified",
+    "facebookLink": "Not Specified",
+    "otherSocialNetworkLinks": "Not Specified"
+  },
+  "Preferences": {
+    "age": {
+      "min": 18,
+      "max": 28
+    },
+    "maritalStatus": "Single",
+    "educationCategory": "Any",
+    "educationDetail": "Any",
+    "jobCategory": "Any",
+    "jobDetail": "Any",
+    "religion": "Christian",
+    "casteNoBar": "No",
+    "caste": ["Orthodox", "Marthoma"],
+    "matchingStar": "Any",
+    "typeOfJathakam": "Any",
+    "country": "India",
+    "state": "Kerala",
+    "district": "Ernakulam",
+    "whatYouAreLookingFor": "I am looking for bla bla bla..."
+  }
+}

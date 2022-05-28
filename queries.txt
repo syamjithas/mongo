@@ -1,0 +1,6 @@
+{"religionInformation.religion" :"Muslim" , age: { $gt: 23 } ,age: { $lt: 28 } }
+
+
+id > 0 and createdDate :latest 
+top 10
+id> lastID and createdDate : latest 
