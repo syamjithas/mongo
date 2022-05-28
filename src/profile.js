@@ -40,7 +40,8 @@ function getSalary() {
 }
 
 function getRandomSubarray(type, subtype) {
-  var arr = data[type][subtype];
+  // console.log(type, subtype);
+  var arr = subtype ? data[type][subtype] : data[type];
   var size = getRandomIntInclusive(1, arr.length);
   size = size > 3 ? size / 3 : size;
   var shuffled = arr.slice(0),
@@ -63,11 +64,13 @@ const getNewCustomer = (index) => {
     education = randomItem("education"),
     educationInDetail = randomItem("educationInDetail"),
     jobCategory = randomItem("jobCategory"),
-    jobCategoryInDetail = randomItem("jobCategoryInDetail"),
-    state = randomItem("state");
+    jobInDetail = randomItem("jobCategoryInDetail"),
+    gender = randomItem("gender"),
+    state = randomItem("state"),
+    maritalStatus = randomItem("MaritalStatus");
   return {
     uniqId: index,
-    gender: randomItem("gender"),
+    gender,
     name: `${getName(10)} ${getName(10)}`,
     whatsappNumber: "Not Specified",
     bodyType: randomItem("BodyType"),
@@ -79,7 +82,7 @@ const getNewCustomer = (index) => {
     hobbies: "Not Specified",
     interests: "Not Specified",
     bloodGroup: randomItem("BloodGroup"),
-    maritalStatus: randomItem("MaritalStatus"),
+    maritalStatus,
     noOfChildren: "0",
     eatingHabits: randomItem("EatingHabits"),
     drinkingHabits: randomItem("DrinkingHabits"),
@@ -111,7 +114,7 @@ const getNewCustomer = (index) => {
       education,
       educationInDetail,
       jobCategory,
-      jobCategoryInDetail,
+      jobInDetail,
       jobLocation: "Not Specified",
       monthlyIncome: getSalary(),
     },
@@ -153,19 +156,48 @@ const getNewCustomer = (index) => {
       otherSocialNetworkLinks: "Not Specified",
     },
     Preferences: {
-      age: { min: 18, max: 28 },
-      maritalStatus: "Single",
-      educationCategory: "Any",
-      educationDetail: "Any",
-      jobCategory: "Any",
-      jobDetail: "Any",
-      religion: "Christian",
+      age: {
+        min: getRandomIntInclusive(18, 30),
+        max: getRandomIntInclusive(31, 50),
+      },
+      height: {
+        min: getRandomIntInclusive(120, 164),
+        max: getRandomIntInclusive(180, 212),
+      },
+      gender: (gender) => {
+        switch (gender.id) {
+          case 0:
+            return data.gender.at(0);
+          case 1:
+            return data.gender.at(1);
+          case 2:
+            return data.gender.at(2);
+          case 3:
+            return data.gender.at(3);
+        }
+      },
+      maritalStatus: (maritalStatus) => {
+        switch (maritalStatus.id) {
+          case 0:
+          case 1:
+          case 2:
+          case 4:
+            return getRandomSubarray("maritalStatus");
+          case 3:
+            return [data.maritalStatus.at(3)];
+        }
+      },
+      education: getRandomSubarray("education"),
+      educationInDetail: getRandomSubarray("educationInDetail"),
+      jobCategory: getRandomSubarray("jobCategory"),
+      jobInDetail: getRandomSubarray("jobInDetail"),
+      religion: religion,
       casteNoBar: "No",
       caste: getRandomSubarray("caste", religion.value),
-      matchingStar: "Any",
-      typeOfJathakam: "Any",
-      country: "India",
-      state: "Kerala",
+      matchingStar: getRandomSubarray("caste", religion.value),
+      typeOfJathakam: [],
+      country: [],
+      state: [],
       district: getRandomSubarray("district", state.value),
       whatYouAreLookingFor: "I am looking for bla bla bla...",
     },

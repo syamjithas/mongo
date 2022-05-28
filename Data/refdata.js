@@ -7,7 +7,7 @@ const data = {
   gender: [
     { id: 0, value: "male" },
     { id: 1, value: "female" },
-    { id: 2, value: "tanswomen" },
+    { id: 2, value: "transwoman" },
     { id: 3, value: "lesbian" },
   ],
   PhysicalStatus: [
@@ -1259,7 +1259,7 @@ const data = {
     { id: 27, value: "SCIENTIST" },
     { id: 28, value: "TOP MANAGEMENT" },
   ],
-  jobindetail: [
+  jobInDetail: [
     { id: 0, value: "Accounts/Finance Professional" },
     { id: 1, value: "Administrative Professional" },
     { id: 2, value: "Advertising / PR Professional" },
