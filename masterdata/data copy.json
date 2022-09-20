@@ -1,0 +1,308 @@
+{
+	"_id": {
+	  "$oid": "628d359bee76034490301a42"
+	},
+	"created_at": {
+	  "$date": {
+		"$numberLong": "1653421467647"
+	  }
+	},
+	"user": "admin",
+	"updated_at": {
+	  "$date": {
+		"$numberLong": "1661355823471"
+	  }
+	},
+	"__v": 11,
+	"categories": {
+	  "country": {
+		"label": "Country",
+		"sub_division": [
+		  {
+			"label": "India",
+			"code": "IN",
+			"sub_division": [
+			  {
+				"label": "Kerala",
+				"code": "KL",
+				"sub_division": [
+				  {
+					"label": "Thrissur",
+					"code": "TS"
+				  },
+				  {
+					"label": "Ernakulam",
+					"code": "ER"
+				  }
+				]
+			  },
+			  {
+				"label": "Gujarat",
+				"code": "GJ",
+				"sub_division": [
+				  {
+					"label": "Ahmedabad",
+					"code": "AH"
+				  },
+				  {
+					"label": "Jamnagar",
+					"code": "JA"
+				  }
+				]
+			  }
+			]
+		  }
+		]
+	  },
+	  "gender": {
+		"label": "Gender",
+		"sub_division": [
+		  {
+			"label": "Male",
+			"code": "ML"
+		  },
+		  {
+			"label": "Female",
+			"code": "FL"
+		  },
+		  {
+			"label": "Others",
+			"code": "OT"
+		  }
+		]
+	  },
+	  "marital_status": {
+		"label": "Marital Status",
+		"sub_division": [
+		  {
+			"label": "Single",
+			"code": "SL"
+		  },
+		  {
+			"label": "Married",
+			"code": "MD"
+		  },
+		  {
+			"label": "Widowed",
+			"code": "WD"
+		  },
+		  {
+			"label": "Divorced",
+			"code": "DD"
+		  }
+		]
+	  },
+	  "height": {
+		"label": "Height",
+		"sub_division": [
+		  {
+			"label": "100 cm",
+			"code": "100"
+		  },
+		  {
+			"label": "120 cm",
+			"code": "120"
+		  },
+		  {
+			"label": "130 cm",
+			"code": "130"
+		  }
+		]
+	  },
+	  "religion": {
+		"label": "Religion",
+		"sub_division": [
+		  {
+			"label": "Hindu",
+			"code": "HD",
+			"sub_division": [
+			  {
+				"label": "Nair",
+				"code": "NR"
+			  }
+			]
+		  },
+		  {
+			"label": "Islam",
+			"code": "IS",
+			"sub_division": [
+			  {
+				"label": "Muslim",
+				"code": "ML"
+			  }
+			]
+		  },
+		  {
+			"label": "Christian",
+			"code": "CH",
+			"sub_division": [
+			  {
+				"label": "Catholic",
+				"code": "CA"
+			  }
+			]
+		  }
+		]
+	  },
+	  "education": {
+		"label": "Education",
+		"sub_division": [
+		  {
+			"label": "Undergraduate",
+			"code": "UG"
+		  },
+		  {
+			"label": "Graduate",
+			"code": "GR"
+		  },
+		  {
+			"label": "Postgraduate",
+			"code": "PG"
+		  }
+		]
+	  },
+	  "job": {
+		"label": "Job",
+		"sub_division": [
+		  {
+			"label": "Engineer",
+			"code": "EG"
+		  },
+		  {
+			"label": "SEO Optimizer",
+			"code": "SE"
+		  }
+		]
+	  },
+	  "university": {
+		"label": "University",
+		"sub_division": [
+		  {
+			"label": "APJ Abdul Kalam Technological University (KTU)",
+			"code": "KTU",
+			"sub_division": [
+			  {
+				"label": "Federal Institute of Science And Technology (FISAT)",
+				"code": "FIT"
+			  }
+			]
+		  }
+		]
+	  },
+	  "family_type": {
+		"label": "Family Type",
+		"sub_division": [
+		  {
+			"label": "Nuclear Family",
+			"code": "FAM_NUC"
+		  },
+		  {
+			"label": "Single-Parent Family",
+			"code": "FAM_SIN"
+		  },
+		  {
+			"label": "Blended Family",
+			"code": "FAM_BLD"
+		  },
+		  {
+			"label": "Grandparent Family",
+			"code": "FAM_GRD"
+		  },
+		  {
+			"label": "Childless Family",
+			"code": "FAM_CHD"
+		  },
+		  {
+			"label": "Extended Family",
+			"code": "FAM_EXT"
+		  }
+		]
+	  }
+	},
+	"interests": [
+	  {
+		"code": "music",
+		"label": "Music",
+		"sub_division": [
+		  {
+			"label": "Classic",
+			"code": "CL"
+		  },
+		  {
+			"label": "Pop",
+			"code": "PO"
+		  }
+		]
+	  },
+	  {
+		"code": "film",
+		"label": "Films",
+		"sub_division": [
+		  {
+			"label": "Comedy",
+			"code": "CO"
+		  },
+		  {
+			"label": "Horror",
+			"code": "HO"
+		  }
+		]
+	  },
+	  {
+		"code": "books",
+		"label": "Books",
+		"sub_division": [
+		  {
+			"label": "Fiction",
+			"code": "FI"
+		  },
+		  {
+			"label": "Bed Time Stories",
+			"code": "BT"
+		  }
+		]
+	  },
+	  {
+		"code": "tvshows",
+		"label": "TV Shows",
+		"sub_division": [
+		  {
+			"label": "Test1",
+			"code": "T1"
+		  },
+		  {
+			"label": "Test2",
+			"code": "T2"
+		  }
+		]
+	  },
+	  {
+		"code": "sports",
+		"label": "Sports",
+		"sub_division": [
+		  {
+			"label": "Football",
+			"code": "FT"
+		  },
+		  {
+			"label": "Cricket",
+			"code": "CR"
+		  }
+		]
+	  },
+	  {
+		"code": "food",
+		"label": "Food",
+		"sub_division": [
+		  {
+			"label": "Indian",
+			"code": "IN"
+		  },
+		  {
+			"label": "Arabic",
+			"code": "AR"
+		  }
+		]
+	  }
+	]
+  }
