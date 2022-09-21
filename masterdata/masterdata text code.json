@@ -16,20 +16,20 @@
               "label": "Kerala",
               "code": "KL",
               "sub_division": [
-                { "code": "AL", "label": "Alappuzha" },
-                { "code": "ER", "label": "Ernakulam" },
-                { "code": "ID", "label": "Idukki" },
-                { "code": "KN", "label": "Kannur" },
-                { "code": "KS", "label": "Kasaragod" },
-                { "code": "KL", "label": "Kollam" },
-                { "code": "KT", "label": "Kottayam" },
-                { "code": "KZ", "label": "Kozhikode" },
-                { "code": "MA", "label": "Malappuram" },
-                { "code": "PL", "label": "Palakkad" },
-                { "code": "PT", "label": "Pathanamthitta" },
-                { "code": "TS", "label": "Thrissur" },
-                { "code": "TV", "label": "Thiruvananthapuram" },
-                { "code": "WA", "label": "Wayanad" }
+                { "code": "598", "label": "Alappuzha" },
+                { "code": "595", "label": "Ernakulam" },
+                { "code": "596", "label": "Idukki" },
+                { "code": "589", "label": "Kannur" },
+                { "code": "588", "label": "Kasaragod" },
+                { "code": "600", "label": "Kollam" },
+                { "code": "597", "label": "Kottayam" },
+                { "code": "591", "label": "Kozhikode" },
+                { "code": "592", "label": "Malappuram" },
+                { "code": "593", "label": "Palakkad" },
+                { "code": "599", "label": "Pathanamthitta" },
+                { "code": "594", "label": "Thrissur" },
+                { "code": "601", "label": "Thiruvananthapuram" },
+                { "code": "590", "label": "Wayanad" }
               ]
             }
           ]
@@ -174,81 +174,100 @@
       ]
     },
     "physical_status": {
+		"label": "Physical status",
       "sub_division": [
         { "label": "Select", "code": "0" },
         { "label": "Handicapped", "code": "1" },
         { "label": "Normal", "code": "2" }
       ]
     },
-    "blood_group": [
-      { "code": "0", "label": "A+" },
-      { "code": "1", "label": "A-" },
-      { "code": "2", "label": "AB+" },
-      { "code": "3", "label": "AB-" },
-      { "code": "4", "label": "B+" },
-      { "code": "5", "label": "B-" },
-      { "code": "6", "label": "O+" },
-      { "code": "7", "label": "O-" }
-    ],
-    "eating_habits": [
-      { "code": "0", "label": "Eggetarian" },
-      { "code": "1", "label": "Non Veg " },
-      { "code": "2", "label": "Veg" }
-    ],
-    "drinking_habits": [
-      { "code": "0", "label": "Daily " },
-      { "code": "1", "label": "Never" },
-      { "code": "2", "label": "Occasionally" }
-    ],
-    "stars": [
-      { "code": "0", "label": "Anizham" },
-      { "code": "1", "label": "Aswathi" },
-      { "code": "2", "label": "Atham" },
-      { "code": "3", "label": "Avittam" },
-      { "code": "4", "label": "Ayilyam" },
-      { "code": "5", "label": "Bharani" },
-      { "code": "6", "label": "Chadayam" },
-      { "code": "7", "label": "Chithira" },
-      { "code": "8", "label": "Chothi" },
-      { "code": "9", "label": "Karthika" },
-      { "code": "10", "label": "Magam" },
-      { "code": "11", "label": "Makayiram" },
-      { "code": "12", "label": "Moolam" },
-      { "code": "13", "label": "Pooradam" },
-      { "code": "14", "label": "Pooram" },
-      { "code": "15", "label": "Pooruruttathi" },
-      { "code": "16", "label": "Pooyam" },
-      { "code": "17", "label": "Punartham" },
-      { "code": "18", "label": "Revathi" },
-      { "code": "19", "label": "Rohini" },
-      { "code": "20", "label": "Thiruvathira" },
-      { "code": "21", "label": "Thiruvonam" },
-      { "code": "22", "label": "Triketta" },
-      { "code": "23", "label": "Uthradam" },
-      { "code": "24", "label": "Uthram" },
-      { "code": "25", "label": "Uthratathi" },
-      { "code": "26", "label": "Vishakam" }
-    ],
-    "raasi": [
-      { "code": "0", "label": "Chingam Rasi" },
-      { "code": "1", "label": "Dhanu Rasi" },
-      { "code": "2", "label": "Edavam Rasi" },
-      { "code": "3", "label": "Kanni Rasi" },
-      { "code": "4", "label": "Karkadakam Rasi" },
-      { "code": "5", "label": "Kumbham Rasi" },
-      { "code": "6", "label": "Makaram Rasi" },
-      { "code": "7", "label": "Medam Rasi" },
-      { "code": "8", "label": "Midhunam Rasi" },
-      { "code": "9", "label": "Minam Rasi" },
-      { "code": "10", "label": "Tulam Rasi" },
-      { "code": "11", "label": "Vrschikam Rasi" }
-    ],
-    "type_of_jathakam": [
-      { "code": "0", "label": "Chowa Dosham" },
-      { "code": "1", "label": "Normal Jadhakam" },
-      { "code": "2", "label": "Paapa Jadhakam" },
-      { "code": "3", "label": "Sudha Jadhakam" }
-    ],
+    "blood_group":{
+		"label": "Blood Group",
+		"sub_division":[
+			{ "code": "0", "label": "A+" },
+			{ "code": "1", "label": "A-" },
+			{ "code": "2", "label": "AB+" },
+			{ "code": "3", "label": "AB-" },
+			{ "code": "4", "label": "B+" },
+			{ "code": "5", "label": "B-" },
+			{ "code": "6", "label": "O+" },
+			{ "code": "7", "label": "O-" }
+		  ]
+	} ,
+    "eating_habits":{
+		"label": "Eating habits",
+		"sub_division":[
+			{ "code": "0", "label": "Eggetarian" },
+			{ "code": "1", "label": "Non Veg " },
+			{ "code": "2", "label": "Veg" }
+		  ]
+	} ,
+    "drinking_habits": {
+		"label": "Drinking habits",
+		"sub_division":[
+			{ "code": "0", "label": "Daily " },
+			{ "code": "1", "label": "Never" },
+			{ "code": "2", "label": "Occasionally" }
+		  ]
+	},
+    "stars":{
+		"label": "stars",
+		"sub_division":[
+			{ "code": "0", "label": "Anizham" },
+			{ "code": "1", "label": "Aswathi" },
+			{ "code": "2", "label": "Atham" },
+			{ "code": "3", "label": "Avittam" },
+			{ "code": "4", "label": "Ayilyam" },
+			{ "code": "5", "label": "Bharani" },
+			{ "code": "6", "label": "Chadayam" },
+			{ "code": "7", "label": "Chithira" },
+			{ "code": "8", "label": "Chothi" },
+			{ "code": "9", "label": "Karthika" },
+			{ "code": "10", "label": "Magam" },
+			{ "code": "11", "label": "Makayiram" },
+			{ "code": "12", "label": "Moolam" },
+			{ "code": "13", "label": "Pooradam" },
+			{ "code": "14", "label": "Pooram" },
+			{ "code": "15", "label": "Pooruruttathi" },
+			{ "code": "16", "label": "Pooyam" },
+			{ "code": "17", "label": "Punartham" },
+			{ "code": "18", "label": "Revathi" },
+			{ "code": "19", "label": "Rohini" },
+			{ "code": "20", "label": "Thiruvathira" },
+			{ "code": "21", "label": "Thiruvonam" },
+			{ "code": "22", "label": "Triketta" },
+			{ "code": "23", "label": "Uthradam" },
+			{ "code": "24", "label": "Uthram" },
+			{ "code": "25", "label": "Uthratathi" },
+			{ "code": "26", "label": "Vishakam" }
+		  ]
+	} ,
+    "raasi":{
+		"label": "raasi",
+		"sub_division":[
+			{ "code": "0", "label": "Chingam Rasi" },
+			{ "code": "1", "label": "Dhanu Rasi" },
+			{ "code": "2", "label": "Edavam Rasi" },
+			{ "code": "3", "label": "Kanni Rasi" },
+			{ "code": "4", "label": "Karkadakam Rasi" },
+			{ "code": "5", "label": "Kumbham Rasi" },
+			{ "code": "6", "label": "Makaram Rasi" },
+			{ "code": "7", "label": "Medam Rasi" },
+			{ "code": "8", "label": "Midhunam Rasi" },
+			{ "code": "9", "label": "Minam Rasi" },
+			{ "code": "10", "label": "Tulam Rasi" },
+			{ "code": "11", "label": "Vrschikam Rasi" }
+		  ]
+	} ,
+    "type_of_jathakam":{
+		"label": "Type of jathakam",
+		"sub_division":[
+			{ "code": "0", "label": "Chowa Dosham" },
+			{ "code": "1", "label": "Normal Jadhakam" },
+			{ "code": "2", "label": "Paapa Jadhakam" },
+			{ "code": "3", "label": "Sudha Jadhakam" }
+		  ]
+	} ,
     "religion": {
       "label": "Religion",
       "sub_division": [
@@ -577,7 +596,7 @@
         { "code": "88", "label": "Pharm D" },
         { "code": "89", "label": "Polytechnic" },
         { "code": "90", "label": "TTC" },
-        { "code": "91", "label": "" }
+        { "code": "91", "label": "Other" }
       ]
     },
     "job": {
@@ -594,11 +613,11 @@
         { "code": "8", "label": "Architect" },
         {
           "code": "9",
-          "label": "ARCHITECT & DESIGN Engineering Professionals"
+          "label": "Architect & Design Engineering Professionals"
         },
         {
           "code": "10",
-          "label": "ARCHITECT & DESIGN Non Engineering Professionals"
+          "label": "Architect & Design Non Engineering Professionals"
         },
         { "code": "11", "label": "Army" },
         { "code": "12", "label": "Arts & Craftsman" },
@@ -626,10 +645,6 @@
         { "code": "25", "label": "Civil Services (IAS/IPS/IRS/IES/IFS/KPS)" },
         { "code": "26", "label": "Class IV / Peon" },
         { "code": "27", "label": "Clerk" },
-        { "code": "28", "label": "Clerk" },
-        { "code": "29", "label": "Clerk" },
-        { "code": "30", "label": "Clerk" },
-        { "code": "31", "label": "Clerk" },
         { "code": "32", "label": "Company Employee / Private Ltd. Co. Staffs" },
         { "code": "33", "label": "Company Secretary" },
         { "code": "34", "label": "Consultant" },
@@ -645,7 +660,6 @@
         { "code": "41", "label": "Daily Wage Employee / Private Sector" },
         { "code": "42", "label": "Deputy Supdt. Of Police" },
         { "code": "43", "label": "Designer" },
-        { "code": "44", "label": "Designer" },
         { "code": "45", "label": "Doctor" },
         {
           "code": "46",
@@ -687,10 +701,6 @@
         { "code": "80", "label": "Librarian" },
         { "code": "81", "label": "LP School Assistant / Teacher" },
         { "code": "82", "label": "Manager" },
-        { "code": "83", "label": "Manager" },
-        { "code": "84", "label": "Manager" },
-        { "code": "85", "label": "Manager" },
-        { "code": "86", "label": "Manager" },
         { "code": "87", "label": "Mariner / Merchant Navy Officer" },
         { "code": "88", "label": "Marketing Professional" },
         { "code": "89", "label": "Media Professional" },
@@ -700,9 +710,6 @@
         { "code": "93", "label": "Nurse" },
         { "code": "94", "label": "Office Assistant / Class 4" },
         { "code": "95", "label": "Officer" },
-        { "code": "96", "label": "Officer" },
-        { "code": "97", "label": "Officer" },
-        { "code": "98", "label": "Officer" },
         { "code": "99", "label": "Officers / Above Gazetted cadre" },
         { "code": "100", "label": "Officers / Non Gazetted cadre" },
         {
@@ -718,8 +725,6 @@
         { "code": "108", "label": "Others" },
         { "code": "109", "label": "Paramedical Professional" },
         { "code": "110", "label": "Peon/Last Grade" },
-        { "code": "111", "label": "Peon/Last Grade" },
-        { "code": "112", "label": "Peon/Last Grade" },
         { "code": "113", "label": "Pilot" },
         { "code": "114", "label": "Plus Two Lecturer / HSST" },
         { "code": "115", "label": "Professor/Lecturer" },
@@ -745,7 +750,7 @@
         { "code": "135", "label": "UP School Assistant / Teacher" },
         { "code": "136", "label": "Well Settled Business / Entrepreneur" },
         { "code": "137", "label": "Working Abroad" },
-        { "code": "138", "label": "" }
+		{ "code": "137", "label": "Other" }
       ]
     },
     "university": {
