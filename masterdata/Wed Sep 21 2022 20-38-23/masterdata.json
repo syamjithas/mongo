@@ -1091,7 +1091,7 @@
     },
     {
       "code": "18",
-      "label": "Current eventsHome and garden",
+      "label": "Home and garden",
       "sub_division": [
         { "label": "Do it yourself (DIY)", "code": "0" },
         { "label": "Furniture", "code": "1" },
@@ -1116,7 +1116,7 @@
     },
     {
       "code": "20",
-      "label": "Politics and social issues",
+      "label": "Politics and social",
       "sub_division": [
         { "label": "Charity and causes", "code": "0" },
         { "label": "Community issues", "code": "1" },
