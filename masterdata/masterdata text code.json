@@ -792,48 +792,48 @@
       "code": "music",
       "label": "Music",
       "sub_division": [
-        { "label": "Classic", "code": "CL" },
-        { "label": "Pop", "code": "PO" }
+        { "label": "Classic", "code": "0" },
+        { "label": "Pop", "code": "1" }
       ]
     },
     {
       "code": "film",
       "label": "Films",
       "sub_division": [
-        { "label": "Comedy", "code": "CO" },
-        { "label": "Horror", "code": "HO" }
+        { "label": "Comedy", "code": "0" },
+        { "label": "Horror", "code": "1" }
       ]
     },
     {
       "code": "books",
       "label": "Books",
       "sub_division": [
-        { "label": "Fiction", "code": "FI" },
-        { "label": "Bed Time Stories", "code": "BT" }
+        { "label": "Fiction", "code": "0" },
+        { "label": "Bed Time Stories", "code": "1" }
       ]
     },
     {
       "code": "tvshows",
       "label": "TV Shows",
       "sub_division": [
-        { "label": "Test1", "code": "T1" },
-        { "label": "Test2", "code": "T2" }
+        { "label": "Test1", "code": "0" },
+        { "label": "Test2", "code": "1" }
       ]
     },
     {
       "code": "sports",
       "label": "Sports",
       "sub_division": [
-        { "label": "Football", "code": "FT" },
-        { "label": "Cricket", "code": "CR" }
+        { "label": "Football", "code": "0" },
+        { "label": "Cricket", "code": "1" }
       ]
     },
     {
       "code": "food",
       "label": "Food",
       "sub_division": [
-        { "label": "Indian", "code": "IN" },
-        { "label": "Arabic", "code": "AR" }
+        { "label": "Indian", "code": "0" },
+        { "label": "Arabic", "code": "1" }
       ]
     }
   ]
