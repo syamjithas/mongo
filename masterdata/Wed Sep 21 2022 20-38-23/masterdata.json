@@ -1104,12 +1104,12 @@
     "family_type": {
       "label": "Family Type",
       "sub_division": [
-        { "label": "Nuclear Family", "code": "1" },
-        { "label": "Single-Parent Family", "code": "2" },
-        { "label": "Blended Family", "code": "3" },
-        { "label": "Grandparent Family", "code": "4" },
-        { "label": "Childless Family", "code": "5" },
-        { "label": "Extended Family", "code": "6" }
+        { "label": "Nuclear", "code": "1" },
+        { "label": "Single-Parent", "code": "2" },
+        { "label": "Blended", "code": "3" },
+        { "label": "Grandparent", "code": "4" },
+        { "label": "Childless", "code": "5" },
+        { "label": "Extended", "code": "6" }
       ]
     },
     "hobbies": {
@@ -1133,37 +1133,37 @@
       "code": "0",
       "label": "Music",
       "sub_division": [
-        { "label": "Blues music", "code": "0" },
-        { "label": "Classical music", "code": "1" },
-        { "label": "Country music", "code": "2" },
-        { "label": "Dance music", "code": "3" },
-        { "label": "Electronic music", "code": "4" },
-        { "label": "Gospel music", "code": "5" },
-        { "label": "Heavy metal music", "code": "6" },
-        { "label": "Hip hop music", "code": "7" },
-        { "label": "Jazz music", "code": "8" },
+        { "label": "Blues", "code": "0" },
+        { "label": "Classical", "code": "1" },
+        { "label": "Country", "code": "2" },
+        { "label": "Dance", "code": "3" },
+        { "label": "Electronic", "code": "4" },
+        { "label": "Gospel", "code": "5" },
+        { "label": "Heavy metal", "code": "6" },
+        { "label": "Hip hop", "code": "7" },
+        { "label": "Jazz", "code": "8" },
         { "label": "Music videos", "code": "9" },
-        { "label": "Pop music", "code": "10" },
-        { "label": "Rhythm and blues music", "code": "11" },
-        { "label": "Rock musicSoul music", "code": "12" }
+        { "label": "Pop", "code": "10" },
+        { "label": "Rhythm and blues", "code": "11" },
+        { "label": "Rock musicSoul", "code": "12" }
       ]
     },
     {
       "code": "1",
       "label": "Films",
       "sub_division": [
-        { "label": "Action movies", "code": "0" },
-        { "label": "Animated movies", "code": "1" },
-        { "label": "Anime movies", "code": "2" },
-        { "label": "Bollywood movies", "code": "3" },
-        { "label": "Comedy movies", "code": "4" },
-        { "label": "Documentary movies", "code": "5" },
-        { "label": "Drama movies", "code": "6" },
-        { "label": "Fantasy movies", "code": "7" },
-        { "label": "Horror movies", "code": "8" },
+        { "label": "Action", "code": "0" },
+        { "label": "Animated", "code": "1" },
+        { "label": "Anime", "code": "2" },
+        { "label": "Bollywood", "code": "3" },
+        { "label": "Comedy", "code": "4" },
+        { "label": "Documentary", "code": "5" },
+        { "label": "Drama", "code": "6" },
+        { "label": "Fantasy", "code": "7" },
+        { "label": "Horror", "code": "8" },
         { "label": "Musical theatre", "code": "9" },
-        { "label": "Science fiction movies", "code": "10" },
-        { "label": "Thriller movies", "code": "11" }
+        { "label": "Science fiction", "code": "10" },
+        { "label": "Thriller", "code": "11" }
       ]
     },
     {
@@ -1305,29 +1305,29 @@
       "code": "9",
       "label": "Games",
       "sub_division": [
-        { "label": "Action games", "code": "0" },
-        { "label": "Board games", "code": "1" },
-        { "label": "Browser games", "code": "2" },
-        { "label": "Card games", "code": "3" },
-        { "label": "Casino games", "code": "4" },
-        { "label": "First-person shooter games", "code": "5" },
+        { "label": "Action", "code": "0" },
+        { "label": "Board", "code": "1" },
+        { "label": "Browser", "code": "2" },
+        { "label": "Card", "code": "3" },
+        { "label": "Casino", "code": "4" },
+        { "label": "First-person shooter", "code": "5" },
         { "label": "Gambling", "code": "6" },
-        { "label": "Massively multiplayer online games", "code": "7" },
+        { "label": "Massively multiplayer online", "code": "7" },
         {
-          "label": "Massively multiplayer online role-playing games",
+          "label": "Massively multiplayer online role-playing",
           "code": "8"
         },
-        { "label": "Online games", "code": "9" },
+        { "label": "Online", "code": "9" },
         { "label": "Online poker", "code": "10" },
-        { "label": "Puzzle video games", "code": "11" },
-        { "label": "Racing games", "code": "12" },
-        { "label": "Role-playing games", "code": "13" },
-        { "label": "Shooter games", "code": "14" },
-        { "label": "Simulation games", "code": "15" },
-        { "label": "Sports games", "code": "16" },
-        { "label": "Strategy games", "code": "17" },
-        { "label": "Video games", "code": "18" },
-        { "label": "Word games", "code": "19" }
+        { "label": "Puzzle video", "code": "11" },
+        { "label": "Racing", "code": "12" },
+        { "label": "Role-playing", "code": "13" },
+        { "label": "Shooter", "code": "14" },
+        { "label": "Simulation", "code": "15" },
+        { "label": "Sports", "code": "16" },
+        { "label": "Strategy", "code": "17" },
+        { "label": "Video", "code": "18" },
+        { "label": "Word", "code": "19" }
       ]
     },
     {
@@ -1362,20 +1362,20 @@
       "code": "13",
       "label": "Cuisine",
       "sub_division": [
-        { "label": "Chinese cuisine", "code": "0" },
-        { "label": "French cuisine", "code": "1" },
-        { "label": "German cuisine", "code": "2" },
-        { "label": "Greek cuisine", "code": "3" },
-        { "label": "Indian cuisine", "code": "4" },
-        { "label": "Italian cuisine", "code": "5" },
-        { "label": "Japanese cuisine", "code": "6" },
-        { "label": "Korean cuisine", "code": "7" },
-        { "label": "Latin American cuisine", "code": "8" },
-        { "label": "Mexican cuisine", "code": "9" },
-        { "label": "Middle Eastern cuisine", "code": "10" },
-        { "label": "Spanish cuisine", "code": "11" },
-        { "label": "Thai cuisine", "code": "12" },
-        { "label": "Vietnamese cuisine", "code": "13" }
+        { "label": "Chinese", "code": "0" },
+        { "label": "French", "code": "1" },
+        { "label": "German", "code": "2" },
+        { "label": "Greek", "code": "3" },
+        { "label": "Indian", "code": "4" },
+        { "label": "Italian", "code": "5" },
+        { "label": "Japanese", "code": "6" },
+        { "label": "Korean", "code": "7" },
+        { "label": "Latin American", "code": "8" },
+        { "label": "Mexican", "code": "9" },
+        { "label": "Middle Eastern", "code": "10" },
+        { "label": "Spanish", "code": "11" },
+        { "label": "Thai", "code": "12" },
+        { "label": "Vietnamese", "code": "13" }
       ]
     },
     {
@@ -1405,7 +1405,7 @@
     },
     {
       "code": "17",
-      "label": "Arts and music",
+      "label": "Arts and",
       "sub_division": [
         { "label": "Acting", "code": "0" },
         { "label": "Crafts", "code": "1" },
