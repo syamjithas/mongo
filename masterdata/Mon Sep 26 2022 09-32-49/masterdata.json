@@ -1,0 +1,6790 @@
+{
+  "_id": {
+    "$oid": "628d359bee76034490301a42"
+  },
+  "created_at": {
+    "$date": {
+      "$numberLong": "1653421467647"
+    }
+  },
+  "user": "admin",
+  "updated_at": {
+    "$date": {
+      "$numberLong": "1661355823471"
+    }
+  },
+  "__v": 11,
+  "categories": {
+    "country": {
+      "label": "Country",
+      "sub_division": [
+        {
+          "label": "India",
+          "code": "IN",
+          "sub_division": [
+            {
+              "label": "Kerala",
+              "code": "KL",
+              "sub_division": [
+                {
+                  "code": "598",
+                  "label": "Alappuzha"
+                },
+                {
+                  "code": "595",
+                  "label": "Ernakulam"
+                },
+                {
+                  "code": "596",
+                  "label": "Idukki"
+                },
+                {
+                  "code": "589",
+                  "label": "Kannur"
+                },
+                {
+                  "code": "588",
+                  "label": "Kasaragod"
+                },
+                {
+                  "code": "600",
+                  "label": "Kollam"
+                },
+                {
+                  "code": "597",
+                  "label": "Kottayam"
+                },
+                {
+                  "code": "591",
+                  "label": "Kozhikode"
+                },
+                {
+                  "code": "592",
+                  "label": "Malappuram"
+                },
+                {
+                  "code": "593",
+                  "label": "Palakkad"
+                },
+                {
+                  "code": "599",
+                  "label": "Pathanamthitta"
+                },
+                {
+                  "code": "594",
+                  "label": "Thrissur"
+                },
+                {
+                  "code": "601",
+                  "label": "Thiruvananthapuram"
+                },
+                {
+                  "code": "590",
+                  "label": "Wayanad"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "gender": {
+      "label": "Gender",
+      "sub_division": [
+        {
+          "label": "Male",
+          "code": "0"
+        },
+        {
+          "label": "Female",
+          "code": "1"
+        },
+        {
+          "label": "Others",
+          "code": "2"
+        }
+      ]
+    },
+    "marital_status": {
+      "label": "Marital Status",
+      "sub_division": [
+        {
+          "label": "Single",
+          "code": "0"
+        },
+        {
+          "label": "Married",
+          "code": "1"
+        },
+        {
+          "label": "Widowed",
+          "code": "2"
+        },
+        {
+          "label": "Divorced",
+          "code": "3"
+        },
+        {
+          "label": "Separated",
+          "code": "4"
+        }
+      ]
+    },
+    "height": {
+      "label": "Height",
+      "sub_division": [
+        {
+          "label": "120cm / 3'11",
+          "code": "120"
+        },
+        {
+          "label": "121cm / 3'12",
+          "code": "121"
+        },
+        {
+          "label": "122cm / 4",
+          "code": "122"
+        },
+        {
+          "label": "123cm / 4",
+          "code": "123"
+        },
+        {
+          "label": "124cm / 4'1",
+          "code": "124"
+        },
+        {
+          "label": "125cm / 4'1",
+          "code": "125"
+        },
+        {
+          "label": "126cm / 4'2",
+          "code": "126"
+        },
+        {
+          "label": "127cm / 4'2",
+          "code": "127"
+        },
+        {
+          "label": "128cm / 4'2",
+          "code": "128"
+        },
+        {
+          "label": "129cm / 4'3",
+          "code": "129"
+        },
+        {
+          "label": "130cm / 4'3",
+          "code": "130"
+        },
+        {
+          "label": "131cm / 4'4",
+          "code": "131"
+        },
+        {
+          "label": "132cm / 4'4",
+          "code": "132"
+        },
+        {
+          "label": "133cm / 4'4",
+          "code": "133"
+        },
+        {
+          "label": "134cm / 4'5",
+          "code": "134"
+        },
+        {
+          "label": "135cm / 4'5",
+          "code": "135"
+        },
+        {
+          "label": "136cm / 4'6",
+          "code": "136"
+        },
+        {
+          "label": "137cm / 4'6",
+          "code": "137"
+        },
+        {
+          "label": "138cm / 4'6",
+          "code": "138"
+        },
+        {
+          "label": "139cm / 4'7",
+          "code": "139"
+        },
+        {
+          "label": "140cm / 4'7",
+          "code": "140"
+        },
+        {
+          "label": "141cm / 4'8",
+          "code": "141"
+        },
+        {
+          "label": "142cm / 4'8",
+          "code": "142"
+        },
+        {
+          "label": "143cm / 4'8",
+          "code": "143"
+        },
+        {
+          "label": "144cm / 4'9",
+          "code": "144"
+        },
+        {
+          "label": "145cm / 4'9",
+          "code": "145"
+        },
+        {
+          "label": "146cm / 4'9",
+          "code": "146"
+        },
+        {
+          "label": "147cm / 4'10",
+          "code": "147"
+        },
+        {
+          "label": "148cm / 4'10",
+          "code": "148"
+        },
+        {
+          "label": "149cm / 4'11",
+          "code": "149"
+        },
+        {
+          "label": "150cm / 4'11",
+          "code": "150"
+        },
+        {
+          "label": "151cm / 4'11",
+          "code": "151"
+        },
+        {
+          "label": "152cm / 5",
+          "code": "152"
+        },
+        {
+          "label": "153cm / 5",
+          "code": "153"
+        },
+        {
+          "label": "154cm / 5'1",
+          "code": "154"
+        },
+        {
+          "label": "155cm / 5'1",
+          "code": "155"
+        },
+        {
+          "label": "156cm / 5'1",
+          "code": "156"
+        },
+        {
+          "label": "157cm / 5'2",
+          "code": "157"
+        },
+        {
+          "label": "158cm / 5'2",
+          "code": "158"
+        },
+        {
+          "label": "159cm / 5'3",
+          "code": "159"
+        },
+        {
+          "label": "160cm / 5'3",
+          "code": "160"
+        },
+        {
+          "label": "161cm / 5'3",
+          "code": "161"
+        },
+        {
+          "label": "162cm / 5'4",
+          "code": "162"
+        },
+        {
+          "label": "163cm / 5'4",
+          "code": "163"
+        },
+        {
+          "label": "164cm / 5'5",
+          "code": "164"
+        },
+        {
+          "label": "165cm / 5'5",
+          "code": "165"
+        },
+        {
+          "label": "166cm / 5'5",
+          "code": "166"
+        },
+        {
+          "label": "167cm / 5'6",
+          "code": "167"
+        },
+        {
+          "label": "168cm / 5'6",
+          "code": "168"
+        },
+        {
+          "label": "169cm / 5'7",
+          "code": "169"
+        },
+        {
+          "label": "170cm / 5'7",
+          "code": "170"
+        },
+        {
+          "label": "171cm / 5'7",
+          "code": "171"
+        },
+        {
+          "label": "172cm / 5'8",
+          "code": "172"
+        },
+        {
+          "label": "173cm / 5'8",
+          "code": "173"
+        },
+        {
+          "label": "174cm / 5'9",
+          "code": "174"
+        },
+        {
+          "label": "175cm / 5'9",
+          "code": "175"
+        },
+        {
+          "label": "176cm / 5'9",
+          "code": "176"
+        },
+        {
+          "label": "177cm / 5'10",
+          "code": "177"
+        },
+        {
+          "label": "178cm / 5'10",
+          "code": "178"
+        },
+        {
+          "label": "179cm / 5'10",
+          "code": "179"
+        },
+        {
+          "label": "180cm / 5'11",
+          "code": "180"
+        },
+        {
+          "label": "181cm / 5'11",
+          "code": "181"
+        },
+        {
+          "label": "182cm / 6",
+          "code": "182"
+        },
+        {
+          "label": "183cm / 6",
+          "code": "183"
+        },
+        {
+          "label": "184cm / 6",
+          "code": "184"
+        },
+        {
+          "label": "185cm / 6'1",
+          "code": "185"
+        },
+        {
+          "label": "186cm / 6'1",
+          "code": "186"
+        },
+        {
+          "label": "187cm / 6'2",
+          "code": "187"
+        },
+        {
+          "label": "188cm / 6'2",
+          "code": "188"
+        },
+        {
+          "label": "189cm / 6'2",
+          "code": "189"
+        },
+        {
+          "label": "190cm / 6'3",
+          "code": "190"
+        },
+        {
+          "label": "191cm / 6'3",
+          "code": "191"
+        },
+        {
+          "label": "192cm / 6'4",
+          "code": "192"
+        },
+        {
+          "label": "193cm / 6'4",
+          "code": "193"
+        },
+        {
+          "label": "194cm / 6'4",
+          "code": "194"
+        },
+        {
+          "label": "195cm / 6'5",
+          "code": "195"
+        },
+        {
+          "label": "196cm / 6'5",
+          "code": "196"
+        },
+        {
+          "label": "197cm / 6'6",
+          "code": "197"
+        },
+        {
+          "label": "198cm / 6'6",
+          "code": "198"
+        },
+        {
+          "label": "199cm / 6'6",
+          "code": "199"
+        },
+        {
+          "label": "200cm / 6'7",
+          "code": "200"
+        },
+        {
+          "label": "201cm / 6'7",
+          "code": "201"
+        },
+        {
+          "label": "202cm / 6'8",
+          "code": "202"
+        },
+        {
+          "label": "203cm / 6'8",
+          "code": "203"
+        },
+        {
+          "label": "204cm / 6'8",
+          "code": "204"
+        },
+        {
+          "label": "205cm / 6'9",
+          "code": "205"
+        },
+        {
+          "label": "206cm / 6'9",
+          "code": "206"
+        },
+        {
+          "label": "207cm / 6'9",
+          "code": "207"
+        },
+        {
+          "label": "208cm / 6'10",
+          "code": "208"
+        },
+        {
+          "label": "209cm / 6'10",
+          "code": "209"
+        },
+        {
+          "label": "210cm / 6'11",
+          "code": "210"
+        },
+        {
+          "label": "211cm / 6'11",
+          "code": "211"
+        },
+        {
+          "label": "212cm / 6'11",
+          "code": "212"
+        }
+      ]
+    },
+    "body_type": {
+      "label": "Body Type",
+      "sub_division": [
+        {
+          "label": "Select",
+          "code": "0"
+        },
+        {
+          "label": "Fat",
+          "code": "1"
+        },
+        {
+          "label": "Medium",
+          "code": "2"
+        },
+        {
+          "label": "Thin",
+          "code": "3"
+        },
+        {
+          "label": "Thin",
+          "code": "4"
+        }
+      ]
+    },
+    "complexion": {
+      "label": "Complexion",
+      "sub_division": [
+        {
+          "label": "Select",
+          "code": "0"
+        },
+        {
+          "label": "Dark",
+          "code": "1"
+        },
+        {
+          "label": "Fair",
+          "code": "2"
+        },
+        {
+          "label": "Medium",
+          "code": "3"
+        },
+        {
+          "label": "Very Fair",
+          "code": "4"
+        },
+        {
+          "label": "Wheatish",
+          "code": "5"
+        }
+      ]
+    },
+    "physical_status": {
+      "label": "Physical status",
+      "sub_division": [
+        {
+          "label": "Select",
+          "code": "0"
+        },
+        {
+          "label": "Handicapped",
+          "code": "1"
+        },
+        {
+          "label": "Normal",
+          "code": "2"
+        }
+      ]
+    },
+    "blood_group": {
+      "label": "Blood Group",
+      "sub_division": [
+        {
+          "code": "0",
+          "label": "A+"
+        },
+        {
+          "code": "1",
+          "label": "A-"
+        },
+        {
+          "code": "2",
+          "label": "AB+"
+        },
+        {
+          "code": "3",
+          "label": "AB-"
+        },
+        {
+          "code": "4",
+          "label": "B+"
+        },
+        {
+          "code": "5",
+          "label": "B-"
+        },
+        {
+          "code": "6",
+          "label": "O+"
+        },
+        {
+          "code": "7",
+          "label": "O-"
+        }
+      ]
+    },
+    "eating_habits": {
+      "label": "Eating habits",
+      "sub_division": [
+        {
+          "code": "0",
+          "label": "Eggetarian"
+        },
+        {
+          "code": "1",
+          "label": "Non Veg "
+        },
+        {
+          "code": "2",
+          "label": "Veg"
+        }
+      ]
+    },
+    "drinking_habits": {
+      "label": "Drinking habits",
+      "sub_division": [
+        {
+          "code": "0",
+          "label": "Daily "
+        },
+        {
+          "code": "1",
+          "label": "Never"
+        },
+        {
+          "code": "2",
+          "label": "Occasionally"
+        }
+      ]
+    },
+    "stars": {
+      "label": "Stars",
+      "sub_division": [
+        {
+          "code": "0",
+          "label": "Anizham"
+        },
+        {
+          "code": "1",
+          "label": "Aswathi"
+        },
+        {
+          "code": "2",
+          "label": "Atham"
+        },
+        {
+          "code": "3",
+          "label": "Avittam"
+        },
+        {
+          "code": "4",
+          "label": "Ayilyam"
+        },
+        {
+          "code": "5",
+          "label": "Bharani"
+        },
+        {
+          "code": "6",
+          "label": "Chadayam"
+        },
+        {
+          "code": "7",
+          "label": "Chithira"
+        },
+        {
+          "code": "8",
+          "label": "Chothi"
+        },
+        {
+          "code": "9",
+          "label": "Karthika"
+        },
+        {
+          "code": "10",
+          "label": "Magam"
+        },
+        {
+          "code": "11",
+          "label": "Makayiram"
+        },
+        {
+          "code": "12",
+          "label": "Moolam"
+        },
+        {
+          "code": "13",
+          "label": "Pooradam"
+        },
+        {
+          "code": "14",
+          "label": "Pooram"
+        },
+        {
+          "code": "15",
+          "label": "Pooruruttathi"
+        },
+        {
+          "code": "16",
+          "label": "Pooyam"
+        },
+        {
+          "code": "17",
+          "label": "Punartham"
+        },
+        {
+          "code": "18",
+          "label": "Revathi"
+        },
+        {
+          "code": "19",
+          "label": "Rohini"
+        },
+        {
+          "code": "20",
+          "label": "Thiruvathira"
+        },
+        {
+          "code": "21",
+          "label": "Thiruvonam"
+        },
+        {
+          "code": "22",
+          "label": "Triketta"
+        },
+        {
+          "code": "23",
+          "label": "Uthradam"
+        },
+        {
+          "code": "24",
+          "label": "Uthram"
+        },
+        {
+          "code": "25",
+          "label": "Uthratathi"
+        },
+        {
+          "code": "26",
+          "label": "Vishakam"
+        }
+      ]
+    },
+    "raasi": {
+      "label": "Raasi",
+      "sub_division": [
+        {
+          "code": "0",
+          "label": "Chingam Rasi"
+        },
+        {
+          "code": "1",
+          "label": "Dhanu Rasi"
+        },
+        {
+          "code": "2",
+          "label": "Edavam Rasi"
+        },
+        {
+          "code": "3",
+          "label": "Kanni Rasi"
+        },
+        {
+          "code": "4",
+          "label": "Karkadakam Rasi"
+        },
+        {
+          "code": "5",
+          "label": "Kumbham Rasi"
+        },
+        {
+          "code": "6",
+          "label": "Makaram Rasi"
+        },
+        {
+          "code": "7",
+          "label": "Medam Rasi"
+        },
+        {
+          "code": "8",
+          "label": "Midhunam Rasi"
+        },
+        {
+          "code": "9",
+          "label": "Minam Rasi"
+        },
+        {
+          "code": "10",
+          "label": "Tulam Rasi"
+        },
+        {
+          "code": "11",
+          "label": "Vrschikam Rasi"
+        }
+      ]
+    },
+    "type_of_jathakam": {
+      "label": "Type of jathakam",
+      "sub_division": [
+        {
+          "code": "0",
+          "label": "Chowa Dosham"
+        },
+        {
+          "code": "1",
+          "label": "Normal Jadhakam"
+        },
+        {
+          "code": "2",
+          "label": "Paapa Jadhakam"
+        },
+        {
+          "code": "3",
+          "label": "Sudha Jadhakam"
+        }
+      ]
+    },
+    "religion": {
+      "label": "Religion",
+      "sub_division": [
+        {
+          "label": "Hindu",
+          "code": "0",
+          "sub_division": [
+            {
+              "code": " 0",
+              "label": "Adhi Dravida"
+            },
+            {
+              "code": " 1",
+              "label": "Adiyan"
+            },
+            {
+              "code": " 2",
+              "label": "Adiyodi"
+            },
+            {
+              "code": " 3",
+              "label": "Aiyyer"
+            },
+            {
+              "code": " 4",
+              "label": "Ambalavasi"
+            },
+            {
+              "code": " 5",
+              "label": "Araya"
+            },
+            {
+              "code": " 6",
+              "label": "Arunthadiyar"
+            },
+            {
+              "code": " 7",
+              "label": "Arya Vysya"
+            },
+            {
+              "code": " 8",
+              "label": "Ayyanavar"
+            },
+            {
+              "code": " 9",
+              "label": "Bharathar"
+            },
+            {
+              "code": "10",
+              "label": "Bhattathiri"
+            },
+            {
+              "code": "11",
+              "label": "Blacksmith"
+            },
+            {
+              "code": "12",
+              "label": "Brahmin"
+            },
+            {
+              "code": "13",
+              "label": "Brahmin - Tamil"
+            },
+            {
+              "code": "14",
+              "label": "Carpenter"
+            },
+            {
+              "code": "15",
+              "label": "Chakkala Nair"
+            },
+            {
+              "code": "16",
+              "label": "Chakliyan"
+            },
+            {
+              "code": "17",
+              "label": "Chavalakaran"
+            },
+            {
+              "code": "18",
+              "label": "Cheramar"
+            },
+            {
+              "code": "19",
+              "label": "Cheruman"
+            },
+            {
+              "code": "20",
+              "label": "Chettiyar"
+            },
+            {
+              "code": "21",
+              "label": "Chetty"
+            },
+            {
+              "code": "22",
+              "label": "Chetty - Tamil"
+            },
+            {
+              "code": "23",
+              "label": "Devender"
+            },
+            {
+              "code": "24",
+              "label": "Dheevara"
+            },
+            {
+              "code": "25",
+              "label": "Elayathu"
+            },
+            {
+              "code": "26",
+              "label": "Embrandiri"
+            },
+            {
+              "code": "27",
+              "label": "Ezhava"
+            },
+            {
+              "code": "28",
+              "label": "Ezhavathy"
+            },
+            {
+              "code": "29",
+              "label": "Ezhuthachan"
+            },
+            {
+              "code": "30",
+              "label": "Ganaka"
+            },
+            {
+              "code": "31",
+              "label": "Gauda Sar. Brahmin"
+            },
+            {
+              "code": "32",
+              "label": "Goldsmith"
+            },
+            {
+              "code": "33",
+              "label": "Gupthan"
+            },
+            {
+              "code": "34",
+              "label": "Guruckal"
+            },
+            {
+              "code": "35",
+              "label": "Haveega Brahmin"
+            },
+            {
+              "code": "36",
+              "label": "Ilayath"
+            },
+            {
+              "code": "37",
+              "label": "Iyengar"
+            },
+            {
+              "code": "38",
+              "label": "Iyer"
+            },
+            {
+              "code": "39",
+              "label": "Jain"
+            },
+            {
+              "code": "40",
+              "label": "Kadaiyan"
+            },
+            {
+              "code": "41",
+              "label": "Kaimal"
+            },
+            {
+              "code": "42",
+              "label": "Kakkalan"
+            },
+            {
+              "code": "43",
+              "label": "Kalari Kuruppu"
+            },
+            {
+              "code": "44",
+              "label": "Kalari Panicker"
+            },
+            {
+              "code": "45",
+              "label": "Kammalar"
+            },
+            {
+              "code": "46",
+              "label": "Kanakkan"
+            },
+            {
+              "code": "47",
+              "label": "Kani"
+            },
+            {
+              "code": "48",
+              "label": "Kanisan"
+            },
+            {
+              "code": "49",
+              "label": "Kaniyan"
+            },
+            {
+              "code": "50",
+              "label": "Kartha"
+            },
+            {
+              "code": "51",
+              "label": "Karuvan"
+            },
+            {
+              "code": "52",
+              "label": "Kavadia"
+            },
+            {
+              "code": "53",
+              "label": "Kavuthiyya"
+            },
+            {
+              "code": "54",
+              "label": "Kitaran"
+            },
+            {
+              "code": "55",
+              "label": "Koodan"
+            },
+            {
+              "code": "56",
+              "label": "Kshathriya"
+            },
+            {
+              "code": "57",
+              "label": "Kudumbi"
+            },
+            {
+              "code": "58",
+              "label": "Kulala"
+            },
+            {
+              "code": "59",
+              "label": "Kumbaran"
+            },
+            {
+              "code": "60",
+              "label": "Kunbi"
+            },
+            {
+              "code": "61",
+              "label": "Kurava"
+            },
+            {
+              "code": "62",
+              "label": "Kurmi"
+            },
+            {
+              "code": "63",
+              "label": "Kuruba"
+            },
+            {
+              "code": "64",
+              "label": "Kurukkal"
+            },
+            {
+              "code": "65",
+              "label": "Kuruppu"
+            },
+            {
+              "code": "66",
+              "label": "Kusava"
+            },
+            {
+              "code": "67",
+              "label": "Malayan"
+            },
+            {
+              "code": "68",
+              "label": "Malayarayan"
+            },
+            {
+              "code": "69",
+              "label": "Maniyani Nair"
+            },
+            {
+              "code": "70",
+              "label": "Mannadiar"
+            },
+            {
+              "code": "71",
+              "label": "Mannan"
+            },
+            {
+              "code": "72",
+              "label": "Marar"
+            },
+            {
+              "code": "73",
+              "label": "Maruthuvar"
+            },
+            {
+              "code": "74",
+              "label": "Mason"
+            },
+            {
+              "code": "75",
+              "label": "Menon"
+            },
+            {
+              "code": "76",
+              "label": "Moger"
+            },
+            {
+              "code": "77",
+              "label": "Mooppanar"
+            },
+            {
+              "code": "78",
+              "label": "Moosari"
+            },
+            {
+              "code": "79",
+              "label": "Moosath"
+            },
+            {
+              "code": "80",
+              "label": "Moothan"
+            },
+            {
+              "code": "81",
+              "label": "Mukaya"
+            },
+            {
+              "code": "82",
+              "label": "Mukkuva"
+            },
+            {
+              "code": "83",
+              "label": "Muthaliyar"
+            },
+            {
+              "code": "84",
+              "label": "Muthuvan"
+            },
+            {
+              "code": "85",
+              "label": "Nadar"
+            },
+            {
+              "code": "86",
+              "label": "Naidu"
+            },
+            {
+              "code": "87",
+              "label": "Naiker"
+            },
+            {
+              "code": "88",
+              "label": "Nair"
+            },
+            {
+              "code": "89",
+              "label": "Nambeesan"
+            },
+            {
+              "code": "90",
+              "label": "Nambiar"
+            },
+            {
+              "code": "91",
+              "label": "Nambidi"
+            },
+            {
+              "code": "92",
+              "label": "Namboothiri"
+            },
+            {
+              "code": "93",
+              "label": "Odan"
+            },
+            {
+              "code": "94",
+              "label": "Oorali"
+            },
+            {
+              "code": "95",
+              "label": "Others"
+            },
+            {
+              "code": "96",
+              "label": "Padanna"
+            },
+            {
+              "code": "97",
+              "label": "Panan"
+            },
+            {
+              "code": "98",
+              "label": "Pandithar"
+            },
+            {
+              "code": "99",
+              "label": "Panicker"
+            },
+            {
+              "code": "100",
+              "label": "Paravar"
+            },
+            {
+              "code": "101",
+              "label": "Paraya"
+            },
+            {
+              "code": "102",
+              "label": "Pathiyan"
+            },
+            {
+              "code": "103",
+              "label": "Pattarya"
+            },
+            {
+              "code": "104",
+              "label": "Perumannan"
+            },
+            {
+              "code": "105",
+              "label": "Peruvannan"
+            },
+            {
+              "code": "106",
+              "label": "Pillai"
+            },
+            {
+              "code": "107",
+              "label": "Pisharody"
+            },
+            {
+              "code": "108",
+              "label": "Poduval"
+            },
+            {
+              "code": "109",
+              "label": "Potti"
+            },
+            {
+              "code": "110",
+              "label": "Prajapati"
+            },
+            {
+              "code": "111",
+              "label": "Pulaya"
+            },
+            {
+              "code": "112",
+              "label": "Pulluvan"
+            },
+            {
+              "code": "113",
+              "label": "Pushpakaunni"
+            },
+            {
+              "code": "114",
+              "label": "Reddy"
+            },
+            {
+              "code": "115",
+              "label": "S/C-S/T"
+            },
+            {
+              "code": "116",
+              "label": "Saiva Pillai"
+            },
+            {
+              "code": "117",
+              "label": "Saliya"
+            },
+            {
+              "code": "118",
+              "label": "Samantha"
+            },
+            {
+              "code": "119",
+              "label": "Sambava"
+            },
+            {
+              "code": "120",
+              "label": "Scheduled Caste"
+            },
+            {
+              "code": "121",
+              "label": "Shetty"
+            },
+            {
+              "code": "122",
+              "label": "Sidhanar"
+            },
+            {
+              "code": "123",
+              "label": "Tamil Yadava"
+            },
+            {
+              "code": "124",
+              "label": "Telugu Brahmin"
+            },
+            {
+              "code": "125",
+              "label": "Thakur"
+            },
+            {
+              "code": "126",
+              "label": "Thandan"
+            },
+            {
+              "code": "127",
+              "label": "Tharakan"
+            },
+            {
+              "code": "128",
+              "label": "Thevar"
+            },
+            {
+              "code": "129",
+              "label": "Thiyya"
+            },
+            {
+              "code": "130",
+              "label": "Tulu Brahmin"
+            },
+            {
+              "code": "131",
+              "label": "Udayar"
+            },
+            {
+              "code": "132",
+              "label": "Ullada"
+            },
+            {
+              "code": "133",
+              "label": "Unknown"
+            },
+            {
+              "code": "134",
+              "label": "Unnithan"
+            },
+            {
+              "code": "135",
+              "label": "V-Nair"
+            },
+            {
+              "code": "136",
+              "label": "Vaduka"
+            },
+            {
+              "code": "137",
+              "label": "Vaishnav"
+            },
+            {
+              "code": "138",
+              "label": "Vala"
+            },
+            {
+              "code": "139",
+              "label": "Valluvan"
+            },
+            {
+              "code": "140",
+              "label": "Vania"
+            },
+            {
+              "code": "141",
+              "label": "Vaniar"
+            },
+            {
+              "code": "142",
+              "label": "Vannan"
+            },
+            {
+              "code": "143",
+              "label": "Vanniyar"
+            },
+            {
+              "code": "144",
+              "label": "Varma"
+            },
+            {
+              "code": "145",
+              "label": "Vedan"
+            },
+            {
+              "code": "146",
+              "label": "Veerashaiva"
+            },
+            {
+              "code": "147",
+              "label": "Velaan"
+            },
+            {
+              "code": "148",
+              "label": "Velan"
+            },
+            {
+              "code": "149",
+              "label": "Velar"
+            },
+            {
+              "code": "150",
+              "label": "Vellala Pillai"
+            },
+            {
+              "code": "151",
+              "label": "Vellalar"
+            },
+            {
+              "code": "152",
+              "label": "Vellama"
+            },
+            {
+              "code": "153",
+              "label": "Veluthedathu Nair"
+            },
+            {
+              "code": "154",
+              "label": "Venniar"
+            },
+            {
+              "code": "155",
+              "label": "Vettuva"
+            },
+            {
+              "code": "156",
+              "label": "Vilakkithala Nair"
+            },
+            {
+              "code": "157",
+              "label": "Vill Kurup"
+            },
+            {
+              "code": "158",
+              "label": "Viswabrahmin"
+            },
+            {
+              "code": "159",
+              "label": "Viswakarma"
+            },
+            {
+              "code": "160",
+              "label": "Viswakarma (C)"
+            },
+            {
+              "code": "161",
+              "label": "Vysya"
+            },
+            {
+              "code": "162",
+              "label": "Warrier"
+            },
+            {
+              "code": "163",
+              "label": "Yadava"
+            },
+            {
+              "code": "164",
+              "label": "Yogi Gurukkal"
+            }
+          ]
+        },
+        {
+          "label": "Islam",
+          "code": "1",
+          "sub_division": [
+            {
+              "code": "0",
+              "label": "Ahmedia"
+            },
+            {
+              "code": "1",
+              "label": "Anafi"
+            },
+            {
+              "code": "2",
+              "label": "Islam"
+            },
+            {
+              "code": "3",
+              "label": "Jamaat"
+            },
+            {
+              "code": "4",
+              "label": "Mappila"
+            },
+            {
+              "code": "5",
+              "label": "Mujahid"
+            },
+            {
+              "code": "6",
+              "label": "Others"
+            },
+            {
+              "code": "7",
+              "label": "Pakhni"
+            },
+            {
+              "code": "8",
+              "label": "Pattanies"
+            },
+            {
+              "code": "9",
+              "label": "Rowther"
+            },
+            {
+              "code": "10",
+              "label": "Shafi"
+            },
+            {
+              "code": "11",
+              "label": "Shia"
+            },
+            {
+              "code": "12",
+              "label": "Sunni"
+            },
+            {
+              "code": "13",
+              "label": "Thangal"
+            },
+            {
+              "code": "14",
+              "label": "Unknown"
+            }
+          ]
+        },
+        {
+          "label": "Christian",
+          "code": "2",
+          "sub_division": [
+            {
+              "code": "0",
+              "label": "Anglo Indian"
+            },
+            {
+              "code": "1",
+              "label": "Born Again"
+            },
+            {
+              "code": "2",
+              "label": "Caldiyan Syrian"
+            },
+            {
+              "code": "3",
+              "label": "Cherumar"
+            },
+            {
+              "code": "4",
+              "label": "Christian-Nadar"
+            },
+            {
+              "code": "5",
+              "label": "CSI"
+            },
+            {
+              "code": "6",
+              "label": "Jacobite"
+            },
+            {
+              "code": "7",
+              "label": "Knanaya"
+            },
+            {
+              "code": "8",
+              "label": "Latin"
+            },
+            {
+              "code": "9",
+              "label": "Malankara"
+            },
+            {
+              "code": "10",
+              "label": "Marthoma"
+            },
+            {
+              "code": "11",
+              "label": "Orthodox"
+            },
+            {
+              "code": "12",
+              "label": "Others"
+            },
+            {
+              "code": "13",
+              "label": "Pentecost"
+            },
+            {
+              "code": "14",
+              "label": "Protestant"
+            },
+            {
+              "code": "15",
+              "label": "Roman Catholic"
+            },
+            {
+              "code": "16",
+              "label": "Sambava-Christians"
+            },
+            {
+              "code": "17",
+              "label": "Unknown"
+            },
+            {
+              "code": "18",
+              "label": "X'AN"
+            }
+          ]
+        }
+      ]
+    },
+    "education": {
+      "label": "Education",
+      "sub_division": [
+        {
+          "code": "0",
+          "label": "Aviation Degree"
+        },
+        {
+          "code": "1",
+          "label": "B.A."
+        },
+        {
+          "code": "2",
+          "label": "B.A.M.S."
+        },
+        {
+          "code": "3",
+          "label": "B.Arch"
+        },
+        {
+          "code": "4",
+          "label": "B.Com."
+        },
+        {
+          "code": "5",
+          "label": "B.Ed."
+        },
+        {
+          "code": "6",
+          "label": "B.L."
+        },
+        {
+          "code": "7",
+          "label": "B.M.M."
+        },
+        {
+          "code": "8",
+          "label": "B.Pharm"
+        },
+        {
+          "code": "9",
+          "label": "B.Phil."
+        },
+        {
+          "code": "10",
+          "label": "B.Plan"
+        },
+        {
+          "code": "11",
+          "label": "B.S.(Engineering)"
+        },
+        {
+          "code": "12",
+          "label": "B.S.W"
+        },
+        {
+          "code": "13",
+          "label": "B.Sc IT/ Computer Science"
+        },
+        {
+          "code": "14",
+          "label": "B.Sc."
+        },
+        {
+          "code": "15",
+          "label": "B.Sc. Nursing"
+        },
+        {
+          "code": "16",
+          "label": "B.Tech"
+        },
+        {
+          "code": "17",
+          "label": "BBA"
+        },
+        {
+          "code": "18",
+          "label": "BCA"
+        },
+        {
+          "code": "19",
+          "label": "BDS"
+        },
+        {
+          "code": "20",
+          "label": "BE"
+        },
+        {
+          "code": "21",
+          "label": "BFA"
+        },
+        {
+          "code": "22",
+          "label": "BFM (Financial Management)"
+        },
+        {
+          "code": "23",
+          "label": "BFT"
+        },
+        {
+          "code": "24",
+          "label": "BGL"
+        },
+        {
+          "code": "25",
+          "label": "BHM (Hotel Management)"
+        },
+        {
+          "code": "26",
+          "label": "BHMS"
+        },
+        {
+          "code": "27",
+          "label": "BLIS"
+        },
+        {
+          "code": "28",
+          "label": "BPT"
+        },
+        {
+          "code": "29",
+          "label": "BSMS"
+        },
+        {
+          "code": "30",
+          "label": "BUMS"
+        },
+        {
+          "code": "31",
+          "label": "BVSc"
+        },
+        {
+          "code": "32",
+          "label": "CA"
+        },
+        {
+          "code": "33",
+          "label": "CA Inter"
+        },
+        {
+          "code": "34",
+          "label": "CFA (Chartered Financial Analyst)"
+        },
+        {
+          "code": "35",
+          "label": "CS"
+        },
+        {
+          "code": "36",
+          "label": "D.Pharm"
+        },
+        {
+          "code": "37",
+          "label": "Diploma"
+        },
+        {
+          "code": "38",
+          "label": "GNM"
+        },
+        {
+          "code": "39",
+          "label": "IAS"
+        },
+        {
+          "code": "40",
+          "label": "IATA"
+        },
+        {
+          "code": "41",
+          "label": "ICWA"
+        },
+        {
+          "code": "42",
+          "label": "ICWA Inter"
+        },
+        {
+          "code": "43",
+          "label": "IES"
+        },
+        {
+          "code": "44",
+          "label": "IFS"
+        },
+        {
+          "code": "45",
+          "label": "IPS"
+        },
+        {
+          "code": "46",
+          "label": "IRS"
+        },
+        {
+          "code": "47",
+          "label": "ITI / ITC / Trade School Diploma"
+        },
+        {
+          "code": "48",
+          "label": "LL.B."
+        },
+        {
+          "code": "49",
+          "label": "LL.M."
+        },
+        {
+          "code": "50",
+          "label": "M.A."
+        },
+        {
+          "code": "51",
+          "label": "M.Arch."
+        },
+        {
+          "code": "52",
+          "label": "M.Ed."
+        },
+        {
+          "code": "53",
+          "label": "M.L."
+        },
+        {
+          "code": "54",
+          "label": "M.Pharm"
+        },
+        {
+          "code": "55",
+          "label": "M.Phil."
+        },
+        {
+          "code": "56",
+          "label": "M.S.(Engg.)"
+        },
+        {
+          "code": "57",
+          "label": "M.Sc."
+        },
+        {
+          "code": "58",
+          "label": "M.Sc. IT / Computer Science"
+        },
+        {
+          "code": "59",
+          "label": "M.Sc. Nursing"
+        },
+        {
+          "code": "60",
+          "label": "M.Tech."
+        },
+        {
+          "code": "61",
+          "label": "MBA"
+        },
+        {
+          "code": "62",
+          "label": "MBBS"
+        },
+        {
+          "code": "63",
+          "label": "MCA"
+        },
+        {
+          "code": "64",
+          "label": "MCJ"
+        },
+        {
+          "code": "65",
+          "label": "MCom"
+        },
+        {
+          "code": "66",
+          "label": "ME"
+        },
+        {
+          "code": "67",
+          "label": "MFA"
+        },
+        {
+          "code": "68",
+          "label": "MFM (Financial Management)"
+        },
+        {
+          "code": "69",
+          "label": "MHM (Hotel Management)"
+        },
+        {
+          "code": "70",
+          "label": "MHRM (Human Resource Management)"
+        },
+        {
+          "code": "71",
+          "label": "MLIS"
+        },
+        {
+          "code": "72",
+          "label": "MSW"
+        },
+        {
+          "code": "73",
+          "label": "Other Bachelor Degree in Arts / Science / Commerce"
+        },
+        {
+          "code": "74",
+          "label": "Other Bachelor Degree in Engineering / Computers"
+        },
+        {
+          "code": "75",
+          "label": "Other Bachelor Degree in Low / Legal"
+        },
+        {
+          "code": "76",
+          "label": "Other Bachelor Degree in Management"
+        },
+        {
+          "code": "77",
+          "label": "Other Bachelor Degree in Medicine"
+        },
+        {
+          "code": "78",
+          "label": "Other Degree in Civil Service"
+        },
+        {
+          "code": "79",
+          "label": "Other Degree in Finance"
+        },
+        {
+          "code": "80",
+          "label": "Other Master / Bachelor Degree in Medicine"
+        },
+        {
+          "code": "81",
+          "label": "Other Master Degree in Low / Legal"
+        },
+        {
+          "code": "82",
+          "label": "Other Master Degree in Arts / Science / Commerce"
+        },
+        {
+          "code": "83",
+          "label": "Other Master Degree in Management"
+        },
+        {
+          "code": "84",
+          "label": "Other Masters Degree in Engineering / Computers"
+        },
+        {
+          "code": "85",
+          "label": "Others in Diploma"
+        },
+        {
+          "code": "86",
+          "label": "PGDCA / PGDBA / PG Diploma"
+        },
+        {
+          "code": "87",
+          "label": "PGDM"
+        },
+        {
+          "code": "88",
+          "label": "Pharm D"
+        },
+        {
+          "code": "89",
+          "label": "Polytechnic"
+        },
+        {
+          "code": "90",
+          "label": "TTC"
+        },
+        {
+          "code": "91",
+          "label": "Other"
+        }
+      ]
+    },
+    "job": {
+      "label": "Job",
+      "sub_division": [
+        {
+          "label": "Above Gazetted cadre",
+          "code": "0"
+        },
+        {
+          "label": "Account Representative",
+          "code": "1"
+        },
+        {
+          "label": "Accountant",
+          "code": "2"
+        },
+        {
+          "label": "Accounting Analyst",
+          "code": "3"
+        },
+        {
+          "label": "Accounting Director",
+          "code": "4"
+        },
+        {
+          "label": "Accounting Staff",
+          "code": "5"
+        },
+        {
+          "label": "Accounts",
+          "code": "6"
+        },
+        {
+          "label": "Accounts Payable/Receivable Clerk",
+          "code": "7"
+        },
+        {
+          "label": "Actor",
+          "code": "8"
+        },
+        {
+          "label": "Actuary",
+          "code": "9"
+        },
+        {
+          "label": "Addiction Counselor",
+          "code": "10"
+        },
+        {
+          "label": "Administrative",
+          "code": "11"
+        },
+        {
+          "label": "Administrator",
+          "code": "12"
+        },
+        {
+          "label": "Advertising",
+          "code": "13"
+        },
+        {
+          "label": "Advisor",
+          "code": "14"
+        },
+        {
+          "label": "Agriculture & Farming",
+          "code": "15"
+        },
+        {
+          "label": "Air Hostess",
+          "code": "16"
+        },
+        {
+          "label": "Airforce",
+          "code": "17"
+        },
+        {
+          "label": "Airline",
+          "code": "18"
+        },
+        {
+          "label": "Animal Breeder",
+          "code": "19"
+        },
+        {
+          "label": "Animal Control Officer",
+          "code": "20"
+        },
+        {
+          "label": "Animal Shelter Board Member",
+          "code": "21"
+        },
+        {
+          "label": "Animal Shelter Manager",
+          "code": "22"
+        },
+        {
+          "label": "Animal Shelter Volunteer",
+          "code": "23"
+        },
+        {
+          "label": "Animal Shelter Worker",
+          "code": "24"
+        },
+        {
+          "label": "Animal Trainer",
+          "code": "25"
+        },
+        {
+          "label": "Architect",
+          "code": "26"
+        },
+        {
+          "label": "Archivist",
+          "code": "27"
+        },
+        {
+          "label": "Army",
+          "code": "28"
+        },
+        {
+          "label": "Artist",
+          "code": "29"
+        },
+        {
+          "label": "Arts & Craftsman",
+          "code": "30"
+        },
+        {
+          "label": "ASI",
+          "code": "31"
+        },
+        {
+          "label": "Assistant Engineer",
+          "code": "32"
+        },
+        {
+          "label": "Assistant Golf Professional",
+          "code": "33"
+        },
+        {
+          "label": "Assistant Professor",
+          "code": "34"
+        },
+        {
+          "label": "Astronomer",
+          "code": "35"
+        },
+        {
+          "label": "Atmospheric Scientist",
+          "code": "36"
+        },
+        {
+          "label": "Attorney",
+          "code": "37"
+        },
+        {
+          "label": "Auditor",
+          "code": "38"
+        },
+        {
+          "label": "Bank Teller",
+          "code": "39"
+        },
+        {
+          "label": "Banking others",
+          "code": "40"
+        },
+        {
+          "label": "Barber",
+          "code": "41"
+        },
+        {
+          "label": "Barista",
+          "code": "42"
+        },
+        {
+          "label": "Beautician",
+          "code": "43"
+        },
+        {
+          "label": "Bellhop",
+          "code": "44"
+        },
+        {
+          "label": "Below Class 4",
+          "code": "45"
+        },
+        {
+          "label": "Benefits Manager",
+          "code": "46"
+        },
+        {
+          "label": "Biological Engineer",
+          "code": "47"
+        },
+        {
+          "label": "Biologist",
+          "code": "48"
+        },
+        {
+          "label": "Biostatistician",
+          "code": "49"
+        },
+        {
+          "label": "Board of Directors",
+          "code": "50"
+        },
+        {
+          "label": "Boilermaker",
+          "code": "51"
+        },
+        {
+          "label": "Bookkeeper",
+          "code": "52"
+        },
+        {
+          "label": "BPO",
+          "code": "53"
+        },
+        {
+          "label": "BSF",
+          "code": "54"
+        },
+        {
+          "label": "Budget Analyst",
+          "code": "55"
+        },
+        {
+          "label": "Building Inspector",
+          "code": "56"
+        },
+        {
+          "label": "Bus Driver",
+          "code": "57"
+        },
+        {
+          "label": "Bus Person",
+          "code": "58"
+        },
+        {
+          "label": "Business Analyst",
+          "code": "59"
+        },
+        {
+          "label": "Business Partners",
+          "code": "60"
+        },
+        {
+          "label": "C-Level or C-Suite.",
+          "code": "61"
+        },
+        {
+          "label": "Cab Driver",
+          "code": "62"
+        },
+        {
+          "label": "Cafeteria Worker",
+          "code": "63"
+        },
+        {
+          "label": "Call Center",
+          "code": "64"
+        },
+        {
+          "label": "Call Center Representative",
+          "code": "65"
+        },
+        {
+          "label": "Camera Operator",
+          "code": "66"
+        },
+        {
+          "label": "Caregiver",
+          "code": "67"
+        },
+        {
+          "label": "Caretaker or House Sitter",
+          "code": "68"
+        },
+        {
+          "label": "Carpenter",
+          "code": "69"
+        },
+        {
+          "label": "Casino Host",
+          "code": "70"
+        },
+        {
+          "label": "CEO",
+          "code": "71"
+        },
+        {
+          "label": "Chairman",
+          "code": "72"
+        },
+        {
+          "label": "Chartered Accountant",
+          "code": "73"
+        },
+        {
+          "label": "Chef",
+          "code": "74"
+        },
+        {
+          "label": "Chemical Engineer",
+          "code": "75"
+        },
+        {
+          "label": "Chemist",
+          "code": "76"
+        },
+        {
+          "label": "Chief Engineer",
+          "code": "77"
+        },
+        {
+          "label": "Chief People Officer",
+          "code": "78"
+        },
+        {
+          "label": "Chief Robot Whisperer",
+          "code": "79"
+        },
+        {
+          "label": "Church Volunteer",
+          "code": "80"
+        },
+        {
+          "label": "Circle Inspector",
+          "code": "81"
+        },
+        {
+          "label": "CISF",
+          "code": "82"
+        },
+        {
+          "label": "Civil Engineer",
+          "code": "83"
+        },
+        {
+          "label": "Civil Police Officer",
+          "code": "84"
+        },
+        {
+          "label": "Civil Services (IAS)",
+          "code": "85"
+        },
+        {
+          "label": "Cleaning",
+          "code": "86"
+        },
+        {
+          "label": "Clerk",
+          "code": "87"
+        },
+        {
+          "label": "Client Service Specialist",
+          "code": "88"
+        },
+        {
+          "label": "CNA",
+          "code": "89"
+        },
+        {
+          "label": "Columnist",
+          "code": "90"
+        },
+        {
+          "label": "Commercial Loan Officer",
+          "code": "91"
+        },
+        {
+          "label": "Communications Director",
+          "code": "92"
+        },
+        {
+          "label": "Community Food Project Worker",
+          "code": "93"
+        },
+        {
+          "label": "Community Volunteer Jobs",
+          "code": "94"
+        },
+        {
+          "label": "Company Employee",
+          "code": "95"
+        },
+        {
+          "label": "Company Secretary",
+          "code": "96"
+        },
+        {
+          "label": "Computer Animator",
+          "code": "97"
+        },
+        {
+          "label": "Concierge",
+          "code": "98"
+        },
+        {
+          "label": "Conductor",
+          "code": "99"
+        },
+        {
+          "label": "Conservation Scientist",
+          "code": "100"
+        },
+        {
+          "label": "Conservation Volunteer",
+          "code": "101"
+        },
+        {
+          "label": "Construction Worker",
+          "code": "102"
+        },
+        {
+          "label": "Consultant",
+          "code": "103"
+        },
+        {
+          "label": "Content Creator",
+          "code": "104"
+        },
+        {
+          "label": "Content Strategist",
+          "code": "105"
+        },
+        {
+          "label": "Content Writer",
+          "code": "106"
+        },
+        {
+          "label": "Continuous Improvement Consultant",
+          "code": "107"
+        },
+        {
+          "label": "Continuous Improvement Lead",
+          "code": "108"
+        },
+        {
+          "label": "Contractors",
+          "code": "109"
+        },
+        {
+          "label": "Controller",
+          "code": "110"
+        },
+        {
+          "label": "Cooli",
+          "code": "111"
+        },
+        {
+          "label": "Copy Editor",
+          "code": "112"
+        },
+        {
+          "label": "Copywriter",
+          "code": "113"
+        },
+        {
+          "label": "Cosmetologist",
+          "code": "114"
+        },
+        {
+          "label": "Counselor",
+          "code": "115"
+        },
+        {
+          "label": "Couples Counselor",
+          "code": "116"
+        },
+        {
+          "label": "Courier",
+          "code": "117"
+        },
+        {
+          "label": "Crane Operator",
+          "code": "118"
+        },
+        {
+          "label": "Credit Authorizer",
+          "code": "119"
+        },
+        {
+          "label": "Credit Counselor",
+          "code": "120"
+        },
+        {
+          "label": "CRPF",
+          "code": "121"
+        },
+        {
+          "label": "Cruise Director",
+          "code": "122"
+        },
+        {
+          "label": "Cruise Ship Attendant",
+          "code": "123"
+        },
+        {
+          "label": "Culture Operations Manager",
+          "code": "124"
+        },
+        {
+          "label": "Customer Care",
+          "code": "125"
+        },
+        {
+          "label": "Customer Care Associate",
+          "code": "126"
+        },
+        {
+          "label": "Customer Service",
+          "code": "127"
+        },
+        {
+          "label": "Customer Service Manager",
+          "code": "128"
+        },
+        {
+          "label": "Customer Support",
+          "code": "129"
+        },
+        {
+          "label": "Customer Support Representative",
+          "code": "130"
+        },
+        {
+          "label": "Daily Wage Employee",
+          "code": "131"
+        },
+        {
+          "label": "Data Analyst",
+          "code": "132"
+        },
+        {
+          "label": "Delivery Driver",
+          "code": "133"
+        },
+        {
+          "label": "Dental Hygienist",
+          "code": "134"
+        },
+        {
+          "label": "Deputy Supdt. Of Police",
+          "code": "135"
+        },
+        {
+          "label": "Designer",
+          "code": "136"
+        },
+        {
+          "label": "Digital Overlord",
+          "code": "137"
+        },
+        {
+          "label": "Director",
+          "code": "138"
+        },
+        {
+          "label": "Director of Bean Counting",
+          "code": "139"
+        },
+        {
+          "label": "Director of Ethical Hacking",
+          "code": "140"
+        },
+        {
+          "label": "Director of First Impressions",
+          "code": "141"
+        },
+        {
+          "label": "Director of Maintenance",
+          "code": "142"
+        },
+        {
+          "label": "Director of Photography",
+          "code": "143"
+        },
+        {
+          "label": "Director of Storytelling",
+          "code": "144"
+        },
+        {
+          "label": "Dispatcher for Trucks or Taxis",
+          "code": "145"
+        },
+        {
+          "label": "Doctor",
+          "code": "146"
+        },
+        {
+          "label": "Dog Walker / Pet Sitter",
+          "code": "147"
+        },
+        {
+          "label": "Drafter",
+          "code": "148"
+        },
+        {
+          "label": "Driver",
+          "code": "149"
+        },
+        {
+          "label": "Economist",
+          "code": "150"
+        },
+        {
+          "label": "Editor/Proofreader",
+          "code": "151"
+        },
+        {
+          "label": "Electrical Engineer",
+          "code": "152"
+        },
+        {
+          "label": "Electrician",
+          "code": "153"
+        },
+        {
+          "label": "Emergency Relief Worker",
+          "code": "154"
+        },
+        {
+          "label": "Engineer",
+          "code": "155"
+        },
+        {
+          "label": "Engineering Non IT",
+          "code": "156"
+        },
+        {
+          "label": "Engineering Technician",
+          "code": "157"
+        },
+        {
+          "label": "Entertainment",
+          "code": "158"
+        },
+        {
+          "label": "Entertainment Specialist",
+          "code": "159"
+        },
+        {
+          "label": "Entrepreneur",
+          "code": "160"
+        },
+        {
+          "label": "Esthetician",
+          "code": "161"
+        },
+        {
+          "label": "Event Management",
+          "code": "162"
+        },
+        {
+          "label": "Event Planner",
+          "code": "163"
+        },
+        {
+          "label": "Events Manager",
+          "code": "164"
+        },
+        {
+          "label": "Ex-Gulf",
+          "code": "165"
+        },
+        {
+          "label": "Excise",
+          "code": "166"
+        },
+        {
+          "label": "Executive",
+          "code": "167"
+        },
+        {
+          "label": "Executive Assistant",
+          "code": "168"
+        },
+        {
+          "label": "Farm Worker",
+          "code": "169"
+        },
+        {
+          "label": "Farmer",
+          "code": "170"
+        },
+        {
+          "label": "Fashion Designer",
+          "code": "171"
+        },
+        {
+          "label": "Fast Food Worker",
+          "code": "172"
+        },
+        {
+          "label": "Film Critic",
+          "code": "173"
+        },
+        {
+          "label": "Finance Director",
+          "code": "174"
+        },
+        {
+          "label": "Finance Manager",
+          "code": "175"
+        },
+        {
+          "label": "Finance Professional",
+          "code": "176"
+        },
+        {
+          "label": "Finance Service",
+          "code": "177"
+        },
+        {
+          "label": "Financial Accountant",
+          "code": "178"
+        },
+        {
+          "label": "Financial Analyst",
+          "code": "179"
+        },
+        {
+          "label": "Financial Planner",
+          "code": "180"
+        },
+        {
+          "label": "Financial Services Representative",
+          "code": "181"
+        },
+        {
+          "label": "Fireman",
+          "code": "182"
+        },
+        {
+          "label": "Flight Attendant",
+          "code": "183"
+        },
+        {
+          "label": "Food Kitchen Worker",
+          "code": "184"
+        },
+        {
+          "label": "Forest Guard",
+          "code": "185"
+        },
+        {
+          "label": "Founder",
+          "code": "186"
+        },
+        {
+          "label": "Franchise",
+          "code": "187"
+        },
+        {
+          "label": "Front Desk Associate",
+          "code": "188"
+        },
+        {
+          "label": "Front Desk Manager",
+          "code": "189"
+        },
+        {
+          "label": "Front Office Executive",
+          "code": "190"
+        },
+        {
+          "label": "Front-Line Employees",
+          "code": "191"
+        },
+        {
+          "label": "Funeral Attendant",
+          "code": "192"
+        },
+        {
+          "label": "Gazetted Officers",
+          "code": "193"
+        },
+        {
+          "label": "Geological Engineer",
+          "code": "194"
+        },
+        {
+          "label": "Geologist",
+          "code": "195"
+        },
+        {
+          "label": "Ghostwriter",
+          "code": "196"
+        },
+        {
+          "label": "Grant Writer",
+          "code": "197"
+        },
+        {
+          "label": "Graphic Designer",
+          "code": "198"
+        },
+        {
+          "label": "Ground Staff",
+          "code": "199"
+        },
+        {
+          "label": "Group Sales",
+          "code": "200"
+        },
+        {
+          "label": "Guidance Counselor",
+          "code": "201"
+        },
+        {
+          "label": "Habitat for Humanity Builder",
+          "code": "202"
+        },
+        {
+          "label": "Hair Stylist",
+          "code": "203"
+        },
+        {
+          "label": "Handyman",
+          "code": "204"
+        },
+        {
+          "label": "Hardware",
+          "code": "205"
+        },
+        {
+          "label": "Havildar",
+          "code": "206"
+        },
+        {
+          "label": "Head Clerk",
+          "code": "207"
+        },
+        {
+          "label": "Head Constable",
+          "code": "208"
+        },
+        {
+          "label": "Health Care",
+          "code": "209"
+        },
+        {
+          "label": "Heavy Equipment Operator",
+          "code": "210"
+        },
+        {
+          "label": "Help Desk",
+          "code": "211"
+        },
+        {
+          "label": "High School Assistant",
+          "code": "212"
+        },
+        {
+          "label": "Home Maker",
+          "code": "213"
+        },
+        {
+          "label": "Homeless Shelter Worker",
+          "code": "214"
+        },
+        {
+          "label": "Horticulture officer",
+          "code": "215"
+        },
+        {
+          "label": "Hospital Volunteer",
+          "code": "216"
+        },
+        {
+          "label": "Hospitality",
+          "code": "217"
+        },
+        {
+          "label": "Hospitality Executive",
+          "code": "218"
+        },
+        {
+          "label": "Hotel",
+          "code": "219"
+        },
+        {
+          "label": "Hotel Front Door Greeter",
+          "code": "220"
+        },
+        {
+          "label": "Hotel Manager",
+          "code": "221"
+        },
+        {
+          "label": "Hotel Receptionist",
+          "code": "222"
+        },
+        {
+          "label": "House Wife",
+          "code": "223"
+        },
+        {
+          "label": "Household",
+          "code": "224"
+        },
+        {
+          "label": "Housekeeper",
+          "code": "225"
+        },
+        {
+          "label": "HSST",
+          "code": "226"
+        },
+        {
+          "label": "Human Resources",
+          "code": "227"
+        },
+        {
+          "label": "HVAC Technician",
+          "code": "228"
+        },
+        {
+          "label": "IES",
+          "code": "229"
+        },
+        {
+          "label": "IFS",
+          "code": "230"
+        },
+        {
+          "label": "Instructors",
+          "code": "231"
+        },
+        {
+          "label": "Insurance",
+          "code": "232"
+        },
+        {
+          "label": "Interior Designer",
+          "code": "233"
+        },
+        {
+          "label": "IPS",
+          "code": "234"
+        },
+        {
+          "label": "Iron Worker",
+          "code": "235"
+        },
+        {
+          "label": "IRS",
+          "code": "236"
+        },
+        {
+          "label": "IT",
+          "code": "237"
+        },
+        {
+          "label": "ITBP",
+          "code": "238"
+        },
+        {
+          "label": "ITI",
+          "code": "239"
+        },
+        {
+          "label": "Journalist",
+          "code": "240"
+        },
+        {
+          "label": "Junior Supdt.",
+          "code": "241"
+        },
+        {
+          "label": "Juniour Assistant",
+          "code": "242"
+        },
+        {
+          "label": "Juniour Clerk",
+          "code": "243"
+        },
+        {
+          "label": "KPS)",
+          "code": "244"
+        },
+        {
+          "label": "Landscaping Assistant",
+          "code": "245"
+        },
+        {
+          "label": "Landscaping Worker",
+          "code": "246"
+        },
+        {
+          "label": "Last Grade",
+          "code": "247"
+        },
+        {
+          "label": "Late",
+          "code": "248"
+        },
+        {
+          "label": "Law Enforcement Officer",
+          "code": "249"
+        },
+        {
+          "label": "Lawyer & Legal",
+          "code": "250"
+        },
+        {
+          "label": "Lecturer",
+          "code": "251"
+        },
+        {
+          "label": "Librarian",
+          "code": "252"
+        },
+        {
+          "label": "Library Assistant",
+          "code": "253"
+        },
+        {
+          "label": "Life Coach",
+          "code": "254"
+        },
+        {
+          "label": "Line Cook",
+          "code": "255"
+        },
+        {
+          "label": "Locksmith",
+          "code": "256"
+        },
+        {
+          "label": "Lodging Manager",
+          "code": "257"
+        },
+        {
+          "label": "LP School Assistant",
+          "code": "258"
+        },
+        {
+          "label": "Machinery Operator",
+          "code": "259"
+        },
+        {
+          "label": "Mail Carrier",
+          "code": "260"
+        },
+        {
+          "label": "Maintenance Engineer",
+          "code": "261"
+        },
+        {
+          "label": "Makeup Artist",
+          "code": "262"
+        },
+        {
+          "label": "Management Consultant",
+          "code": "263"
+        },
+        {
+          "label": "Manager",
+          "code": "264"
+        },
+        {
+          "label": "Managers",
+          "code": "265"
+        },
+        {
+          "label": "Managing Member",
+          "code": "266"
+        },
+        {
+          "label": "Managing Partner",
+          "code": "267"
+        },
+        {
+          "label": "Manicurist",
+          "code": "268"
+        },
+        {
+          "label": "Manufacturing Assembler",
+          "code": "269"
+        },
+        {
+          "label": "Mariner",
+          "code": "270"
+        },
+        {
+          "label": "Market Researcher",
+          "code": "271"
+        },
+        {
+          "label": "Marketing",
+          "code": "272"
+        },
+        {
+          "label": "Marketing Staff",
+          "code": "273"
+        },
+        {
+          "label": "Mason",
+          "code": "274"
+        },
+        {
+          "label": "Massage Therapy",
+          "code": "275"
+        },
+        {
+          "label": "Mathematician",
+          "code": "276"
+        },
+        {
+          "label": "Meals on Wheels Driver",
+          "code": "277"
+        },
+        {
+          "label": "Mechanic",
+          "code": "278"
+        },
+        {
+          "label": "Mechanical Engineer",
+          "code": "279"
+        },
+        {
+          "label": "Media",
+          "code": "280"
+        },
+        {
+          "label": "Medical Administrator",
+          "code": "281"
+        },
+        {
+          "label": "Medical Laboratory Tech",
+          "code": "282"
+        },
+        {
+          "label": "Medical Researcher",
+          "code": "283"
+        },
+        {
+          "label": "Medical Transcription",
+          "code": "284"
+        },
+        {
+          "label": "Medical Transcriptionist",
+          "code": "285"
+        },
+        {
+          "label": "Meeting Planner",
+          "code": "286"
+        },
+        {
+          "label": "Mental Health Counselor",
+          "code": "287"
+        },
+        {
+          "label": "Mentor",
+          "code": "288"
+        },
+        {
+          "label": "Merchant Navy",
+          "code": "289"
+        },
+        {
+          "label": "Merchant Navy Officer",
+          "code": "290"
+        },
+        {
+          "label": "Mining Engineer",
+          "code": "291"
+        },
+        {
+          "label": "Molecular Scientist",
+          "code": "292"
+        },
+        {
+          "label": "Mortgage Loan Processor",
+          "code": "293"
+        },
+        {
+          "label": "Motion Picture Director",
+          "code": "294"
+        },
+        {
+          "label": "Mover",
+          "code": "295"
+        },
+        {
+          "label": "Music Producer",
+          "code": "296"
+        },
+        {
+          "label": "Musician",
+          "code": "297"
+        },
+        {
+          "label": "Nail Technician",
+          "code": "298"
+        },
+        {
+          "label": "Navy",
+          "code": "299"
+        },
+        {
+          "label": "Networking",
+          "code": "300"
+        },
+        {
+          "label": "Non Gazetted cadre",
+          "code": "301"
+        },
+        {
+          "label": "Not Working",
+          "code": "302"
+        },
+        {
+          "label": "Novelist/Writer",
+          "code": "303"
+        },
+        {
+          "label": "Nuclear Engineer",
+          "code": "304"
+        },
+        {
+          "label": "Nurse",
+          "code": "305"
+        },
+        {
+          "label": "Nurse Practitioner",
+          "code": "306"
+        },
+        {
+          "label": "Office Assistant",
+          "code": "307"
+        },
+        {
+          "label": "Office Manager",
+          "code": "308"
+        },
+        {
+          "label": "Office Volunteer",
+          "code": "309"
+        },
+        {
+          "label": "Officer",
+          "code": "310"
+        },
+        {
+          "label": "Officers",
+          "code": "311"
+        },
+        {
+          "label": "Online ESL Instructor",
+          "code": "312"
+        },
+        {
+          "label": "Operations Analyst",
+          "code": "313"
+        },
+        {
+          "label": "Operations Assistant",
+          "code": "314"
+        },
+        {
+          "label": "Operations Coordinator",
+          "code": "315"
+        },
+        {
+          "label": "Operations Director",
+          "code": "316"
+        },
+        {
+          "label": "Operations Manager",
+          "code": "317"
+        },
+        {
+          "label": "Operations Professional",
+          "code": "318"
+        },
+        {
+          "label": "Orderly",
+          "code": "319"
+        },
+        {
+          "label": "Other",
+          "code": "320"
+        },
+        {
+          "label": "Other Accounting",
+          "code": "321"
+        },
+        {
+          "label": "Other BEAUTY & FASHION",
+          "code": "322"
+        },
+        {
+          "label": "Other Hospitality",
+          "code": "323"
+        },
+        {
+          "label": "Other Mariner",
+          "code": "324"
+        },
+        {
+          "label": "Other Media",
+          "code": "325"
+        },
+        {
+          "label": "Other Medical",
+          "code": "326"
+        },
+        {
+          "label": "Other Teaching",
+          "code": "327"
+        },
+        {
+          "label": "Others",
+          "code": "328"
+        },
+        {
+          "label": "Over the Phone Interpreter",
+          "code": "329"
+        },
+        {
+          "label": "Owner",
+          "code": "330"
+        },
+        {
+          "label": "Painter",
+          "code": "331"
+        },
+        {
+          "label": "Paralegal",
+          "code": "332"
+        },
+        {
+          "label": "Paramedical",
+          "code": "333"
+        },
+        {
+          "label": "Parking Attendant",
+          "code": "334"
+        },
+        {
+          "label": "Payroll Clerk",
+          "code": "335"
+        },
+        {
+          "label": "Payroll Manager",
+          "code": "336"
+        },
+        {
+          "label": "Peon",
+          "code": "337"
+        },
+        {
+          "label": "Personal Assistant",
+          "code": "338"
+        },
+        {
+          "label": "Personal Trainer",
+          "code": "339"
+        },
+        {
+          "label": "Petroleum Engineer",
+          "code": "340"
+        },
+        {
+          "label": "Pharmacist",
+          "code": "341"
+        },
+        {
+          "label": "Pharmacy Assistant",
+          "code": "342"
+        },
+        {
+          "label": "Phlebotomist",
+          "code": "343"
+        },
+        {
+          "label": "Phone Sales Specialist",
+          "code": "344"
+        },
+        {
+          "label": "Phone Survey Conductor",
+          "code": "345"
+        },
+        {
+          "label": "Photographer",
+          "code": "346"
+        },
+        {
+          "label": "Physical Therapist",
+          "code": "347"
+        },
+        {
+          "label": "Physical Therapy Assistant",
+          "code": "348"
+        },
+        {
+          "label": "Physicist",
+          "code": "349"
+        },
+        {
+          "label": "Pilot",
+          "code": "350"
+        },
+        {
+          "label": "Pipefitter",
+          "code": "351"
+        },
+        {
+          "label": "Planning",
+          "code": "352"
+        },
+        {
+          "label": "Plant Engineer",
+          "code": "353"
+        },
+        {
+          "label": "Playwright",
+          "code": "354"
+        },
+        {
+          "label": "Plumber",
+          "code": "355"
+        },
+        {
+          "label": "Plus Two Lecturer",
+          "code": "356"
+        },
+        {
+          "label": "Political Scientist",
+          "code": "357"
+        },
+        {
+          "label": "Poly",
+          "code": "358"
+        },
+        {
+          "label": "Porter",
+          "code": "359"
+        },
+        {
+          "label": "PR",
+          "code": "360"
+        },
+        {
+          "label": "Preschool Teacher",
+          "code": "361"
+        },
+        {
+          "label": "President",
+          "code": "362"
+        },
+        {
+          "label": "Principal",
+          "code": "363"
+        },
+        {
+          "label": "Private Ltd. Co. Staffs",
+          "code": "364"
+        },
+        {
+          "label": "Private Sector",
+          "code": "365"
+        },
+        {
+          "label": "Production Engineer",
+          "code": "366"
+        },
+        {
+          "label": "Professor",
+          "code": "367"
+        },
+        {
+          "label": "Proposal Writer",
+          "code": "368"
+        },
+        {
+          "label": "Proprietor",
+          "code": "369"
+        },
+        {
+          "label": "Public Relations Specialist",
+          "code": "370"
+        },
+        {
+          "label": "Purchasing Staff",
+          "code": "371"
+        },
+        {
+          "label": "Quality Control",
+          "code": "372"
+        },
+        {
+          "label": "Quality Engineer",
+          "code": "373"
+        },
+        {
+          "label": "Receptionist",
+          "code": "374"
+        },
+        {
+          "label": "Recruiter",
+          "code": "375"
+        },
+        {
+          "label": "Recyclables Collector",
+          "code": "376"
+        },
+        {
+          "label": "Red Cross Volunteer",
+          "code": "377"
+        },
+        {
+          "label": "Reiki Practitioner",
+          "code": "378"
+        },
+        {
+          "label": "Research Assistant",
+          "code": "379"
+        },
+        {
+          "label": "Research Officer",
+          "code": "380"
+        },
+        {
+          "label": "Researcher",
+          "code": "381"
+        },
+        {
+          "label": "Reservationist",
+          "code": "382"
+        },
+        {
+          "label": "Restaurant Chain Executive",
+          "code": "383"
+        },
+        {
+          "label": "Restaurant Manager",
+          "code": "384"
+        },
+        {
+          "label": "Retirement",
+          "code": "385"
+        },
+        {
+          "label": "Roofer",
+          "code": "386"
+        },
+        {
+          "label": "RPF Other",
+          "code": "387"
+        },
+        {
+          "label": "Safety Engineer",
+          "code": "388"
+        },
+        {
+          "label": "Sailor",
+          "code": "389"
+        },
+        {
+          "label": "Sales",
+          "code": "390"
+        },
+        {
+          "label": "Sales (Agent)",
+          "code": "391"
+        },
+        {
+          "label": "Sales Engineer",
+          "code": "392"
+        },
+        {
+          "label": "Salon Manager",
+          "code": "393"
+        },
+        {
+          "label": "School Bus Driver",
+          "code": "394"
+        },
+        {
+          "label": "School Counselor",
+          "code": "395"
+        },
+        {
+          "label": "School Volunteer",
+          "code": "396"
+        },
+        {
+          "label": "Scientist",
+          "code": "397"
+        },
+        {
+          "label": "Screenwriter",
+          "code": "398"
+        },
+        {
+          "label": "Scrum Master",
+          "code": "399"
+        },
+        {
+          "label": "Secretary",
+          "code": "400"
+        },
+        {
+          "label": "Security Guard",
+          "code": "401"
+        },
+        {
+          "label": "Senior Assistant",
+          "code": "402"
+        },
+        {
+          "label": "Senior Clerk",
+          "code": "403"
+        },
+        {
+          "label": "Server",
+          "code": "404"
+        },
+        {
+          "label": "Service Dog Trainer",
+          "code": "405"
+        },
+        {
+          "label": "Settled Business",
+          "code": "406"
+        },
+        {
+          "label": "Share Holder",
+          "code": "407"
+        },
+        {
+          "label": "Shareholders",
+          "code": "408"
+        },
+        {
+          "label": "Sheet Metal Worker",
+          "code": "409"
+        },
+        {
+          "label": "Shelf Stocker",
+          "code": "410"
+        },
+        {
+          "label": "Shipping and Receiving Staff",
+          "code": "411"
+        },
+        {
+          "label": "Skilled Worker",
+          "code": "412"
+        },
+        {
+          "label": "Skin Care Specialist",
+          "code": "413"
+        },
+        {
+          "label": "Small Scale Business",
+          "code": "414"
+        },
+        {
+          "label": "Social Media Specialist",
+          "code": "415"
+        },
+        {
+          "label": "Social Worker",
+          "code": "416"
+        },
+        {
+          "label": "Sociologist",
+          "code": "417"
+        },
+        {
+          "label": "Software",
+          "code": "418"
+        },
+        {
+          "label": "Software Ninjaneer",
+          "code": "419"
+        },
+        {
+          "label": "Solar Photovoltaic Installer",
+          "code": "420"
+        },
+        {
+          "label": "Sound Engineer",
+          "code": "421"
+        },
+        {
+          "label": "Spa Manager",
+          "code": "422"
+        },
+        {
+          "label": "Speech Pathologist",
+          "code": "423"
+        },
+        {
+          "label": "Speechwriter",
+          "code": "424"
+        },
+        {
+          "label": "Sports Volunteer",
+          "code": "425"
+        },
+        {
+          "label": "Sportsman",
+          "code": "426"
+        },
+        {
+          "label": "Sub Inspector",
+          "code": "427"
+        },
+        {
+          "label": "Substitute Teacher",
+          "code": "428"
+        },
+        {
+          "label": "Suicide Hotline Volunteer",
+          "code": "429"
+        },
+        {
+          "label": "Supervisor",
+          "code": "430"
+        },
+        {
+          "label": "Supervisors",
+          "code": "431"
+        },
+        {
+          "label": "Sweeper",
+          "code": "432"
+        },
+        {
+          "label": "System Analyst",
+          "code": "433"
+        },
+        {
+          "label": "Tailoring Etc.",
+          "code": "434"
+        },
+        {
+          "label": "Taper",
+          "code": "435"
+        },
+        {
+          "label": "Teacher",
+          "code": "436"
+        },
+        {
+          "label": "Teaching Assistant",
+          "code": "437"
+        },
+        {
+          "label": "Technical Staff",
+          "code": "438"
+        },
+        {
+          "label": "Technical Support Specialist",
+          "code": "439"
+        },
+        {
+          "label": "Technical Writer",
+          "code": "440"
+        },
+        {
+          "label": "Technician",
+          "code": "441"
+        },
+        {
+          "label": "Telemarketer",
+          "code": "442"
+        },
+        {
+          "label": "Telephone Operator",
+          "code": "443"
+        },
+        {
+          "label": "Telework Nurse/Doctor",
+          "code": "444"
+        },
+        {
+          "label": "Test Scorer",
+          "code": "445"
+        },
+        {
+          "label": "Therapist",
+          "code": "446"
+        },
+        {
+          "label": "Title Analyst",
+          "code": "447"
+        },
+        {
+          "label": "Title Researcher",
+          "code": "448"
+        },
+        {
+          "label": "Tow Truck Operator",
+          "code": "449"
+        },
+        {
+          "label": "Translator",
+          "code": "450"
+        },
+        {
+          "label": "Travel Agent",
+          "code": "451"
+        },
+        {
+          "label": "Travel Nurse",
+          "code": "452"
+        },
+        {
+          "label": "Travel Writer",
+          "code": "453"
+        },
+        {
+          "label": "Truck Driver",
+          "code": "454"
+        },
+        {
+          "label": "Tutor/Online Tutor",
+          "code": "455"
+        },
+        {
+          "label": "Union Etc.",
+          "code": "456"
+        },
+        {
+          "label": "UP School Assistant",
+          "code": "457"
+        },
+        {
+          "label": "UPS Driver",
+          "code": "458"
+        },
+        {
+          "label": "Valet",
+          "code": "459"
+        },
+        {
+          "label": "Vehicle or Equipment Cleaner",
+          "code": "460"
+        },
+        {
+          "label": "Veterinary Assistant",
+          "code": "461"
+        },
+        {
+          "label": "VHSE",
+          "code": "462"
+        },
+        {
+          "label": "Vice President of Operations",
+          "code": "463"
+        },
+        {
+          "label": "Video Editor",
+          "code": "464"
+        },
+        {
+          "label": "Video Game Writer",
+          "code": "465"
+        },
+        {
+          "label": "Video or Film Producer",
+          "code": "466"
+        },
+        {
+          "label": "Virtual Assistant",
+          "code": "467"
+        },
+        {
+          "label": "VP of Miscellaneous Stuff",
+          "code": "468"
+        },
+        {
+          "label": "Wait Staff Manager",
+          "code": "469"
+        },
+        {
+          "label": "Waiter/Waitress",
+          "code": "470"
+        },
+        {
+          "label": "Warehouse Worker",
+          "code": "471"
+        },
+        {
+          "label": "Wedding Coordinator",
+          "code": "472"
+        },
+        {
+          "label": "Welder",
+          "code": "473"
+        },
+        {
+          "label": "Welding",
+          "code": "474"
+        },
+        {
+          "label": "Well Driller",
+          "code": "475"
+        },
+        {
+          "label": "Well Settled Business",
+          "code": "476"
+        },
+        {
+          "label": "Women’s Shelter Jobs",
+          "code": "477"
+        },
+        {
+          "label": "Working Abroad",
+          "code": "478"
+        },
+        {
+          "label": "Yoga Instructor",
+          "code": "479"
+        },
+        {
+          "label": "Youth Volunteer",
+          "code": "480"
+        },
+        {
+          "label": "Zoologist",
+          "code": "481"
+        }
+      ]
+    },
+    "university": {
+      "label": "University",
+      "sub_division": [
+        { "label": "University of Kerala", "code": "0" },
+        { "label": "University of Calicut", "code": "1" },
+        { "label": "Cochin University of Science and Technology", "code": "2" },
+        { "label": "Mahatma Gandhi University", "code": "3" },
+        { "label": "Kannur University", "code": "4" },
+        { "label": "Sree Narayana Guru Open University", "code": "5" },
+        { "label": "Kerala University of Health Sciences", "code": "6" },
+        {
+          "label": "Kerala Veterinary and Animal Sciences University",
+          "code": "7"
+        },
+        { "label": "Kerala Agricultural University", "code": "8" },
+        {
+          "label": "Kerala University of Fisheries and Ocean Studies",
+          "code": "9"
+        },
+        {
+          "label": "National University of Advanced Legal Studies",
+          "code": "10"
+        },
+        { "label": "Sree Sankaracharya University of Sanskrit", "code": "11" },
+        { "label": "Thunchath Ezhuthachan Malayalam University", "code": "12" },
+        {
+          "label": "Kerala University of Digital Sciences, Innovation and Technology",
+          "code": "13"
+        },
+        { "label": "A P J Abdul Kalam Technological University", "code": "14" },
+        {
+          "label": "K. R. Narayanan National Institute of Visual Science and Arts",
+          "code": "15"
+        }
+      ]
+    },
+    "college": {
+      "label": "College",
+      "sub_division": [
+        { "label": "Amity Business School, Kochi", "code": "0" },
+        { "label": "Amrita School Of Business, Kochi", "code": "1" },
+        {
+          "label": "Asian School of Business, Thiruvananthapuram",
+          "code": "2"
+        },
+        {
+          "label": "Bhavans Royal Institute Of Management, Kochi",
+          "code": "3"
+        },
+        { "label": "Bishop Jerome Institute, Kollam", "code": "4" },
+        { "label": "Cochin University of Science and Technology", "code": "5" },
+        { "label": "DCSMAT Business School", "code": "6" },
+        {
+          "label": "Farook Institute of Management Studies (FIMS), Calicut",
+          "code": "7"
+        },
+        { "label": "IIM, Kochi (campus of IIMK)", "code": "8" },
+        { "label": "IIM, Kozhikode", "code": "9" },
+        { "label": "IIITM-K, Trivandrum", "code": "10" },
+        { "label": "Indian Institute of Logistics, Kochi", "code": "11" },
+        {
+          "label": "Marian International Institute of Management (MIIM), Kuttikkanam, Idukki",
+          "code": "12"
+        },
+        {
+          "label": "Marthoma College of Management and Technology (MCMAT), Perumbavoor, Ernakulam",
+          "code": "13"
+        },
+        {
+          "label": "Rajagiri Centre for Business Studies, Kochi",
+          "code": "14"
+        },
+        {
+          "label": "School of Communication and Management Studies, Kochi",
+          "code": "15"
+        },
+        { "label": "TKM Institute of Management", "code": "16" },
+        { "label": "Travancore Business Academy, Kollam", "code": "17" },
+        { "label": "UEI Global", "code": "18" },
+        {
+          "label": "Vidya Bharathi Institute Of Management And Technology, Kochi",
+          "code": "19"
+        },
+        {
+          "label": "Xavier Institute of Management and Entrepreneurship",
+          "code": "20"
+        },
+        { "label": "Allama Iqbal Institute of Management", "code": "21" },
+        {
+          "label": "Aligarh Muslim University, Malappuram Campus",
+          "code": "22"
+        },
+        {
+          "label": "SCM Hub International Logistics Business School, Kochi Info Park Campus",
+          "code": "23"
+        },
+        {
+          "label": "Adi Shankara Institute of Engineering and Technology, Kalady",
+          "code": "24"
+        },
+        {
+          "label": "Al Azhar College of Engineering and Technology, Thodupuzha",
+          "code": "25"
+        },
+        {
+          "label": "Albertian Institute of Science and Technology, Kalamassery",
+          "code": "26"
+        },
+        {
+          "label": "Amal Jyothi College of Engineering, Kanjirappally",
+          "code": "27"
+        },
+        {
+          "label": "Baselios Thomas I Catholicose College of Engineering And Technology",
+          "code": "28"
+        },
+        {
+          "label": "Caarmel Engineering College, Pathanamthitta",
+          "code": "29"
+        },
+        { "label": "Christ Knowledge City", "code": "30" },
+        {
+          "label": "Federal Institute of Science And Technology, Angamaly",
+          "code": "31"
+        },
+        { "label": "Government Engineering College, Idukki", "code": "32" },
+        {
+          "label": "Gurudeva Institute of Science And Technology, Puthuppally, Kottayam",
+          "code": "33"
+        },
+        {
+          "label": "Holy Kings College of Engineering and Technology, Muvattupuzha",
+          "code": "34"
+        },
+        {
+          "label": "Ilahia College of Engineering Technology, Mulavoor, Moovattupuzha",
+          "code": "35"
+        },
+        {
+          "label": "Ilahia School of Science And Technology, Pezhakkapilly, Muvattupuzha",
+          "code": "36"
+        },
+        {
+          "label": "Indira Gandhi Institute of Engineering and Technology",
+          "code": "37"
+        },
+        {
+          "label": "Jai Bharath College of Management and Engineering, Perumbavoor",
+          "code": "38"
+        },
+        { "label": "KMEA Engineering College, Edathala, Aluva", "code": "39" },
+        {
+          "label": "Kottayam Institute of Science and Technology",
+          "code": "40"
+        },
+        {
+          "label": "Mahatma Gandhi University college of engineering, Thodupuzha",
+          "code": "41"
+        },
+        {
+          "label": "Mangalam College of Engineering, Ettumanoor, Kottayam",
+          "code": "42"
+        },
+        {
+          "label": "Mar Athanasius College of Engineering, Kothamangalam",
+          "code": "43"
+        },
+        {
+          "label": "Mar Baselios Christian College of Engineering and Technology, Kuttikanam, Idukki",
+          "code": "44"
+        },
+        {
+          "label": "Mar Baselios Institute of Technology and Science, Kothamangalam",
+          "code": "45"
+        },
+        {
+          "label": "Matha College of Technology, Manakappadi, North Paravur",
+          "code": "46"
+        },
+        {
+          "label": "Musaliar College of Engineering and Technology, Pathanamthitta",
+          "code": "47"
+        },
+        { "label": "MES College of Engineering, Aluva", "code": "48" },
+        {
+          "label": "Rajagiri School of Engineering & Technology, Kakkanad",
+          "code": "49"
+        },
+        {
+          "label": "Rajiv Gandhi Institute of Technology, Pampady, Kottayam",
+          "code": "50"
+        },
+        {
+          "label": "Saintgits College of Engineering, Pathamuttom, Kottayam",
+          "code": "51"
+        },
+        {
+          "label": "SCMS School of Engineering and Technology, Karukutty",
+          "code": "52"
+        },
+        {
+          "label": "Sree Buddha College of Engineering for Women, Ayathil, Elavumthitta, Pathanamthitta",
+          "code": "53"
+        },
+        {
+          "label": "Sree Narayana Guru Institute of Science and Technology, North Paravur",
+          "code": "54"
+        },
+        {
+          "label": "Sree Narayana Gurukulam College of Engineering, Kadayiruppu, Kolenchery",
+          "code": "55"
+        },
+        {
+          "label": "Sree Narayana Mangalam Institute of Management & Technology, Maliankara",
+          "code": "56"
+        },
+        {
+          "label": "St. Joseph’s College of Engineering and Technology, Pala",
+          "code": "57"
+        },
+        {
+          "label": "Vijnan Institute of Science and Technology, Elanji",
+          "code": "58"
+        },
+        {
+          "label": "Viswajyothi College of Engineering and Technology, Vazhakulam, Moovattupuzha.",
+          "code": "59"
+        },
+        {
+          "label": "Cochin Institute of science and Technology, Moovattupuzha",
+          "code": "60"
+        },
+        {
+          "label": "Toms College of Engineering for Startups Mattakara P.O, Kottayam",
+          "code": "61"
+        },
+        { "label": "Baselius College, Kottayam", "code": "62" },
+        { "label": "B.V.M holycross college cherpunkal", "code": "63" },
+        {
+          "label": "Musaliar College of Arts and Science, Pathanamthitta",
+          "code": "64"
+        },
+        {
+          "label": "SCMS School of Technology and Management, Kalamassery",
+          "code": "65"
+        },
+        { "label": "Alphonsa College, Palai", "code": "66" },
+        { "label": "Al-Ameen College, Edathala", "code": "67" },
+        { "label": "Al Azhar collage, thodpuzha", "code": "68" },
+        { "label": "Aquinas College, Edakochi", "code": "69" },
+        { "label": "Bharata Mata College, Thrikkakkara", "code": "70" },
+        {
+          "label": "Chinmaya College of Arts, Commerce and Science, Tripunithura",
+          "code": "71"
+        },
+        { "label": "St.Paul's College, Kalamassery[1]", "code": "72" },
+        {
+          "label": "Bishop Abraham Memorial College, Thurithicadu",
+          "code": "73"
+        },
+        { "label": "Bishop Kurialacherry College for Women", "code": "74" },
+        { "label": "BPC College Piravom", "code": "75" },
+        { "label": "Catholicate College Pathanamthitta", "code": "76" },
+        { "label": "Cochin College, Cochin", "code": "77" },
+        {
+          "label": "College of Applied Science (IHRD), Kattappana",
+          "code": "78"
+        },
+        {
+          "label": "College of Applied Science (IHRD), Thodupuzha",
+          "code": "79"
+        },
+        {
+          "label": "DC School of Management and Technology, Vagamon",
+          "code": "80"
+        },
+        { "label": "Deva Matha College, Kuravilangad", "code": "81" },
+        { "label": "Dewaswom Board College, Thalayolaparambu", "code": "82" },
+        { "label": "De Paul Institute of Technology, Angamaly", "code": "83" },
+        { "label": "Ettumanoorappan College, Ettumanoor", "code": "84" },
+        {
+          "label": "Girideepam Institute of Advanced Learning, Kottayam",
+          "code": "85"
+        },
+        { "label": "Government College, Kottayam", "code": "86" },
+        { "label": "Government College, Kattappana", "code": "87" },
+        {
+          "label": "Government College, Manimalakunnu, Koothattukulam",
+          "code": "88"
+        },
+        { "label": "Government College, Tripunithura", "code": "89" },
+        { "label": "Henry Baker College, Melukavu", "code": "90" },
+        {
+          "label": "Holy Cross College of Management & Technology, Puttady, Idukki",
+          "code": "91"
+        },
+        {
+          "label": "Jawaharlal Nehru Institute of Arts & Science, Balagram, Idukki",
+          "code": "92"
+        },
+        {
+          "label": "JPM College of Arts & Science, Labbakkada, Idukki",
+          "code": "93"
+        },
+        {
+          "label": "Kristu Jyoti College of Management & Technology, Changanassery, Kottayam",
+          "code": "94"
+        },
+        { "label": "Kuriakose Elias College, Mannanam", "code": "95" },
+        { "label": "Kuriakose Gregorios College, Pampady", "code": "96" },
+        {
+          "label": "KMM College of Arts and Science, Thrikkakara",
+          "code": "97"
+        },
+        { "label": "Nirmala College, Muvattupuzha", "code": "98" },
+        { "label": "Newman College, Thodupuzha", "code": "99" },
+        { "label": "MES college, Erattupetta", "code": "100" },
+        { "label": "MES College, Nedumkandam", "code": "101" },
+        { "label": "Mannam Memorial N.S.S. College, Konni", "code": "102" },
+        { "label": "Mar Augusthinose College, Ramapuram", "code": "103" },
+        { "label": "Mar Kuriakose College, Puthuvely", "code": "104" },
+        { "label": "Mar Thoma College, Thiruvalla", "code": "105" },
+        { "label": "Mar Thoma College for Advanced Studies", "code": "106" },
+        { "label": "Marian College Kuttikkanam, Idukki", "code": "107" },
+        { "label": "MES College Marampally, Aluva", "code": "108" },
+        { "label": "MES College, Erumely", "code": "109" },
+        { "label": "MES College, Edathala", "code": "110" },
+        {
+          "label": "Mount Carmel College, Karukadom, Kothamangalam",
+          "code": "111"
+        },
+        { "label": "NSS Hindu College, Changanassery", "code": "112" },
+        { "label": "NSS College, Rajakumari", "code": "113" },
+        { "label": "Nirmala College, Muvattupuzha", "code": "114" },
+        { "label": "Pavanatma College, Murrickacherry", "code": "115" },
+        { "label": "PGM College, Kangazha", "code": "116" },
+        {
+          "label": "Parumala Mar Gregorios College, Thiruvalla",
+          "code": "117"
+        },
+        { "label": "P.R.D.S. College, Amera", "code": "118" },
+        {
+          "label": "Morning Star Home Science College, Angamaly",
+          "code": "119"
+        },
+        {
+          "label": "RLV College of Music and Fine Arts, Tripunithura",
+          "code": "120"
+        },
+        {
+          "label": "Rajagiri College of Social Science, Kalamassery",
+          "code": "121"
+        },
+        {
+          "label": "Rawther Academy of Arts and Science, Vallana, Erumakkad PO, Pathanamthitta Dist., Near Chengannur.",
+          "code": "122"
+        },
+        { "label": "SAS SNDP YOGAM College, Konni", "code": "123" },
+        {
+          "label": "Santhigiri college of Computer Sciences, Vazhithala.",
+          "code": "124"
+        },
+        {
+          "label": "Santhigiri Institute of Management, Vazhithala.",
+          "code": "125"
+        },
+        { "label": "SNM College, Maliankara, Moothakunnam", "code": "126" },
+        {
+          "label": "St. Ephrem Ecumenical Research Institute, Kottayam",
+          "code": "127"
+        },
+        {
+          "label": "Siena College of Professional Studies, Edacochin",
+          "code": "128"
+        },
+        { "label": "Sree Vidyadhi Raja N S S College", "code": "129" },
+        { "label": "St Johns College, Prakkanam", "code": "130" },
+        { "label": "St. Dominic's College, Kanjirapally", "code": "131" },
+        { "label": "Sree Sabareesa College, Mundakayam", "code": "132" },
+        {
+          "label": "St. Johns Institute of Technology, Pathanamthitta",
+          "code": "133"
+        },
+        { "label": "St. Mary’s College, Manarcaud, Kottayam", "code": "134" },
+        { "label": "St. Peter's College, Kolenchery", "code": "135" },
+        { "label": "St. Stephen’s College, Uzhavoor.", "code": "136" },
+        { "label": "St. Thomas College, Palai", "code": "137" },
+        { "label": "St. Thomas College, Puthencruz", "code": "138" },
+        { "label": "St. Xavier's College for Women, Aluva", "code": "139" },
+        { "label": "St. Xavier's College, Kothavara", "code": "140" },
+        { "label": "St. Xavier's College, Vaikom", "code": "141" },
+        { "label": "St. George's College, Aruvithura", "code": "142" },
+        { "label": "St. Thomas College, Kozhencheri", "code": "143" },
+        { "label": "Union Christian College, Aluva", "code": "144" },
+        { "label": "Yeldo Mar Baselios College", "code": "145" },
+        {
+          "label": "Marthoma College of Management and Technology, Perumbavoor",
+          "code": "146"
+        },
+        {
+          "label": "Seth Ram Bhadhur Singh Gujarati College, mattancherry",
+          "code": "147"
+        },
+        { "label": "Swami Saswatheekananda College, Poothotta", "code": "148" },
+        {
+          "label": "PRDS arts and science college, changanasseri",
+          "code": "149"
+        },
+        { "label": "St. Thomas College, Konni", "code": "150" },
+        {
+          "label": "St. Kuriakose College of Management and Science, Kuruppampady",
+          "code": "151"
+        },
+        { "label": "St. Thomas college, Ranni", "code": "152" },
+        {
+          "label": "Government College, Madappally, Vatakara-2, Kozhikode (est. 1958)",
+          "code": "153"
+        },
+        {
+          "label": "Government College, Meenchantha Kozhikode (est. 1964)",
+          "code": "154"
+        },
+        {
+          "label": "Sayyid Abdul Rahman Bafaqi Thangal Memorial (S.A.R.B.T.M). Govt. College, Koyilandy, Kozhikode (est. 1975)",
+          "code": "155"
+        },
+        {
+          "label": "C.K.G. Memorial Government College, Perambra, Kozhikode (est. 1975)",
+          "code": "156"
+        },
+        {
+          "label": "Government College, Kodanchery, Kozhikode (est. 1980)",
+          "code": "157"
+        },
+        {
+          "label": "Government College, Mokeri, Kozhikode (est. 1981)",
+          "code": "158"
+        },
+        {
+          "label": "Zamorin's Guruvayurappan College, Kozhikode (est. 1877)",
+          "code": "159"
+        },
+        {
+          "label": "Malabar Christian College, Kozhikode (est. 1909)",
+          "code": "160"
+        },
+        { "label": "Farook College, Kozhikode (est. 1948)", "code": "161" },
+        {
+          "label": "Providence Women's College, Kozhikode (est. 1952)",
+          "code": "162"
+        },
+        {
+          "label": "St. Joseph's College, Devagiri, Kozhikode (est. 1956)",
+          "code": "163"
+        },
+        {
+          "label": "Sree Narayana Guru College, Kozhikode (est. 1968)",
+          "code": "164"
+        },
+        {
+          "label": "Mohamed Abdurahiman Memorial Orphanage College (MAMO), Mukkam, Kozhikode (est. 1982)",
+          "code": "165"
+        },
+        {
+          "label": "R. Sankar Memorial SNDP Yogam Arts & Science College, Koyilandy, Kozhikode (est. 1995)",
+          "code": "166"
+        },
+        {
+          "label": "Savithri Devi Saboo Memorial Women's College, Kozhikode (est. 1995)",
+          "code": "167"
+        },
+        {
+          "label": "AWH Special College, Kozhikode (est. 1995)",
+          "code": "168"
+        },
+        {
+          "label": "A.V. Abdurahiman Haji Arts and Science College, Kozhikode (est. 2002)",
+          "code": "169"
+        },
+        { "label": "MES College, Kozhikode (est. 2002)", "code": "170" },
+        {
+          "label": "Dayapuram Arts and Science College for Women, Kozhikode (est. 2002)",
+          "code": "171"
+        },
+        { "label": "MET College, Kozhikode (est. 2002)", "code": "172" },
+        {
+          "label": "Sree Narayana College, Vatakara, Kozhikode (est. 2003)",
+          "code": "173"
+        },
+        {
+          "label": "Baithul Izza Arts & Science College, Kozhikode (est. 2003)",
+          "code": "174"
+        },
+        {
+          "label": "Little Flower Institute of Social Sciences & Health, Kozhikode (est. 2003)",
+          "code": "175"
+        },
+        {
+          "label": "M.H.E.S. College of Science & Technology, Kozhikode (est. 2003)",
+          "code": "176"
+        },
+        {
+          "label": "Ilahiya Arts and Science College, Kozhikode (est. 2005)",
+          "code": "177"
+        },
+        {
+          "label": "JDT Islam Arts & Science College, Kozhikode (est. 2005)",
+          "code": "178"
+        },
+        {
+          "label": "KMO Arts & Science College, Kozhikode (est. 2005)",
+          "code": "179"
+        },
+        {
+          "label": "M.E.S. Arts & Science College, Kozhikode (est. 2005)",
+          "code": "180"
+        },
+        {
+          "label": "National College of Arts & Science, Kozhikode (est. 2005)",
+          "code": "181"
+        },
+        {
+          "label": "Holy Cross Institute of Management & Technology, Kozhikode (est. 2007)",
+          "code": "182"
+        },
+        {
+          "label": "Markaz College of Arts & Science, Kozhikode (est. 2008)",
+          "code": "183"
+        },
+        {
+          "label": "Darul Huda Arts & Science College, Nadapuram, Kozhikode (est. 2009)",
+          "code": "184"
+        },
+        {
+          "label": "Silver Arts & Science College, Perambra, Kozhikode (est. 2010)",
+          "code": "185"
+        },
+        {
+          "label": "Malabar College of Arts and Science, Moodadi, Koyilandi, Kozhikode, (est. 2010)",
+          "code": "186"
+        },
+        {
+          "label": "St. Xavier's Arts & Science College, Kozhikode (est. 2011)",
+          "code": "187"
+        },
+        {
+          "label": "Ideal College of Arts & Science, Kuttiadi, Kozhikode (est. 2011)",
+          "code": "188"
+        },
+        {
+          "label": "Vayalil Kunhali Haji Memorial Orphanage College of Arts & Science for Women, Mukkam, Kozhikode (est. 2012)",
+          "code": "189"
+        },
+        {
+          "label": "MH Arts & Science College, Kuttiadi, Kozhikode (est. 2012)",
+          "code": "190"
+        },
+        {
+          "label": "CSI Christian Muller Women's College, Vatakara, Kozhikode (est. 2012)",
+          "code": "191"
+        },
+        {
+          "label": "Muslim Orphanages’ College of Arts and Science, Kuruvattur, Kozhikode (est. 2012)",
+          "code": "192"
+        },
+        {
+          "label": "Co-operative Arts & Science College, Vatakara, Kozhikode (est. 2013)",
+          "code": "193"
+        },
+        {
+          "label": "KMCT Arts & Science College, Kozhikode (est. 2013)",
+          "code": "194"
+        },
+        {
+          "label": "Sree Gokulam Arts & Science College, Balussery, Kozhikode (est. 2013)[2]",
+          "code": "195"
+        },
+        {
+          "label": "Sree Narayana Guru College of Advanced Studies, Chelannur, Kozhikode (est. 2013)",
+          "code": "196"
+        },
+        {
+          "label": "Darunnujoom College of Arts & Science, Perambra, Kozhikode",
+          "code": "197"
+        },
+        {
+          "label": "SNES College of Arts, Commerce & Management, Kunnamangalam, Kozhikode (est. 2013)",
+          "code": "198"
+        },
+        {
+          "label": "Peekay CICS Arts & Science College, Mathara, Kozhikode (est. 2013)",
+          "code": "199"
+        },
+        {
+          "label": "SI Women's College of Arts and Science, Parakkadavu, Kozhikode (est. 2013)",
+          "code": "200"
+        },
+        {
+          "label": "Don Bosco College, Mukkam, Kozhikode (est. 2013)",
+          "code": "201"
+        },
+        {
+          "label": "CHMKM Govt. Arts & Science College, Koduvally, Kozhikode (est. 2013)",
+          "code": "202"
+        },
+        {
+          "label": "Dr B R Ambedkar Memorial Government Arts & Science College, Balussery, Kozhikode (est. 2013)",
+          "code": "203"
+        },
+        {
+          "label": "Govt. Arts & Science College, Nadapuram, Kozhikode (est. 2014)",
+          "code": "204"
+        },
+        {
+          "label": "Alphonsa College, Thiruvambady, Kozhikode (est. 2014)",
+          "code": "205"
+        },
+        {
+          "label": "Al Irshad Arts & Science College for Women, Kozhikode (est. 2014)",
+          "code": "206"
+        },
+        {
+          "label": "Golden Hills Arts & Science College, Kozhikode (est. 2014)",
+          "code": "207"
+        },
+        {
+          "label": "Gurudeva College of Advanced Studies, Koyilandy, Kozhikode (est. 2014)",
+          "code": "208"
+        },
+        {
+          "label": "Kunnamangalam Govt. Arts and Science College, Chathamangalam, Kozhikode (est. 2014)",
+          "code": "209"
+        },
+        {
+          "label": "Malabar Arts & Science College for Women, Nadapuram, Kozhikode (est. 2014)",
+          "code": "210"
+        },
+        {
+          "label": "Mahlara Arts & Science College, Mavoor, Kozhikode (est. 2015)[3]",
+          "code": "211"
+        },
+        {
+          "label": "Educos Arts & Science College, Nadupoyil, Kozhikode (est. 2015)",
+          "code": "212"
+        },
+        {
+          "label": "Hi-Tech Arts & Science College, Vattoli, Kozhikode (est. 2015)",
+          "code": "213"
+        },
+        {
+          "label": "Malabar TMS College of Management Technology, Kunnamangalam, Kozhikode (est. 2015)",
+          "code": "214"
+        },
+        {
+          "label": "S.M.l Arts & Science College, Vatakara, Kozhikode (est. 2015)",
+          "code": "215"
+        },
+        {
+          "label": "PVS College of Arts & Science, Pantheerankavu, Kozhikode",
+          "code": "216"
+        },
+        {
+          "label": "Kadathanad Arts & Science College, Vatakara, Kozhikode",
+          "code": "217"
+        },
+        {
+          "label": "Government Engineering College, Kozhikode (est. 1999)",
+          "code": "218"
+        },
+        {
+          "label": "College of Applied Sciences, Kozhikode- (est. 1993)",
+          "code": "219"
+        },
+        {
+          "label": "AWH Engineering College, Kozhikode (est. 2001)",
+          "code": "220"
+        },
+        {
+          "label": "KMCT College of Engineering, Manassery, Kozhikode (est. 2001)",
+          "code": "221"
+        },
+        {
+          "label": "National Institute of Electronics and Information Technology (NIELIT), Calicut, Kozhikode[4]",
+          "code": "222"
+        },
+        {
+          "label": "Farook Institute of Management, Kozhikode (est. 2005)",
+          "code": "223"
+        },
+        {
+          "label": "KMCT College of Engineering for Women, Mukkam, Kozhikode (est. 2009)",
+          "code": "224"
+        },
+        {
+          "label": "SNES IMSAR (Institute of Management Studies and Research), Kunnamangalam, Kozhikode (est. 2009)",
+          "code": "225"
+        },
+        {
+          "label": "M. Dasan Institute of Technology, Ulliyeri, Kozhikode (est. 2012)",
+          "code": "226"
+        },
+        {
+          "label": "KMCT College of Architecture, Kallanthode, Kozhikode (est. 2013)",
+          "code": "227"
+        },
+        {
+          "label": "KMCT College of Architecture, Manassery, Kozhikode (est. 2013)",
+          "code": "228"
+        },
+        {
+          "label": "MES College of Architecture, Kakkodi, Kozhikode (est. 2013)",
+          "code": "229"
+        },
+        {
+          "label": "Avani Institute of Design, Kozhikode (est. 2015)",
+          "code": "230"
+        },
+        { "label": "LEAD College of Management (Est. 2011)", "code": "231" },
+        {
+          "label": "Govt. College of Teacher Education, Kozhikode (est. 1950)",
+          "code": "232"
+        },
+        {
+          "label": "Farook Training College, Feroke, Kozhikode (est. 1961)",
+          "code": "233"
+        },
+        {
+          "label": "Meppayur Salafi College of Teacher Education, Kozhikode (est. 1995)",
+          "code": "234"
+        },
+        {
+          "label": "AWH College of Education, Kozhikode (est. 1996)",
+          "code": "235"
+        },
+        {
+          "label": "Sree Narayana College of Teacher Education, Chelannur, Kozhikode (est. 2002)",
+          "code": "236"
+        },
+        {
+          "label": "CICS College of Teacher Education, Kozhikode (est. 2004)",
+          "code": "237"
+        },
+        {
+          "label": "T.I.M. Training College (Unaided), Nadapuram, Kozhikode (est. 2004)",
+          "code": "238"
+        },
+        {
+          "label": "Bhavan's Ramakrishna Institute of Teacher Education, Kozhikode (est. 2004)",
+          "code": "239"
+        },
+        {
+          "label": "Providence College of Teacher Education for Women, Malaparamba, Kozhikode (est. 2005)",
+          "code": "240"
+        },
+        {
+          "label": "KMCT College of Education, Chathamangalam, Kozhikode (est. 2005)",
+          "code": "241"
+        },
+        {
+          "label": "Mercy College of Teacher Education, Vatakara (est. 2006)",
+          "code": "242"
+        },
+        {
+          "label": "Mother Teresa College of Teacher Education, Perambra (est. 2006)",
+          "code": "243"
+        },
+        {
+          "label": "Oriental College of Teacher Education Kozhikode (est. 2007)",
+          "code": "244"
+        },
+        {
+          "label": "KET College of Teacher Education, Kozhikode (est. 2007)",
+          "code": "245"
+        },
+        {
+          "label": "SSM College of Teacher Education, Kozhikode (est. 2008)",
+          "code": "246"
+        },
+        {
+          "label": "KMO College of Teacher Education, Koduvally, Kozhikode (est. 2010)",
+          "code": "247"
+        },
+        {
+          "label": "Government College, Malappuram (est. 1972)",
+          "code": "248"
+        },
+        {
+          "label": "Pookoya Thangal Memorial Government College, Perinthalmanna, Malappuram (est. 1975)",
+          "code": "249"
+        },
+        {
+          "label": "Thunchan Memorial Government College, Tirur, Malappuram (est. 1980)",
+          "code": "250"
+        },
+        {
+          "label": "Govt. Arts and Science College, Nilambur, Malappuram (est. 2018)",
+          "code": "251"
+        },
+        {
+          "label": "N.S.S College, Manjeri, Malappuram (est. 1965)",
+          "code": "252"
+        },
+        {
+          "label": "Dr. Gafoor Memorial MES Mampad College, Malappuram (est. 1965)",
+          "code": "253"
+        },
+        {
+          "label": "Pocker Sahib Memorial Orphanage College (PSMO College), Malappuram (est. 1968)",
+          "code": "254"
+        },
+        {
+          "label": "M.E.S. Ponnani College, Ponnani, Malappuram (est. 1968)",
+          "code": "255"
+        },
+        {
+          "label": "Mar Thoma College, Chungathara, Malappuram (est. 1981)",
+          "code": "256"
+        },
+        {
+          "label": "Korambayil Ahammed Haji Memorial Unity Women's College, Manjeri, Malappuram (est. 1981)",
+          "code": "257"
+        },
+        {
+          "label": "MES Keveeyam College, Valanchery, Malappuram (est. 1981)",
+          "code": "258"
+        },
+        {
+          "label": "EMEA College of Arts and Science, Kumminiparamba, Malappuram (est. 1983)",
+          "code": "259"
+        },
+        {
+          "label": "Sullamussalam Science College, Areekode, Malappuram (est. 1995)",
+          "code": "260"
+        },
+        {
+          "label": "Amal College of Advanced Studies, Nilambur (est. 2005)",
+          "code": "261"
+        },
+        {
+          "label": "Majlis Arts & Science College Valanchery, Malappuram (est. 1995)",
+          "code": "262"
+        },
+        {
+          "label": "SNDP Yogam Sathabdi Smaraka College (also SNDP YSS College) Perinthalmanna, Malappuram (est. 2002)",
+          "code": "263"
+        },
+        {
+          "label": "HM College of Science & Technology, Manjeri, Malappuram (est. 2002)",
+          "code": "264"
+        },
+        {
+          "label": "Markaz Arts & Science College, Malappuram (est. 2003)",
+          "code": "265"
+        },
+        {
+          "label": "K.V. Ustad Memorial Darul Hidaya Orphanage Arts & Science College For Women, Kololamba, Malappuram (est. 2003)",
+          "code": "266"
+        },
+        {
+          "label": "Sree Vivekananda Padana Kendram Arts & Science College, Edakkara, Malappuram (est. 2003)",
+          "code": "267"
+        },
+        {
+          "label": "Regional College of Science and Humanities, Kuzhimanna, Malappuram (est. 2003)",
+          "code": "268"
+        },
+        {
+          "label": "Najath College of Science and Technology, Malappuram (est. 2003)",
+          "code": "269"
+        },
+        {
+          "label": "Grace Valley College of Arts & Science, Malappuram (est. 2003)",
+          "code": "270"
+        },
+        {
+          "label": "Vedavyasa Institute of Arts & Science, Vazhayur, Malappuram (est. 2005) – Disaffiliation Requested",
+          "code": "271"
+        },
+        {
+          "label": "Assabah Arts and Science College, Valayamkulam, Malappuram (est. 2005)",
+          "code": "272"
+        },
+        {
+          "label": "Kottakkal Farook Arts and Science College, Malappuram (est 2005)",
+          "code": "273"
+        },
+        {
+          "label": "Khidmath Arts and Science College, Malappuram (est. 2005)",
+          "code": "274"
+        },
+        {
+          "label": "SAFI Institute of Advanced Study, Vazhayur, Malappuram (est. 2005)",
+          "code": "275"
+        },
+        {
+          "label": "Gems Arts & Science College, Ramapuram, Malappuram[5] (est. 2008)",
+          "code": "276"
+        },
+        {
+          "label": "Sree Sastha College, Malappuram (est. 2008)",
+          "code": "277"
+        },
+        {
+          "label": "Ma'din Arts and Science College, Melmuri, Malappuram (est. 2008)",
+          "code": "278"
+        },
+        {
+          "label": "Safa College of Arts and Science, Malappuram (est. 2009)",
+          "code": "279"
+        },
+        {
+          "label": "Hikamiyya Arts & Science College, Pathiriyal, Malappuram (est. 2009)",
+          "code": "280"
+        },
+        {
+          "label": "Ideal College for Advanced Studies, Thavanoor, Malappuram (est. 2010)",
+          "code": "281"
+        },
+        {
+          "label": "Al Jamia Arts & Science College, Malappuram (est. 2010)",
+          "code": "282"
+        },
+        {
+          "label": "St. Mary's College, Angadippuram, Malappuram (est. 2010)",
+          "code": "283"
+        },
+        {
+          "label": "Blossom Arts & Science College, Kondotty, Malappuram (est. 2011)",
+          "code": "284"
+        },
+        {
+          "label": "Noble Women's College, Manjeri, Malappuram (est. 2011)",
+          "code": "285"
+        },
+        {
+          "label": "Pravasi Arts & Science College, Malappuram (est. 2011)",
+          "code": "286"
+        },
+        {
+          "label": "IKT Memorial Arts & Science College, Malappuram (est. 2012)",
+          "code": "287"
+        },
+        {
+          "label": "Priyadarsini Arts & Science College, Ernad, Malappuram (est. 2012)",
+          "code": "288"
+        },
+        {
+          "label": "Bafakhy Yatheem Khana Arts & Science College for Women, Malappuram (est. 2012)",
+          "code": "289"
+        },
+        {
+          "label": "CPA College of Arts and Science, Puthanathani, Malappuram (est. 2012)",
+          "code": "290"
+        },
+        {
+          "label": "MIC Arts & Science College, Valluvambram, Malappuram (est. 2012)",
+          "code": "291"
+        },
+        {
+          "label": "Nasra College of Arts & Science, Thirurkad, Malappuram (est. 2012)",
+          "code": "292"
+        },
+        {
+          "label": "ISS Arts & Science College, Perinthalmanna, Malappuram (est. 2012)",
+          "code": "293"
+        },
+        {
+          "label": "CH Muhammed Koya Memorial Govt. Arts & Science College, Tanur, Malappuram (est. 2013)",
+          "code": "294"
+        },
+        {
+          "label": "Sahya Arts and Science College, Wandoor, Malappuram (est. 2013)",
+          "code": "295"
+        },
+        {
+          "label": "Panakkad Pookoya Thangal Memorial Arts & Science College, Vengara, Malappuram (est. 2013)",
+          "code": "296"
+        },
+        {
+          "label": "Malabar College of Commerce & Science, Malappuram (est. 2013)",
+          "code": "297"
+        },
+        {
+          "label": "Malabar College of Advanced Studies, Vengara, Malappuram (est. 2013)",
+          "code": "298"
+        },
+        {
+          "label": "Government Arts & Science College, Kondotty, Malappuram (est. 2013)",
+          "code": "299"
+        },
+        {
+          "label": "Govt. Arts & Science College, Mankada, Kolathur, Malappuram (est. 2013)",
+          "code": "300"
+        },
+        {
+          "label": "Eranad Knowledge City College of Commerce and Sciences, Manjeri, Malappuram",
+          "code": "301"
+        },
+        {
+          "label": "JM College of Arts & Science, Tirur, Malappuram",
+          "code": "302"
+        },
+        {
+          "label": "Moulana College of Arts & Science & Commerce, Tirur, Malappuram (est. 2013)",
+          "code": "303"
+        },
+        {
+          "label": "KMCT Arts & Science College, Kuttippuram, Malappuram (est. 2013)",
+          "code": "304"
+        },
+        {
+          "label": "Fathima Arts & Science College, Nilambur, Malappuram",
+          "code": "305"
+        },
+        {
+          "label": "MES Arts and Science College, Nilambur, Malappuram – no longer functioning",
+          "code": "306"
+        },
+        {
+          "label": "Mohammed Ali Shihab Thangal Memorial Arts and Science College (MSTM), Perinthalmanna, Malappuram",
+          "code": "307"
+        },
+        {
+          "label": "MES Arts and Science College, Perinthalmanna, Malappuram",
+          "code": "308"
+        },
+        {
+          "label": "Government Arts and Science College, Post, Malappuram (est. 2014)",
+          "code": "309"
+        },
+        {
+          "label": "Women's Islamiya Arts and Science College, Punnappala Post, Malappuram (est. 2014)",
+          "code": "310"
+        },
+        {
+          "label": "M.T.M College of Arts, Science and Commerce, Ponnani Taluk, Malappuram (est. 2014)",
+          "code": "311"
+        },
+        {
+          "label": "Ambedkar College of Arts and Science, Wandoor, Malappuram (est. 2014)",
+          "code": "312"
+        },
+        {
+          "label": "KR's Sree Narayana College, Valanchery, Malappuram (est. 2014)",
+          "code": "313"
+        },
+        {
+          "label": "Panakkad Mohamedali Shihab Thangal Arts and Science College, Nannambra, Malappuram (est. 2015)",
+          "code": "314"
+        },
+        {
+          "label": "Vedavyasa College of Arts and Science, Eranad Taluk, Malappuram (est. 2015)",
+          "code": "315"
+        },
+        {
+          "label": "Jamia Islamiya Arts and Science College, Manjeri, Malappuram (est. 2015)",
+          "code": "316"
+        },
+        {
+          "label": "MAO College of Arts and Science, Elayur, Malappuram (est. 2015)",
+          "code": "317"
+        },
+        {
+          "label": "Government Arts and Science College for Women, Downhill, Malappuram (est. 2015)",
+          "code": "318"
+        },
+        {
+          "label": "Sayyid Muhammad Ali Shihab Thangal Memorial Arts and Science Women's College, Malappuram",
+          "code": "319"
+        },
+        {
+          "label": "Luminous Arts and Science College, Malappuram",
+          "code": "320"
+        },
+        {
+          "label": "Ability Arts & Science College for Hearing Impaired, Valiyaparamba, Malappuram",
+          "code": "321"
+        },
+        {
+          "label": "MES College of Engineering, Kuttippuram, Malappuram (est. 1994)",
+          "code": "322"
+        },
+        {
+          "label": "MEA Engineering College, Perinthalmanna, Malappuram (est. 2002)",
+          "code": "323"
+        },
+        {
+          "label": "Vedavyasa Institute of Technology, Karadparamba, Malappuram (est. 2004)",
+          "code": "324"
+        },
+        {
+          "label": "Devaki Amma's Guruvayurappan College of Architecture, Malappuram (est. 2010)",
+          "code": "325"
+        },
+        {
+          "label": "Alsalama Institute of Architecture, Perinthalmanna, Malappuram (est. 2011)",
+          "code": "326"
+        },
+        {
+          "label": "Cochin College of Engineering and Technology, Valanchery, Malappuram (est. 2012)",
+          "code": "327"
+        },
+        {
+          "label": "Talent Institute of Management Studies, Edappal, Malappuram (est. 2013)",
+          "code": "328"
+        },
+        {
+          "label": "Eranad Knowledge City Technical Campus (EKC), Cherukulam, Manjeri, Malappuram",
+          "code": "329"
+        },
+        {
+          "label": "Vedavyasa College of Architecture, Karadparamba, Malappuram (est. 2014)",
+          "code": "330"
+        },
+        {
+          "label": "Eranad Knowledge City College of Architecture, Cherukulam, Manjeri, Malappuram (est. 2014)",
+          "code": "331"
+        },
+        {
+          "label": "Talent Institute of Architecture, Malappuram (est. 2015)",
+          "code": "332"
+        },
+        {
+          "label": "Monti International Institute of Management Studies, Angadippuram, Malappuram (est. 2015)",
+          "code": "333"
+        },
+        { "label": "Bishop Moore College, Mavelikara", "code": "334" },
+        { "label": "Christian College, Chengannur", "code": "335" },
+        { "label": "MSM College, Kayamkulam", "code": "336" },
+        { "label": "N.S.S. College, Cherthala", "code": "337" },
+        { "label": "5. SN College, Cherthala", "code": "338" },
+        { "label": "6. SD College, Alappuzha", "code": "339" },
+        {
+          "label": "St. Joseph's College for Women, Alappuzha",
+          "code": "340"
+        },
+        { "label": "St. Michael's College, Cherthala", "code": "341" },
+        { "label": "9. TKMM College, Nangiarkulangara", "code": "342" },
+        { "label": "10. SN College, Chengannur", "code": "343" },
+        {
+          "label": "Sree Ayyappa College, Eramallikara, Thiruvanvandoor",
+          "code": "344"
+        },
+        { "label": "Fatima Mata National College, Kollam", "code": "345" },
+        { "label": "Sree Narayana College, Kollam", "code": "346" },
+        { "label": "SN College, Kollam", "code": "347" },
+        { "label": "St. Cyril's College, Adoor", "code": "348" },
+        { "label": "N.S.S. College, Pandalam", "code": "349" },
+        {
+          "label": "Government College for Women, Thiruvananthapuram",
+          "code": "350"
+        },
+        { "label": "St. Xavier's College, Thumba", "code": "351" },
+        { "label": "University College Thiruvananthapuram", "code": "352" },
+        { "label": "Government College, Kariavattom", "code": "353" },
+        {
+          "label": "Government Sanskrit College, Thiruvananthapuram",
+          "code": "354"
+        },
+        { "label": "Government College, Attingal", "code": "355" },
+        { "label": "Government College, Nedumangad", "code": "356" },
+        {
+          "label": "24. Kunjukrishnan Nadar Memorial Government Arts and Science College",
+          "code": "357"
+        },
+        {
+          "label": "All Saints College, Thiruvananthapuram",
+          "code": "358"
+        },
+        {
+          "label": "H.H. Maharani Sethu Parvathi Bai N.S.S. College for Women",
+          "code": "359"
+        },
+        {
+          "label": "27. Mahatma Gandhi College, Kesavadasapuram",
+          "code": "360"
+        },
+        { "label": "Mar Ivanios College, Nalanchira", "code": "361" },
+        { "label": "S.N.College, Sivagiri, Varkala", "code": "362" },
+        { "label": "Sree Narayana College, Chempazhanthy", "code": "363" },
+        { "label": "VTM NSS College, Dhanuvachapuram", "code": "364" },
+        {
+          "label": "32. Government Arts College, Thiruvananthapuram",
+          "code": "365"
+        },
+        { "label": "Christian College, Kattakada", "code": "366" },
+        { "label": "Iqbal College, Peringammala", "code": "367" },
+        {
+          "label": "Mannaniya College of Arts & Science, Pangode",
+          "code": "368"
+        },
+        {
+          "label": "Loyola College of Social Sciences, Sreekariyam",
+          "code": "369"
+        },
+        {
+          "label": "aims Medical/Engineering Training, Balaramapuram",
+          "code": "370"
+        },
+        {
+          "label": "Govt. Arts & science college, Thazhava Karunagappally",
+          "code": "371"
+        },
+        {
+          "label": "38. Baby John Memorial Government College, Chavara",
+          "code": "372"
+        },
+        { "label": "Devaswom Board College, Sasthamcottah", "code": "373" },
+        {
+          "label": "40. TKM College of Arts & Science, Karicode",
+          "code": "374"
+        },
+        { "label": "St. Gregorios College, Kottarakkara", "code": "375" },
+        { "label": "St. Stephen's College, Pathanapuram", "code": "376" },
+        { "label": "NSS College Nilamel", "code": "377" },
+        { "label": "St. John's College, Anchal", "code": "378" },
+        { "label": "Sree Narayana College, Punalur", "code": "379" },
+        { "label": "MMNSS College Kottiyam", "code": "380" },
+        { "label": "SN College, Chathannur", "code": "381" },
+        {
+          "label": "Ayyankali Memorial Arts and Science College, Punalur",
+          "code": "382"
+        },
+        {
+          "label": "College of Fine Arts, Thiruvananthapuram",
+          "code": "383"
+        },
+        {
+          "label": "Raja Ravi Varma College of Fine Arts, Mavelikara",
+          "code": "384"
+        },
+        {
+          "label": "Sri Swathi Thirunal College of Music, Thycaud, Thiruvananthapuram",
+          "code": "385"
+        },
+        {
+          "label": "Lakshmi Bai National College of Physical Education, Kariavattom, Thiruvananthapuram",
+          "code": "386"
+        },
+        {
+          "label": "Government Law College, Thiruvananthapuram",
+          "code": "387"
+        },
+        {
+          "label": "The Kerala Law Academy Law College, Peroorkada, Thiruvananthapuram",
+          "code": "388"
+        },
+        {
+          "label": "UEI Global Institute of Hotel Management Thiruvananthapuram",
+          "code": "389"
+        },
+        {
+          "label": "College of Teacher Education, Thycaud, Thiruvananthapuram",
+          "code": "390"
+        },
+        {
+          "label": "SN Training College, Nedumganda, Varkala, Thiruvananthapuram",
+          "code": "391"
+        },
+        {
+          "label": "Mar Theophilus Training College, Bethany Hills, Thiruvananthapuram",
+          "code": "392"
+        },
+        { "label": "Karmela Rani Training College, Kollam", "code": "393" },
+        {
+          "label": "Mount Tabor Training College, Pathanapuram",
+          "code": "394"
+        },
+        { "label": "NSS Training College, Pandalam", "code": "395" },
+        {
+          "label": "Peet Memorial Training College, Mavelikara",
+          "code": "396"
+        },
+        {
+          "label": "Government Medical College, Thiruvananthapuram",
+          "code": "397"
+        },
+        {
+          "label": "Thirumala Devaswom Medical College, Alappuzha",
+          "code": "398"
+        },
+        {
+          "label": "Govt. Ayurveda Medical College, Thiruvananthapuram",
+          "code": "399"
+        },
+        {
+          "label": "Homoepathic Medical College, Iranimuttom, Thiruvananthapuram",
+          "code": "400"
+        },
+        {
+          "label": "Sri Vidhyadhiraja Homoeopathic Medical College, Nemom, Thiruvananthapuram.(Aided from 2002 onwards)",
+          "code": "401"
+        },
+        {
+          "label": "Govt. Dental College, Thiruvananthapuram",
+          "code": "402"
+        },
+        {
+          "label": "Sree Sankara Vidyapeedom College, Nagaroor P O, Kilimanoor",
+          "code": "403"
+        },
+        {
+          "label": "Sree Naryana Guru College Of Advanced Studies Chempazhanthy",
+          "code": "404"
+        },
+        {
+          "label": "AJ College of Science & Technology, Thonnakkal, Thiruvananthapuram",
+          "code": "405"
+        },
+        {
+          "label": "Emmanuel College, Vazhichal, Kudappanamoodu, Thiruvananthapuram",
+          "code": "406"
+        },
+        {
+          "label": "National College, Manacaud, Thiruvananthapuram",
+          "code": "407"
+        },
+        {
+          "label": "6. CHMM College for Advanced Studies, Palayamkunnu, Varkala",
+          "code": "408"
+        },
+        {
+          "label": "KVVS College of Science & Technology, Kaithaparambu, Adoor",
+          "code": "409"
+        },
+        {
+          "label": "Sree Vidhyadhiraja College of Arts & Science, Karunagapally",
+          "code": "410"
+        },
+        {
+          "label": "College of Applied Science Adoor, Pathanamthitta",
+          "code": "411"
+        },
+        {
+          "label": "College of Applied Science Mavelikara, Alappuzha",
+          "code": "412"
+        },
+        {
+          "label": "National Institute of Speech &Hearing, Poojappura, Thiruvananthapuram",
+          "code": "413"
+        },
+        {
+          "label": "Sree Narayana College of Technology, Vadakkevila, Kollam",
+          "code": "414"
+        },
+        {
+          "label": "PMSA Pookoya Thangal Memorial Arts &Science College, Kadakkal, Kollam",
+          "code": "415"
+        },
+        {
+          "label": "Naipunya School of Management, Near Manorama Jn, Cherthala",
+          "code": "416"
+        },
+        {
+          "label": "College of Applied Science, Dhanuvachapuram, Thiruvananthapuram",
+          "code": "417"
+        },
+        {
+          "label": "Sree Narayana Guru Memorial Arts & Science College",
+          "code": "418"
+        },
+        {
+          "label": "Sree Narayana Guru Memorial Catering College, Cherthala, Alappuzha",
+          "code": "419"
+        },
+        {
+          "label": "SNGM Arts & Science College, Valamangalam South, Thuravoor, Cherthala",
+          "code": "420"
+        },
+        {
+          "label": "White Memorial College of Arts & Science for Women, Pannachamoodu, Thiruvananthapuram. Kerala",
+          "code": "421"
+        },
+        {
+          "label": "Dr. Palpu College of Arts and Science, Pangode - Puthussery, Mathira",
+          "code": "422"
+        },
+        {
+          "label": "KICMA College , Neyyar Dam , Kattakada",
+          "code": "423"
+        },
+        {
+          "label": "Christ Nagar College,Maranalur , Thiruvananthapuram",
+          "code": "424"
+        },
+        {
+          "label": "National Training College for Women, Pazhakutty, Nedumangad",
+          "code": "425"
+        },
+        {
+          "label": "Fathima Memorial Training College, Vadakkevila, Kollam",
+          "code": "426"
+        },
+        {
+          "label": "CSI College of Education, Parassala, Thiruvananthapuram",
+          "code": "427"
+        },
+        {
+          "label": "Baselious Marthoma Mathews Training College, Kottarakara",
+          "code": "428"
+        },
+        {
+          "label": "Mannam Memorial Training College, Vilakudy, Kollam",
+          "code": "429"
+        },
+        {
+          "label": "National Training College, Pravachambalam*( *steps are being initiated for disaffiliation )",
+          "code": "430"
+        },
+        {
+          "label": "Sobha College of Teacher Education, S.L.Puram, Cherthala",
+          "code": "431"
+        },
+        {
+          "label": "KNMKNMS Training College, Vellarada, Thiruvananthapuram",
+          "code": "432"
+        },
+        {
+          "label": "BNV College of Teacher Education, Thiruvallam, Thiruvananthapuram",
+          "code": "433"
+        },
+        {
+          "label": "KTCT College of Teacher Education, Kaduvayil, Thottacadu, Thiruvananthapuram",
+          "code": "434"
+        },
+        {
+          "label": "New B Ed College, Nellimoodu, Thiruvananthapuram",
+          "code": "435"
+        },
+        {
+          "label": "H.H.Marthoma MathewsII Training College, Adoor",
+          "code": "436"
+        },
+        {
+          "label": "Jameela Beevi Memorial Centre for Teacher Education, Kayamkulam",
+          "code": "437"
+        },
+        {
+          "label": "St. Thomas Training College, Mukkolakkal, Thiruvananthapuram",
+          "code": "438"
+        },
+        {
+          "label": "MAET Training College, Nettayam, Thiruvananthapuram",
+          "code": "439"
+        },
+        {
+          "label": "St. Jacob's Training College, Menamkulam, Thiruvananthapuram",
+          "code": "440"
+        },
+        {
+          "label": "Emmanuel College of B. Ed Training, Vazhichal, Kudappanamoodu, Thiruvananthapuram",
+          "code": "441"
+        },
+        {
+          "label": "Christ Nagar College of Education, Thiruvallam, Thiruvananthapuram",
+          "code": "442"
+        },
+        {
+          "label": "RV Training College, Valakam, Kottarakara, Kollam",
+          "code": "443"
+        },
+        {
+          "label": "Buddha College of Teacher Education, Muthukulam North, Alappuzha",
+          "code": "444"
+        },
+        {
+          "label": "Mannam Foundation Centre for Education Technology, Poruvazhy, Edakkal, Kollam",
+          "code": "445"
+        },
+        {
+          "label": "Manjappara Educational and Charitable Trust B.Ed Centre, Manjapara, Ayur",
+          "code": "446"
+        },
+        {
+          "label": "Sree Narayana Training College, Sreekandeswaram, Poochakkal, Cherthala",
+          "code": "447"
+        },
+        {
+          "label": "Fathima Memorial Training College, Umayanalloor, Kollam",
+          "code": "448"
+        },
+        {
+          "label": "Sabarigiri College of Education, Anchal, Kollam",
+          "code": "449"
+        },
+        {
+          "label": "College of Teacher Education, Arkanoor, Ayoor, Kollam",
+          "code": "450"
+        },
+        {
+          "label": "Victory College of Teacher Education, Olathanni, Thiruvananthapuram",
+          "code": "451"
+        },
+        {
+          "label": "Millath College of Teacher Education, Kunnathur, Kollam",
+          "code": "452"
+        },
+        {
+          "label": "SNGM B.Ed College, Valamangalam South, Thuravur, Cherthala",
+          "code": "453"
+        },
+        {
+          "label": "Sri Vidyadhiraja Model College of Teacher Education, Vendar PO, Kottarakara, Kollam",
+          "code": "454"
+        },
+        {
+          "label": "Iqbal Training College, Peringammala, Thiruvananthapuram",
+          "code": "455"
+        },
+        {
+          "label": "Kaviyattu College of Education, Pirappencode, Thiruvananthapuram",
+          "code": "456"
+        },
+        {
+          "label": "Sree Narayana Guru Kripa Trust B.Ed College, Pothencode, Thiruvananthapuram",
+          "code": "457"
+        },
+        {
+          "label": "Haneefa Kunju Memorial College of Education, Umayanallur, Kollam",
+          "code": "458"
+        },
+        {
+          "label": "Valiyam Memorial College of Teacher Education, Edappallikkotta, Chavara, Kollam",
+          "code": "459"
+        },
+        {
+          "label": "Jamia Training College, Chithara, Kollam",
+          "code": "460"
+        },
+        {
+          "label": "KPM BEd Training College, Cheriyavelinalloor, Oyoor, Kollam",
+          "code": "461"
+        },
+        {
+          "label": "Sree Narayana Guru College of Legal Studies, Kollam",
+          "code": "462"
+        },
+        {
+          "label": "METCA Institute of Teacher Education, Chavarcode, Palayamkunnu, Varkala, Thiruvananthapuram",
+          "code": "463"
+        }
+      ]
+    },
+    "family_type": {
+      "label": "Family Type",
+      "sub_division": [
+        {
+          "label": "Nuclear",
+          "code": "1"
+        },
+        {
+          "label": "Single-Parent",
+          "code": "2"
+        },
+        {
+          "label": "Blended",
+          "code": "3"
+        },
+        {
+          "label": "Grandparent",
+          "code": "4"
+        },
+        {
+          "label": "Childless",
+          "code": "5"
+        },
+        {
+          "label": "Extended",
+          "code": "6"
+        }
+      ]
+    },
+    "hobbies": {
+      "label": "Hobbies",
+      "sub_division": [
+        {
+          "code": "0",
+          "label": "Coin Collection"
+        },
+        {
+          "code": "1",
+          "label": "Cycling"
+        },
+        {
+          "code": "2",
+          "label": "Cricket"
+        },
+        {
+          "code": "3",
+          "label": "Reading"
+        },
+        {
+          "code": "4",
+          "label": "Writing"
+        },
+        {
+          "code": "5",
+          "label": "Gardening"
+        },
+        {
+          "code": "6",
+          "label": "Art and handicraft"
+        },
+        {
+          "code": "7",
+          "label": "Drawing and painting"
+        },
+        {
+          "code": "8",
+          "label": "Dress designing"
+        },
+        {
+          "code": "9",
+          "label": "Internet surfing"
+        }
+      ]
+    }
+  },
+  "interests": [
+    {
+      "code": "0",
+      "label": "Music",
+      "sub_division": [
+        {
+          "label": "Blues",
+          "code": "0"
+        },
+        {
+          "label": "Classical",
+          "code": "1"
+        },
+        {
+          "label": "Country",
+          "code": "2"
+        },
+        {
+          "label": "Dance",
+          "code": "3"
+        },
+        {
+          "label": "Electronic",
+          "code": "4"
+        },
+        {
+          "label": "Gospel",
+          "code": "5"
+        },
+        {
+          "label": "Heavy metal",
+          "code": "6"
+        },
+        {
+          "label": "Hip hop",
+          "code": "7"
+        },
+        {
+          "label": "Jazz",
+          "code": "8"
+        },
+        {
+          "label": "Music videos",
+          "code": "9"
+        },
+        {
+          "label": "Pop",
+          "code": "10"
+        },
+        {
+          "label": "Rhythm and blues",
+          "code": "11"
+        },
+        {
+          "label": "Rock musicSoul",
+          "code": "12"
+        }
+      ]
+    },
+    {
+      "code": "1",
+      "label": "Films",
+      "sub_division": [
+        {
+          "label": "Action",
+          "code": "0"
+        },
+        {
+          "label": "Animated",
+          "code": "1"
+        },
+        {
+          "label": "Anime",
+          "code": "2"
+        },
+        {
+          "label": "Bollywood",
+          "code": "3"
+        },
+        {
+          "label": "Comedy",
+          "code": "4"
+        },
+        {
+          "label": "Documentary",
+          "code": "5"
+        },
+        {
+          "label": "Drama",
+          "code": "6"
+        },
+        {
+          "label": "Fantasy",
+          "code": "7"
+        },
+        {
+          "label": "Horror",
+          "code": "8"
+        },
+        {
+          "label": "Musical theatre",
+          "code": "9"
+        },
+        {
+          "label": "Science fiction",
+          "code": "10"
+        },
+        {
+          "label": "Thriller",
+          "code": "11"
+        }
+      ]
+    },
+    {
+      "code": "2",
+      "label": "Books",
+      "sub_division": [
+        {
+          "label": "Books",
+          "code": "0"
+        },
+        {
+          "label": "Comics",
+          "code": "1"
+        },
+        {
+          "label": "E-books",
+          "code": "2"
+        },
+        {
+          "label": "Fiction books",
+          "code": "3"
+        },
+        {
+          "label": "Literature",
+          "code": "4"
+        },
+        {
+          "label": "Magazines",
+          "code": "5"
+        },
+        {
+          "label": "Manga",
+          "code": "6"
+        },
+        {
+          "label": "Mystery fiction",
+          "code": "7"
+        },
+        {
+          "label": "Newspapers",
+          "code": "8"
+        },
+        {
+          "label": "Non-fiction books",
+          "code": "9"
+        },
+        {
+          "label": "Romance novels",
+          "code": "10"
+        }
+      ]
+    },
+    {
+      "code": "3",
+      "label": "TV Shows",
+      "sub_division": [
+        {
+          "label": "TV comedies",
+          "code": "0"
+        },
+        {
+          "label": "TV game shows",
+          "code": "1"
+        },
+        {
+          "label": "TV reality shows",
+          "code": "2"
+        },
+        {
+          "label": "TV talkshows",
+          "code": "3"
+        }
+      ]
+    },
+    {
+      "code": "4",
+      "label": "Sports",
+      "sub_division": [
+        {
+          "label": "American football",
+          "code": "0"
+        },
+        {
+          "label": "Association football",
+          "code": "1"
+        },
+        {
+          "label": "Auto racing",
+          "code": "2"
+        },
+        {
+          "label": "Baseball",
+          "code": "3"
+        },
+        {
+          "label": "Basketball",
+          "code": "4"
+        },
+        {
+          "label": "College football",
+          "code": "5"
+        },
+        {
+          "label": "Golf",
+          "code": "6"
+        },
+        {
+          "label": "Marathons",
+          "code": "7"
+        },
+        {
+          "label": "Skiing",
+          "code": "8"
+        },
+        {
+          "label": "Snowboarding",
+          "code": "9"
+        },
+        {
+          "label": "Swimming",
+          "code": "10"
+        },
+        {
+          "label": "Tennis",
+          "code": "11"
+        },
+        {
+          "label": "Thriathlons",
+          "code": "12"
+        },
+        {
+          "label": "Volleyball",
+          "code": "13"
+        }
+      ]
+    },
+    {
+      "code": "5",
+      "label": "Food",
+      "sub_division": [
+        {
+          "label": "Indian",
+          "code": "0"
+        },
+        {
+          "label": "Arabic",
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "code": "6",
+      "label": "Business and Industry",
+      "sub_division": [
+        {
+          "label": "Advertising",
+          "code": "0"
+        },
+        {
+          "label": "Agriculture",
+          "code": "1"
+        },
+        {
+          "label": "Architecture",
+          "code": "2"
+        },
+        {
+          "label": "Aviation",
+          "code": "3"
+        },
+        {
+          "label": "Banking",
+          "code": "4"
+        },
+        {
+          "label": "Investment banking",
+          "code": "5"
+        },
+        {
+          "label": "Online banking",
+          "code": "6"
+        },
+        {
+          "label": "Retail banking",
+          "code": "7"
+        },
+        {
+          "label": "Investment banking",
+          "code": "8"
+        },
+        {
+          "label": "Online banking",
+          "code": "9"
+        },
+        {
+          "label": "Retail banking",
+          "code": "10"
+        },
+        {
+          "label": "Business",
+          "code": "11"
+        },
+        {
+          "label": "Construction",
+          "code": "12"
+        },
+        {
+          "label": "Design",
+          "code": "13"
+        },
+        {
+          "label": "Fashion design",
+          "code": "14"
+        },
+        {
+          "label": "Graphic design",
+          "code": "15"
+        },
+        {
+          "label": "Interior design",
+          "code": "16"
+        },
+        {
+          "label": "Economics",
+          "code": "17"
+        },
+        {
+          "label": "Engineering",
+          "code": "18"
+        },
+        {
+          "label": "Entrepreneurship",
+          "code": "19"
+        },
+        {
+          "label": "Health care",
+          "code": "20"
+        },
+        {
+          "label": "Higher education",
+          "code": "21"
+        },
+        {
+          "label": "Management",
+          "code": "22"
+        },
+        {
+          "label": "Marketing",
+          "code": "23"
+        },
+        {
+          "label": "Nursing",
+          "code": "24"
+        },
+        {
+          "label": "Online",
+          "code": "25"
+        },
+        {
+          "label": "Digital marketing",
+          "code": "26"
+        },
+        {
+          "label": "Display advertising",
+          "code": "27"
+        },
+        {
+          "label": "Email marketing",
+          "code": "28"
+        },
+        {
+          "label": "Online advertising",
+          "code": "29"
+        },
+        {
+          "label": "Search engine optimization",
+          "code": "30"
+        },
+        {
+          "label": "Social media",
+          "code": "31"
+        },
+        {
+          "label": "Social media marketing",
+          "code": "32"
+        },
+        {
+          "label": "Web design",
+          "code": "33"
+        },
+        {
+          "label": "Web development",
+          "code": "34"
+        },
+        {
+          "label": "Web hosting",
+          "code": "35"
+        },
+        {
+          "label": "Personal finance",
+          "code": "36"
+        },
+        {
+          "label": "Creditcards",
+          "code": "37"
+        },
+        {
+          "label": "Insurance",
+          "code": "38"
+        },
+        {
+          "label": "Investment",
+          "code": "39"
+        },
+        {
+          "label": "Mortgage loans",
+          "code": "40"
+        },
+        {
+          "label": "Real estate",
+          "code": "41"
+        },
+        {
+          "label": "Retail",
+          "code": "42"
+        },
+        {
+          "label": "Sales",
+          "code": "43"
+        },
+        {
+          "label": "Science",
+          "code": "44"
+        },
+        {
+          "label": "Small business",
+          "code": "45"
+        }
+      ]
+    },
+    {
+      "code": "7",
+      "label": "Fitness and wellness",
+      "sub_division": [
+        {
+          "label": "Bodybuilding",
+          "code": "0"
+        },
+        {
+          "label": "Meditation",
+          "code": "1"
+        },
+        {
+          "label": "Physical exercise",
+          "code": "2"
+        },
+        {
+          "label": "Physical fitness",
+          "code": "3"
+        },
+        {
+          "label": "Running",
+          "code": "4"
+        },
+        {
+          "label": "Weight training",
+          "code": "5"
+        },
+        {
+          "label": "Yoga",
+          "code": "6"
+        }
+      ]
+    },
+    {
+      "code": "8",
+      "label": "Live events",
+      "sub_division": [
+        {
+          "label": "Ballet",
+          "code": "0"
+        },
+        {
+          "label": "Bars",
+          "code": "1"
+        },
+        {
+          "label": "Concerts",
+          "code": "2"
+        },
+        {
+          "label": "Dancehalls",
+          "code": "3"
+        },
+        {
+          "label": "Music festivals",
+          "code": "4"
+        },
+        {
+          "label": "Nightclubs",
+          "code": "5"
+        },
+        {
+          "label": "Parties",
+          "code": "6"
+        },
+        {
+          "label": "Plays",
+          "code": "7"
+        },
+        {
+          "label": "Theatre",
+          "code": "8"
+        }
+      ]
+    },
+    {
+      "code": "9",
+      "label": "Games",
+      "sub_division": [
+        {
+          "label": "Action",
+          "code": "0"
+        },
+        {
+          "label": "Board",
+          "code": "1"
+        },
+        {
+          "label": "Browser",
+          "code": "2"
+        },
+        {
+          "label": "Card",
+          "code": "3"
+        },
+        {
+          "label": "Casino",
+          "code": "4"
+        },
+        {
+          "label": "First-person shooter",
+          "code": "5"
+        },
+        {
+          "label": "Gambling",
+          "code": "6"
+        },
+        {
+          "label": "Massively multiplayer online",
+          "code": "7"
+        },
+        {
+          "label": "Massively multiplayer online role-playing",
+          "code": "8"
+        },
+        {
+          "label": "Online",
+          "code": "9"
+        },
+        {
+          "label": "Online poker",
+          "code": "10"
+        },
+        {
+          "label": "Puzzle video",
+          "code": "11"
+        },
+        {
+          "label": "Racing",
+          "code": "12"
+        },
+        {
+          "label": "Role-playing",
+          "code": "13"
+        },
+        {
+          "label": "Shooter",
+          "code": "14"
+        },
+        {
+          "label": "Simulation",
+          "code": "15"
+        },
+        {
+          "label": "Sports",
+          "code": "16"
+        },
+        {
+          "label": "Strategy",
+          "code": "17"
+        },
+        {
+          "label": "Video",
+          "code": "18"
+        },
+        {
+          "label": "Word",
+          "code": "19"
+        }
+      ]
+    },
+    {
+      "code": "10",
+      "label": "Alcoholic beverages",
+      "sub_division": [
+        {
+          "label": "Beer",
+          "code": "0"
+        },
+        {
+          "label": "Distilled beverage",
+          "code": "1"
+        },
+        {
+          "label": "Wine",
+          "code": "2"
+        }
+      ]
+    },
+    {
+      "code": "11",
+      "label": "Beverages",
+      "sub_division": [
+        {
+          "label": "Coffee",
+          "code": "0"
+        },
+        {
+          "label": "Energy drinks",
+          "code": "1"
+        },
+        {
+          "label": "Juice",
+          "code": "2"
+        },
+        {
+          "label": "Soft drinks",
+          "code": "3"
+        },
+        {
+          "label": "Tea",
+          "code": "4"
+        }
+      ]
+    },
+    {
+      "code": "12",
+      "label": "Cooking",
+      "sub_division": [
+        {
+          "label": "Baking",
+          "code": "0"
+        },
+        {
+          "label": "Recipes",
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "code": "13",
+      "label": "Cuisine",
+      "sub_division": [
+        {
+          "label": "Chinese",
+          "code": "0"
+        },
+        {
+          "label": "French",
+          "code": "1"
+        },
+        {
+          "label": "German",
+          "code": "2"
+        },
+        {
+          "label": "Greek",
+          "code": "3"
+        },
+        {
+          "label": "Indian",
+          "code": "4"
+        },
+        {
+          "label": "Italian",
+          "code": "5"
+        },
+        {
+          "label": "Japanese",
+          "code": "6"
+        },
+        {
+          "label": "Korean",
+          "code": "7"
+        },
+        {
+          "label": "Latin American",
+          "code": "8"
+        },
+        {
+          "label": "Mexican",
+          "code": "9"
+        },
+        {
+          "label": "Middle Eastern",
+          "code": "10"
+        },
+        {
+          "label": "Spanish",
+          "code": "11"
+        },
+        {
+          "label": "Thai",
+          "code": "12"
+        },
+        {
+          "label": "Vietnamese",
+          "code": "13"
+        }
+      ]
+    },
+    {
+      "code": "14",
+      "label": "Food",
+      "sub_division": [
+        {
+          "label": "Barbecue",
+          "code": "0"
+        },
+        {
+          "label": "Chocolate",
+          "code": "1"
+        },
+        {
+          "label": "Desserts",
+          "code": "2"
+        },
+        {
+          "label": "Fast food",
+          "code": "3"
+        },
+        {
+          "label": "Organic food",
+          "code": "4"
+        },
+        {
+          "label": "Pizza",
+          "code": "5"
+        },
+        {
+          "label": "Seafood",
+          "code": "6"
+        },
+        {
+          "label": "Veganism",
+          "code": "7"
+        },
+        {
+          "label": "Vegetarianism",
+          "code": "8"
+        }
+      ]
+    },
+    {
+      "code": "16",
+      "label": "Restaurants",
+      "sub_division": [
+        {
+          "label": "Coffeehouses",
+          "code": "0"
+        },
+        {
+          "label": "Diners",
+          "code": "1"
+        },
+        {
+          "label": "Fast casual restaurants",
+          "code": "2"
+        },
+        {
+          "label": "Fast food restaurants",
+          "code": "3"
+        }
+      ]
+    },
+    {
+      "code": "17",
+      "label": "Arts and",
+      "sub_division": [
+        {
+          "label": "Acting",
+          "code": "0"
+        },
+        {
+          "label": "Crafts",
+          "code": "1"
+        },
+        {
+          "label": "Dance",
+          "code": "2"
+        },
+        {
+          "label": "Drawing",
+          "code": "3"
+        },
+        {
+          "label": "Drums",
+          "code": "4"
+        },
+        {
+          "label": "Fine art",
+          "code": "5"
+        },
+        {
+          "label": "Guitar",
+          "code": "6"
+        },
+        {
+          "label": "Painting",
+          "code": "7"
+        },
+        {
+          "label": "Performing arts",
+          "code": "8"
+        },
+        {
+          "label": "Photography",
+          "code": "9"
+        },
+        {
+          "label": "Sculpture",
+          "code": "10"
+        },
+        {
+          "label": "Singing",
+          "code": "11"
+        },
+        {
+          "label": "Writing",
+          "code": "12"
+        }
+      ]
+    },
+    {
+      "code": "18",
+      "label": "Home and garden",
+      "sub_division": [
+        {
+          "label": "Do it yourself (DIY)",
+          "code": "0"
+        },
+        {
+          "label": "Furniture",
+          "code": "1"
+        },
+        {
+          "label": "Gardening",
+          "code": "2"
+        },
+        {
+          "label": "Home Appliances",
+          "code": "3"
+        },
+        {
+          "label": "Home improvement",
+          "code": "4"
+        }
+      ]
+    },
+    {
+      "code": "19",
+      "label": "Pets",
+      "sub_division": [
+        {
+          "label": "Birds",
+          "code": "0"
+        },
+        {
+          "label": "Cats",
+          "code": "1"
+        },
+        {
+          "label": "Dogs",
+          "code": "2"
+        },
+        {
+          "label": "Fish",
+          "code": "3"
+        },
+        {
+          "label": "Horses",
+          "code": "4"
+        },
+        {
+          "label": "Pet food",
+          "code": "5"
+        },
+        {
+          "label": "Rabbits",
+          "code": "6"
+        },
+        {
+          "label": "Reptiles",
+          "code": "7"
+        }
+      ]
+    },
+    {
+      "code": "20",
+      "label": "Politics and social",
+      "sub_division": [
+        {
+          "label": "Charity and causes",
+          "code": "0"
+        },
+        {
+          "label": "Community issues",
+          "code": "1"
+        },
+        {
+          "label": "Environmentalism",
+          "code": "2"
+        },
+        {
+          "label": "Law",
+          "code": "3"
+        },
+        {
+          "label": "Military",
+          "code": "4"
+        },
+        {
+          "label": "Politics",
+          "code": "5"
+        },
+        {
+          "label": "Religion",
+          "code": "6"
+        },
+        {
+          "label": "Sustainability",
+          "code": "7"
+        },
+        {
+          "label": "Veterans",
+          "code": "8"
+        },
+        {
+          "label": "Volunteering",
+          "code": "9"
+        }
+      ]
+    },
+    {
+      "code": "21",
+      "label": "Travel",
+      "sub_division": [
+        {
+          "label": "Adventure travel",
+          "code": "0"
+        },
+        {
+          "label": "Air travel",
+          "code": "1"
+        },
+        {
+          "label": "Beaches",
+          "code": "2"
+        },
+        {
+          "label": "Car rentals",
+          "code": "3"
+        },
+        {
+          "label": "Cruises",
+          "code": "4"
+        },
+        {
+          "label": "Ecotourism",
+          "code": "5"
+        },
+        {
+          "label": "Hotels",
+          "code": "6"
+        },
+        {
+          "label": "Lakes",
+          "code": "7"
+        },
+        {
+          "label": "Mountains",
+          "code": "8"
+        },
+        {
+          "label": "Nature",
+          "code": "9"
+        },
+        {
+          "label": "Theme parks",
+          "code": "10"
+        },
+        {
+          "label": "Tourism",
+          "code": "11"
+        },
+        {
+          "label": "Vacations",
+          "code": "12"
+        }
+      ]
+    },
+    {
+      "code": "22",
+      "label": "Vehicles",
+      "sub_division": [
+        {
+          "label": "Automobiles",
+          "code": "0"
+        },
+        {
+          "label": "Boats",
+          "code": "1"
+        },
+        {
+          "label": "Electric vehicle",
+          "code": "2"
+        },
+        {
+          "label": "Hybrids",
+          "code": "3"
+        },
+        {
+          "label": "Minivans",
+          "code": "4"
+        },
+        {
+          "label": "Motorcycles",
+          "code": "5"
+        },
+        {
+          "label": "RVs",
+          "code": "6"
+        },
+        {
+          "label": "SUVs",
+          "code": "7"
+        },
+        {
+          "label": "Scooters",
+          "code": "8"
+        },
+        {
+          "label": "Trucks",
+          "code": "9"
+        }
+      ]
+    },
+    {
+      "code": "23",
+      "label": "Beauty",
+      "sub_division": [
+        {
+          "label": "Beauty salons",
+          "code": "0"
+        },
+        {
+          "label": "Cosmetics",
+          "code": "1"
+        },
+        {
+          "label": "Fragrances",
+          "code": "2"
+        },
+        {
+          "label": "Hair products",
+          "code": "3"
+        },
+        {
+          "label": "Spas",
+          "code": "4"
+        },
+        {
+          "label": "Tattoos",
+          "code": "5"
+        }
+      ]
+    },
+    {
+      "code": "24",
+      "label": "Clothing",
+      "sub_division": [
+        {
+          "label": "Children’s clothing",
+          "code": "0"
+        },
+        {
+          "label": "Men’s clothing",
+          "code": "1"
+        },
+        {
+          "label": "Shoes",
+          "code": "2"
+        },
+        {
+          "label": "Women’s clothing",
+          "code": "3"
+        }
+      ]
+    },
+    {
+      "code": "25",
+      "label": "Fashionaccessories",
+      "sub_division": [
+        {
+          "label": "Dresses",
+          "code": "0"
+        },
+        {
+          "label": "Handbags",
+          "code": "1"
+        },
+        {
+          "label": "Jewelry",
+          "code": "2"
+        },
+        {
+          "label": "Sunglasses",
+          "code": "3"
+        }
+      ]
+    },
+    {
+      "code": "26",
+      "label": "Shopping",
+      "sub_division": [
+        {
+          "label": "Boutiques",
+          "code": "0"
+        },
+        {
+          "label": "Coupons",
+          "code": "1"
+        },
+        {
+          "label": "Discount stores",
+          "code": "2"
+        },
+        {
+          "label": "Luxury goods",
+          "code": "3"
+        },
+        {
+          "label": "Online shopping",
+          "code": "4"
+        },
+        {
+          "label": "Shopping malls",
+          "code": "5"
+        }
+      ]
+    },
+    {
+      "code": "27",
+      "label": "Outdoor recreation",
+      "sub_division": [
+        {
+          "label": "Boating",
+          "code": "0"
+        },
+        {
+          "label": "Camping",
+          "code": "1"
+        },
+        {
+          "label": "Fishing",
+          "code": "2"
+        },
+        {
+          "label": "Horseback riding",
+          "code": "3"
+        },
+        {
+          "label": "Hunting",
+          "code": "4"
+        },
+        {
+          "label": "Mountain biking",
+          "code": "5"
+        },
+        {
+          "label": "Surfing",
+          "code": "6"
+        }
+      ]
+    }
+  ]
+}

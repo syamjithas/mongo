@@ -45,3 +45,6 @@ id> lastID and createdDate : latest
 {height: { $lt: 170 }},
 {uniqId: {$gt:1700002}}
 ]}
+
+
+{ $and :[{creation_ip:'103.171.224.83'},{device:{$elemMatch:{name : "Mac2"}}}]}
