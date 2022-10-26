@@ -1,0 +1,858 @@
+{
+  "response_code": 200,
+  "message": "Success",
+  "response": {
+    "user": {
+      "gender": {
+        "label": "Male",
+        "code": "0"
+      },
+      "marital_status": {
+        "label": "Single",
+        "code": "0"
+      },
+      "height": {
+        "label": "171cm / 5'7",
+        "code": "171"
+      },
+      "religion": {
+        "label": "Hindu",
+        "code": "0"
+      },
+      "caste": {
+        "label": "Nair",
+        "code": "88"
+      },
+      "education": {
+        "label": "M.Tech.",
+        "code": "60"
+      },
+      "university": {
+        "label": "Harward University",
+        "code": "hw"
+      },
+      "college": {
+        "label": "Nehru College",
+        "code": "nc"
+      },
+      "job": {
+        "label": "IT / Software Professional",
+        "code": "72"
+      },
+      "country": {
+        "label": "India",
+        "code": "IN"
+      },
+      "state": {
+        "label": "Kerala",
+        "code": "KL"
+      },
+      "city": {
+        "label": "Ernakulam",
+        "code": "595"
+      },
+      "preferences": {
+        "full_name": true,
+        "dob": true,
+        "location": true
+      },
+      "family": {
+        "family_type": {
+          "label": "Nuclear Family",
+          "code": "nf"
+        },
+        "siblings": [
+          {
+            "is_married": false,
+            "is_elder": true,
+            "is_male": false,
+            "name": "Jeena"
+          }
+        ],
+        "family_bio": "Family consists of 4 Members",
+        "family_location": "Kozhikode",
+        "family_name": "Puthukotta",
+        "father_job": "Bank Manager",
+        "father_name": "Madhu",
+        "mother_job": "Teacher",
+        "mother_name": "Kerala"
+      },
+      "partner_preferences": {
+        "age": {
+          "min": 21,
+          "max": 33
+        },
+        "astro_sign": [],
+        "caste": [
+          {
+            "label": "Anglo Indian",
+            "code": "0"
+          },
+          {
+            "label": "Born Again",
+            "code": "1"
+          },
+          {
+            "label": "Caldiyan Syrian",
+            "code": "2"
+          },
+          {
+            "label": "Cherumar",
+            "code": "3"
+          },
+          {
+            "label": "Christian-Nadar",
+            "code": "4"
+          },
+          {
+            "label": "CSI",
+            "code": "5"
+          },
+          {
+            "label": "Jacobite",
+            "code": "6"
+          },
+          {
+            "label": "Knanaya",
+            "code": "7"
+          },
+          {
+            "label": "Latin",
+            "code": "8"
+          },
+          {
+            "label": "Malankara",
+            "code": "9"
+          },
+          {
+            "label": "Marthoma",
+            "code": "10"
+          },
+          {
+            "label": "Orthodox",
+            "code": "11"
+          },
+          {
+            "label": "Others",
+            "code": "12"
+          },
+          {
+            "label": "Pentecost",
+            "code": "13"
+          },
+          {
+            "label": "Protestant",
+            "code": "14"
+          },
+          {
+            "label": "Roman Catholic",
+            "code": "15"
+          },
+          {
+            "label": "Sambava-Christians",
+            "code": "16"
+          },
+          {
+            "label": "Unknown",
+            "code": "17"
+          },
+          {
+            "label": "X'AN",
+            "code": "18"
+          }
+        ],
+        "city": [
+          {
+            "label": "Alappuzha",
+            "code": "598"
+          },
+          {
+            "label": "Ernakulam",
+            "code": "595"
+          },
+          {
+            "label": "Idukki",
+            "code": "596"
+          },
+          {
+            "label": "Kannur",
+            "code": "589"
+          },
+          {
+            "label": "Kasaragod",
+            "code": "588"
+          },
+          {
+            "label": "Kollam",
+            "code": "600"
+          },
+          {
+            "label": "Kottayam",
+            "code": "597"
+          },
+          {
+            "label": "Kozhikode",
+            "code": "591"
+          },
+          {
+            "label": "Malappuram",
+            "code": "592"
+          },
+          {
+            "label": "Palakkad",
+            "code": "593"
+          },
+          {
+            "label": "Pathanamthitta",
+            "code": "599"
+          },
+          {
+            "label": "Thrissur",
+            "code": "594"
+          },
+          {
+            "label": "Thiruvananthapuram",
+            "code": "601"
+          },
+          {
+            "label": "Wayanad",
+            "code": "590"
+          }
+        ],
+        "country": [
+          {
+            "label": "Alappuzha",
+            "code": "598"
+          },
+          {
+            "label": "Kasaragod",
+            "code": "588"
+          },
+          {
+            "label": "Kozhikode",
+            "code": "591"
+          },
+          {
+            "label": "Malappuram",
+            "code": "592"
+          },
+          {
+            "label": "Pathanamthitta",
+            "code": "599"
+          },
+          {
+            "label": "Wayanad",
+            "code": "590"
+          },
+          {
+            "label": "Thiruvananthapuram",
+            "code": "601"
+          },
+          {
+            "label": "Kannur",
+            "code": "589"
+          },
+          {
+            "label": "Thrissur",
+            "code": "594"
+          },
+          {
+            "label": "Kollam",
+            "code": "600"
+          },
+          {
+            "label": "Palakkad",
+            "code": "593"
+          },
+          {
+            "label": "Kottayam",
+            "code": "597"
+          },
+          {
+            "label": "Ernakulam",
+            "code": "595"
+          },
+          {
+            "label": "Idukki",
+            "code": "596"
+          }
+        ],
+        "education": [
+          {
+            "label": "Aviation Degree",
+            "code": "0"
+          },
+          {
+            "label": "B.A.",
+            "code": "1"
+          },
+          {
+            "label": "B.A.M.S.",
+            "code": "2"
+          },
+          {
+            "label": "B.Arch",
+            "code": "3"
+          },
+          {
+            "label": "B.Com.",
+            "code": "4"
+          },
+          {
+            "label": "B.Ed.",
+            "code": "5"
+          },
+          {
+            "label": "B.L.",
+            "code": "6"
+          },
+          {
+            "label": "B.M.M.",
+            "code": "7"
+          },
+          {
+            "label": "B.Pharm",
+            "code": "8"
+          },
+          {
+            "label": "B.Phil.",
+            "code": "9"
+          },
+          {
+            "label": "B.Plan",
+            "code": "10"
+          },
+          {
+            "label": "B.S.(Engineering)",
+            "code": "11"
+          },
+          {
+            "label": "B.S.W",
+            "code": "12"
+          },
+          {
+            "label": "B.Sc IT/ Computer Science",
+            "code": "13"
+          },
+          {
+            "label": "B.Sc.",
+            "code": "14"
+          },
+          {
+            "label": "B.Sc. Nursing",
+            "code": "15"
+          },
+          {
+            "label": "B.Tech",
+            "code": "16"
+          },
+          {
+            "label": "BBA",
+            "code": "17"
+          },
+          {
+            "label": "BCA",
+            "code": "18"
+          },
+          {
+            "label": "BDS",
+            "code": "19"
+          },
+          {
+            "label": "BE",
+            "code": "20"
+          },
+          {
+            "label": "BFA",
+            "code": "21"
+          },
+          {
+            "label": "BFM (Financial Management)",
+            "code": "22"
+          },
+          {
+            "label": "BFT",
+            "code": "23"
+          },
+          {
+            "label": "BGL",
+            "code": "24"
+          },
+          {
+            "label": "BHM (Hotel Management)",
+            "code": "25"
+          },
+          {
+            "label": "BHMS",
+            "code": "26"
+          },
+          {
+            "label": "BLIS",
+            "code": "27"
+          },
+          {
+            "label": "BPT",
+            "code": "28"
+          },
+          {
+            "label": "BSMS",
+            "code": "29"
+          },
+          {
+            "label": "BUMS",
+            "code": "30"
+          },
+          {
+            "label": "BVSc",
+            "code": "31"
+          },
+          {
+            "label": "CA",
+            "code": "32"
+          },
+          {
+            "label": "CA Inter",
+            "code": "33"
+          },
+          {
+            "label": "CFA (Chartered Financial Analyst)",
+            "code": "34"
+          },
+          {
+            "label": "CS",
+            "code": "35"
+          },
+          {
+            "label": "D.Pharm",
+            "code": "36"
+          },
+          {
+            "label": "Diploma",
+            "code": "37"
+          },
+          {
+            "label": "GNM",
+            "code": "38"
+          },
+          {
+            "label": "IAS",
+            "code": "39"
+          },
+          {
+            "label": "IATA",
+            "code": "40"
+          },
+          {
+            "label": "ICWA",
+            "code": "41"
+          },
+          {
+            "label": "ICWA Inter",
+            "code": "42"
+          },
+          {
+            "label": "IES",
+            "code": "43"
+          },
+          {
+            "label": "IFS",
+            "code": "44"
+          },
+          {
+            "label": "IPS",
+            "code": "45"
+          },
+          {
+            "label": "IRS",
+            "code": "46"
+          },
+          {
+            "label": "ITI / ITC / Trade School Diploma",
+            "code": "47"
+          },
+          {
+            "label": "LL.B.",
+            "code": "48"
+          },
+          {
+            "label": "LL.M.",
+            "code": "49"
+          },
+          {
+            "label": "M.A.",
+            "code": "50"
+          },
+          {
+            "label": "M.Arch.",
+            "code": "51"
+          },
+          {
+            "label": "M.Ed.",
+            "code": "52"
+          },
+          {
+            "label": "M.L.",
+            "code": "53"
+          },
+          {
+            "label": "M.Pharm",
+            "code": "54"
+          },
+          {
+            "label": "M.Phil.",
+            "code": "55"
+          },
+          {
+            "label": "M.S.(Engg.)",
+            "code": "56"
+          },
+          {
+            "label": "M.Sc.",
+            "code": "57"
+          },
+          {
+            "label": "M.Sc. IT / Computer Science",
+            "code": "58"
+          },
+          {
+            "label": "M.Sc. Nursing",
+            "code": "59"
+          },
+          {
+            "label": "M.Tech.",
+            "code": "60"
+          },
+          {
+            "label": "MBA",
+            "code": "61"
+          },
+          {
+            "label": "MBBS",
+            "code": "62"
+          },
+          {
+            "label": "MCA",
+            "code": "63"
+          },
+          {
+            "label": "MCJ",
+            "code": "64"
+          },
+          {
+            "label": "MCom",
+            "code": "65"
+          },
+          {
+            "label": "ME",
+            "code": "66"
+          },
+          {
+            "label": "MFA",
+            "code": "67"
+          },
+          {
+            "label": "MFM (Financial Management)",
+            "code": "68"
+          },
+          {
+            "label": "MHM (Hotel Management)",
+            "code": "69"
+          },
+          {
+            "label": "MHRM (Human Resource Management)",
+            "code": "70"
+          },
+          {
+            "label": "MLIS",
+            "code": "71"
+          },
+          {
+            "label": "MSW",
+            "code": "72"
+          },
+          {
+            "label": "Other Bachelor Degree in Arts / Science / Commerce",
+            "code": "73"
+          },
+          {
+            "label": "Other Bachelor Degree in Engineering / Computers",
+            "code": "74"
+          },
+          {
+            "label": "Other Bachelor Degree in Low / Legal",
+            "code": "75"
+          },
+          {
+            "label": "Other Bachelor Degree in Management",
+            "code": "76"
+          },
+          {
+            "label": "Other Bachelor Degree in Medicine",
+            "code": "77"
+          },
+          {
+            "label": "Other Degree in Civil Service",
+            "code": "78"
+          },
+          {
+            "label": "Other Degree in Finance",
+            "code": "79"
+          },
+          {
+            "label": "Other Master / Bachelor Degree in Medicine",
+            "code": "80"
+          },
+          {
+            "label": "Other Master Degree in Low / Legal",
+            "code": "81"
+          },
+          {
+            "label": "Other Master Degree in Arts / Science / Commerce",
+            "code": "82"
+          },
+          {
+            "label": "Other Master Degree in Management",
+            "code": "83"
+          },
+          {
+            "label": "Other Masters Degree in Engineering / Computers",
+            "code": "84"
+          },
+          {
+            "label": "Others in Diploma",
+            "code": "85"
+          },
+          {
+            "label": "PGDCA / PGDBA / PG Diploma",
+            "code": "86"
+          },
+          {
+            "label": "PGDM",
+            "code": "87"
+          },
+          {
+            "label": "Pharm D",
+            "code": "88"
+          },
+          {
+            "label": "Polytechnic",
+            "code": "89"
+          },
+          {
+            "label": "TTC",
+            "code": "90"
+          },
+          {
+            "label": "Other",
+            "code": "91"
+          }
+        ],
+        "job": [
+          {
+            "label": "Account Representative",
+            "code": "1"
+          },
+          {
+            "label": "Accounting Analyst",
+            "code": "3"
+          },
+          {
+            "label": "Accounting Director",
+            "code": "4"
+          },
+          {
+            "label": "Accounting Staff",
+            "code": "5"
+          },
+          {
+            "label": "Accounts Payable/Receivable Clerk",
+            "code": "7"
+          }
+        ],
+        "marital_status": [
+          {
+            "label": "Single",
+            "code": "0"
+          },
+          {
+            "label": "Married",
+            "code": "1"
+          },
+          {
+            "label": "Widowed",
+            "code": "2"
+          },
+          {
+            "label": "Divorced",
+            "code": "3"
+          },
+          {
+            "label": "Separated",
+            "code": "4"
+          }
+        ],
+        "religion": [
+          {
+            "label": "Christian",
+            "code": "2"
+          }
+        ],
+        "state": [
+          {
+            "label": "Kerala",
+            "code": "KL"
+          }
+        ]
+      },
+      "geojson": {
+        "coordinates": [76.2728308, 10.2375707],
+        "type": "Point"
+      },
+      "_id": "632afd4be0b178629c2f386e",
+      "phone": "9562464514",
+      "country_code": "91",
+      "profile_completion": 4,
+      "is_blocked": false,
+      "created_at": "2022-09-21T12:02:19.334Z",
+      "updated_at": "2022-10-19T06:16:17.657Z",
+      "astro_sign": "virgo",
+      "blocked_users": [],
+      "connected_users": ["632b04fbe0b178629c2f38b5"],
+      "dob": "1993-09-20T00:00:00.000Z",
+      "favorite_users": [],
+      "interests": [
+        {
+          "code": "music",
+          "label": "Music",
+          "sub_division": [
+            {
+              "label": "Classic",
+              "code": "0"
+            },
+            {
+              "label": "Pop",
+              "code": "1"
+            }
+          ]
+        },
+        {
+          "code": "books",
+          "label": "Books",
+          "sub_division": [
+            {
+              "label": "Fiction",
+              "code": "0"
+            },
+            {
+              "label": "Bed Time Stories",
+              "code": "1"
+            }
+          ]
+        },
+        {
+          "code": "sports",
+          "label": "Sports",
+          "sub_division": [
+            {
+              "label": "Football",
+              "code": "0"
+            },
+            {
+              "label": "Cricket",
+              "code": "1"
+            }
+          ]
+        }
+      ],
+      "name": "Akash Nair",
+      "notifications": [],
+      "profile_images": [
+        {
+          "original": "https://india-s3-dev-photo-video-uploads.s3.ap-south-1.amazonaws.com/632afd4be0b178629c2f386e/1665256430106.png",
+          "thumbnail": "https://india-s3-dev-photo-video-uploads.s3.ap-south-1.amazonaws.com/632afd4be0b178629c2f386e/1665256430106-thumbnail.png",
+          "og_key": "632afd4be0b178629c2f386e/1665256430106.png",
+          "thumb_key": "632afd4be0b178629c2f386e/1665256430106-thumbnail.png",
+          "is_profile": false,
+          "id": "6341cbeedd45b605340f6ef8"
+        }
+      ],
+      "profile_verified": false,
+      "profiles_viewed": [
+        "632b04fbe0b178629c2f38b5",
+        "6343d14aa629b4bdf5de1ec5"
+      ],
+      "reported_users": [],
+      "location": "Kochi, Kerala",
+      "bio": "I am Akash from Kochi, Kerala. I completed BCom from the Christ College Bengaluru and MBA from IIM Ahmedabad. I am currently working as Senior Project lead at a MNC. My hobbies include traveling and reading. I like to spend my free time with my family and friends. However I am always attached to my culture and my roots in every step of my life. I look forward to finding a partner who shares similar interests.",
+      "lumi_id": "LB5954DO",
+      "company_location": "Bangalore ",
+      "company_name": "Accenture ",
+      "email": "Akash123@gmail.com",
+      "facebook": "Akash Nair",
+      "instagram": "asksh_rocks",
+      "age": 29
+    },
+    "app_info": {
+      "ios_app_min_version": "1.0.0",
+      "ios_app_latest_version": "1.0.0",
+      "ios_update": {
+        "title": "Test",
+        "description": "Test Desc",
+        "image": "https://admindev.minematrimony.app/dashboard/img/mine_final_.png",
+        "features": ["Feature 1", "Feature 2"]
+      },
+      "ios_force_update": {
+        "title": "Test",
+        "description": "Test Desc"
+      },
+      "android_app_min_version": 1,
+      "android_app_latest_version": 1,
+      "android_update": {
+        "title": "Test",
+        "description": "Test Desc",
+        "image": "https://admindev.minematrimony.app/dashboard/img/mine_final_.png",
+        "features": ["Feature 1", "Feature 2"]
+      },
+      "android_force_update": {
+        "title": "Test",
+        "description": "Test Desc"
+      }
+    },
+    "match_sort_options": [
+      {
+        "label": "Nearest",
+        "key": "bylocation",
+        "type": "range",
+        "min": 0,
+        "max": 500,
+        "unit": "km"
+      },
+      {
+        "label": "Age",
+        "key": "age",
+        "type": "range",
+        "min": 21,
+        "max": 60,
+        "unit": "Year"
+      },
+      {
+        "label": "Height",
+        "key": "height",
+        "type": "range",
+        "min": 120,
+        "max": 21,
+        "unit": "cm"
+      },
+      {
+        "label": "Recently joined",
+        "key": "recentlyJoined",
+        "type": "single"
+      },
+      {
+        "label": "Recently active",
+        "key": "recentlyActive",
+        "type": "single"
+      }
+    ]
+  }
+}

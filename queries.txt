@@ -48,3 +48,16 @@ id> lastID and createdDate : latest
 
 
 { $and :[{creation_ip:'103.171.224.83'},{device:{$elemMatch:{name : "Mac2"}}}]}
+
+{
+   "geojson": {
+     $near: {
+       $geometry: {
+          type: "Point" ,
+          coordinates: [  76.2728308,10.2375707 ]
+       },
+       $maxDistance: 100000,
+       $minDistance: 0
+     }
+   }
+}
